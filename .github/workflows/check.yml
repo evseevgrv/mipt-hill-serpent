@@ -11,3 +11,11 @@ jobs:
       - run: npm test
       - run: npm run build
       - run: npm run validate
+      - name: Benchmark pinned to one CPU
+        run: |
+          core=$(awk '/Cpus_allowed_list/{split($2,a,/[,-]/); print a[1]}' /proc/self/status)
+          CPU_AFFINITY=$core taskset -c "$core" npm run bench
+      - uses: actions/upload-artifact@v4
+        with:
+          name: single-cpu-benchmark
+          path: results/benchmark.json

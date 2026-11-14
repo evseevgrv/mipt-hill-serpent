@@ -75,3 +75,12 @@ test('HTTP protocol and invalid input', async () => {
   assert.equal(response.status, 200);
   assert.ok(['up', 'down', 'left', 'right'].includes((await response.json()).move));
 });
+
+test('Constrictor path capacity discounts branches that require revisiting a cell', async () => {
+  const { pathCapacity } = await import('../worker/index.js');
+  const s = parseRequest(request([snake('me', [[2, 2]])], { width: 5, height: 5, food: [] }));
+  const blocked = new Uint8Array(25).fill(1);
+  for (const p of [12, 7, 2, 11, 10, 13, 14]) blocked[p] = 0;
+  assert.equal(pathCapacity(s, 12, blocked), 3);
+  assert.equal(pathCapacity(s, 2, blocked), 5);
+});

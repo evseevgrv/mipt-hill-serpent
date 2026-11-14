@@ -1,0 +1,109 @@
+{
+  "engine": "BattlesnakeOfficial/rules v1.2.3",
+  "realCourseBaselines": false,
+  "note": "Local greedy and oneply opponents are original test policies, not Novice/Apprentice/Journeyman/Expert.",
+  "suites": [
+    {
+      "suite": "constrictor",
+      "mode": "constrictor",
+      "opponents": [
+        "http://127.0.0.1:8081/greedy",
+        "http://127.0.0.1:8081/oneply",
+        "http://127.0.0.1:8081/greedy"
+      ],
+      "games": [
+        {
+          "seed": 8001,
+          "outcome": "win",
+          "turns": 18,
+          "seconds": 1.515,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8002,
+          "outcome": "win",
+          "turns": 42,
+          "seconds": 1.603,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8003,
+          "outcome": "win",
+          "turns": 28,
+          "seconds": 1.638,
+          "maxReportedLatencyMs": 97.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8004,
+          "outcome": "loss",
+          "turns": 40,
+          "seconds": 1.461,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8005,
+          "outcome": "loss",
+          "turns": 26,
+          "seconds": 1.308,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8006,
+          "outcome": "win",
+          "turns": 30,
+          "seconds": 1.715,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8007,
+          "outcome": "win",
+          "turns": 43,
+          "seconds": 1.572,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8008,
+          "outcome": "win",
+          "turns": 26,
+          "seconds": 1.122,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8009,
+          "outcome": "loss",
+          "turns": 53,
+          "seconds": 2.074,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8010,
+          "outcome": "win",
+          "turns": 40,
+          "seconds": 1.795,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8011,
+          "outcome": "draw",
+          "turns": 46,
+          "seconds": 1.796,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        }
+      ],
+      "wins": 7,
+      "losses": 3,
+      "draws": 1
+    }
+  ]
+}

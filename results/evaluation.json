@@ -1,7 +1,7 @@
 {
   "engine": "BattlesnakeOfficial/rules v1.2.3",
   "realCourseBaselines": false,
-  "note": "Local greedy and oneply opponents are original test policies, not Novice/Apprentice/Journeyman/Expert.",
+  "note": "Local greedy and oneply opponents are original test policies, not Novice/Apprentice/Journeyman/Expert. Constrictor final holdout uses seeds 8001-8011, separate from refinement seeds 7001-7003.",
   "suites": [
     {
       "suite": "duels-greedy",
@@ -100,8 +100,8 @@
         }
       ],
       "wins": 11,
-      "losss": 0,
-      "draws": 0
+      "draws": 0,
+      "losses": 0
     },
     {
       "suite": "duels-oneply",
@@ -200,8 +200,8 @@
         }
       ],
       "wins": 11,
-      "losss": 0,
-      "draws": 0
+      "draws": 0,
+      "losses": 0
     },
     {
       "suite": "standard",
@@ -238,8 +238,8 @@
         }
       ],
       "wins": 2,
-      "losss": 1,
-      "draws": 0
+      "draws": 0,
+      "losses": 1
     },
     {
       "suite": "royale",
@@ -276,8 +276,8 @@
         }
       ],
       "wins": 3,
-      "losss": 0,
-      "draws": 0
+      "draws": 0,
+      "losses": 0
     },
     {
       "suite": "constrictor",
@@ -289,33 +289,97 @@
       ],
       "games": [
         {
-          "seed": 7001,
-          "outcome": "loss",
-          "turns": 26,
-          "seconds": 0.498,
-          "maxReportedLatencyMs": 57.0,
+          "seed": 8001,
+          "outcome": "win",
+          "turns": 18,
+          "seconds": 1.515,
+          "maxReportedLatencyMs": 96.0,
           "engineWarnings": []
         },
         {
-          "seed": 7002,
-          "outcome": "loss",
-          "turns": 26,
-          "seconds": 0.389,
-          "maxReportedLatencyMs": 53.0,
+          "seed": 8002,
+          "outcome": "win",
+          "turns": 42,
+          "seconds": 1.603,
+          "maxReportedLatencyMs": 96.0,
           "engineWarnings": []
         },
         {
-          "seed": 7003,
+          "seed": 8003,
+          "outcome": "win",
+          "turns": 28,
+          "seconds": 1.638,
+          "maxReportedLatencyMs": 97.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8004,
+          "outcome": "loss",
+          "turns": 40,
+          "seconds": 1.461,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8005,
+          "outcome": "loss",
+          "turns": 26,
+          "seconds": 1.308,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8006,
+          "outcome": "win",
+          "turns": 30,
+          "seconds": 1.715,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8007,
+          "outcome": "win",
+          "turns": 43,
+          "seconds": 1.572,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8008,
+          "outcome": "win",
+          "turns": 26,
+          "seconds": 1.122,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8009,
+          "outcome": "loss",
+          "turns": 53,
+          "seconds": 2.074,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8010,
           "outcome": "win",
           "turns": 40,
-          "seconds": 0.624,
-          "maxReportedLatencyMs": 53.0,
+          "seconds": 1.795,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 8011,
+          "outcome": "draw",
+          "turns": 46,
+          "seconds": 1.796,
+          "maxReportedLatencyMs": 96.0,
           "engineWarnings": []
         }
       ],
-      "wins": 1,
-      "losss": 2,
-      "draws": 0
+      "wins": 7,
+      "losses": 3,
+      "draws": 1
     }
   ]
 }

@@ -1,25 +1,26 @@
 {
-  "date": "2026-11-14T16:46:26.743Z",
+  "date": "2026-11-14T16:54:23.620Z",
   "runtime": "v26.0.0",
   "cpu": "Apple M4 Pro",
   "architecture": "arm64",
   "logicalCoresUsedBySearch": 1,
+  "cpuAffinity": null,
   "note": "Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.",
-  "samples": 100,
-  "fixtures": 4,
+  "samples": 172,
+  "fixtures": 172,
   "latencyMs": {
-    "p50": 20.23804100000001,
-    "p95": 45.10020800000029,
-    "p99": 46.21104199999991,
-    "max": 46.21104199999991
+    "p50": 20.25562500000001,
+    "p95": 95.17758300000014,
+    "p99": 95.78354200000012,
+    "max": 96.01049999999987
   },
   "processCpuMs": {
-    "p95": 47.393,
-    "max": 48.201
+    "p95": 97.34,
+    "max": 129.769
   },
   "depth": {
     "min": 2,
-    "max": 5
+    "max": 10
   },
   "under500ms": true
 }

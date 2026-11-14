@@ -13,6 +13,6 @@ for (let i = 0; i < Math.max(100, samples.length); i++) {
 }
 times.sort((a, b) => a - b); cpu.sort((a, b) => a - b);
 const q = p => times[Math.min(times.length - 1, Math.floor(times.length * p))];
-const output = { date: new Date().toISOString(), runtime: process.version, cpu: os.cpus()[0].model, architecture: os.arch(), logicalCoresUsedBySearch: 1, note: 'Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.', samples: times.length, fixtures: samples.length, latencyMs: { p50: q(.5), p95: q(.95), p99: q(.99), max: times.at(-1) }, processCpuMs: { p95: cpu[Math.floor(cpu.length * .95)], max: cpu.at(-1) }, depth: { min: Math.min(...depths), max: Math.max(...depths) }, under500ms: times.every(t => t < 500) };
+const output = { date: new Date().toISOString(), runtime: process.version, cpu: os.cpus()[0].model, architecture: os.arch(), logicalCoresUsedBySearch: 1, cpuAffinity: process.env.CPU_AFFINITY ?? null, note: 'Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.', samples: times.length, fixtures: samples.length, latencyMs: { p50: q(.5), p95: q(.95), p99: q(.99), max: times.at(-1) }, processCpuMs: { p95: cpu[Math.floor(cpu.length * .95)], max: cpu.at(-1) }, depth: { min: Math.min(...depths), max: Math.max(...depths) }, under500ms: times.every(t => t < 500) };
 writeFileSync('results/benchmark.json', JSON.stringify(output, null, 2) + '\n'); console.log(JSON.stringify(output, null, 2));
 if (!output.under500ms) process.exitCode = 1;

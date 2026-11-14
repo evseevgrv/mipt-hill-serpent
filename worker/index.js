@@ -1,4 +1,4 @@
-export const VERSION = '1.0.0';
+export const VERSION = '1.1.0';
 export const DIRECTIONS = ['up', 'down', 'left', 'right'];
 export const DEFAULT_WEIGHTS = Object.freeze({ territory: 2.4, space: 1.4, length: 28, food: 8, hunger: 2.5, trap: 36, center: 0.25, mobility: 5 });
 const WIN = 1000000;
@@ -94,6 +94,40 @@ function releaseTimes(state) {
   return release;
 }
 
+export function pathCapacity(state, head, blocked) {
+  const seen = new Int16Array(state.size), low = new Int16Array(state.size);
+  const edges = [], blocks = [];
+  let tick = 0;
+  function visit(u, parent) {
+    seen[u] = low[u] = ++tick;
+    for (const v of state.neighbors[u]) {
+      if (v < 0 || (blocked[v] && v !== head)) continue;
+      if (!seen[v]) {
+        edges.push([u, v]); visit(v, u); low[u] = Math.min(low[u], low[v]);
+        if (low[v] >= seen[u]) {
+          const vertices = new Set();
+          let edge;
+          do { edge = edges.pop(); vertices.add(edge[0]); vertices.add(edge[1]); } while (edge[0] !== u || edge[1] !== v);
+          blocks.push([...vertices]);
+        }
+      } else if (v !== parent && seen[v] < seen[u]) { edges.push([u, v]); low[u] = Math.min(low[u], seen[v]); }
+    }
+  }
+  visit(head, -1);
+  if (!blocks.length) return 1;
+  const memberships = Array.from({ length: state.size }, () => []);
+  blocks.forEach((block, i) => block.forEach(v => memberships[v].push(i)));
+  const tree = blocks.map(() => []), weight = blocks.map(b => b.length);
+  let root = memberships[head][0];
+  for (let v = 0; v < state.size; v++) if (memberships[v].length > 1) {
+    const node = tree.length; tree.push([]); weight.push(1);
+    if (v === head) root = node;
+    for (const block of memberships[v]) { tree[block].push(node); tree[node].push(block); weight[block]--; }
+  }
+  function longest(u, parent) { let best = 0; for (const v of tree[u]) if (v !== parent) best = Math.max(best, longest(v, u)); return weight[u] + best; }
+  return longest(root, -1);
+}
+
 export function evaluate(state, weights = DEFAULT_WEIGHTS) {
   const me = state.snakes[0];
   const opponents = state.snakes.slice(1).filter(s => s.alive);
@@ -121,11 +155,12 @@ export function evaluate(state, weights = DEFAULT_WEIGHTS) {
   const moves = legalMoves(state, 0, blocked);
   score += weights.mobility * moves.length;
   if (state.constrictor) {
-    const enemySpace = Math.max(0, ...maps.slice(1).filter(Boolean).map(m => m.count));
+    const capacity = pathCapacity(state, me.body[0], blocked);
+    const enemySpace = Math.max(0, ...state.snakes.slice(1).filter(s => s.alive).map(s => pathCapacity(state, s.body[0], blocked)));
     let even = 0, odd = 0;
     for (let p = 0; p < state.size; p++) if (own.distance[p] >= 0) ((p % state.w + Math.floor(p / state.w)) % 2 ? odd++ : even++);
     const parityBound = 2 * Math.min(even, odd) + (even === odd ? 0 : ((me.body[0] % state.w + Math.floor(me.body[0] / state.w)) % 2 === (odd > even ? 1 : 0) ? 1 : -1));
-    return score + 10 * (Math.min(own.count, parityBound) - enemySpace) + 2 * own.count;
+    return score + 18 * (Math.min(capacity, parityBound) - enemySpace) + 3 * capacity - 12 * moves.length;
   }
   const need = Math.min(state.size * 0.7, me.body.length + 4);
   if (own.count < need) {

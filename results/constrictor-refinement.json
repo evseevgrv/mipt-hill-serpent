@@ -1,0 +1,45 @@
+{
+  "engine": "BattlesnakeOfficial/rules v1.2.3",
+  "realCourseBaselines": false,
+  "note": "Local greedy and oneply opponents are original test policies, not Novice/Apprentice/Journeyman/Expert.",
+  "suites": [
+    {
+      "suite": "constrictor",
+      "mode": "constrictor",
+      "opponents": [
+        "http://127.0.0.1:8081/greedy",
+        "http://127.0.0.1:8081/oneply",
+        "http://127.0.0.1:8081/greedy"
+      ],
+      "games": [
+        {
+          "seed": 7001,
+          "outcome": "loss",
+          "turns": 24,
+          "seconds": 1.155,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 7002,
+          "outcome": "win",
+          "turns": 32,
+          "seconds": 1.791,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 7003,
+          "outcome": "win",
+          "turns": 30,
+          "seconds": 1.54,
+          "maxReportedLatencyMs": 97.0,
+          "engineWarnings": []
+        }
+      ],
+      "wins": 2,
+      "losses": 1,
+      "draws": 0
+    }
+  ]
+}

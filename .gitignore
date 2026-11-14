@@ -7,3 +7,5 @@ tools/*.tar.gz
 .env.*
 .DS_Store
 results/games/
+__pycache__/
+*.pyc

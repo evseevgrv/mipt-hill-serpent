@@ -1,6 +1,6 @@
 {
   "url": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site",
-  "date": "2026-11-14T16:58:27.721Z",
+  "date": "2026-11-14T17:11:39.677Z",
   "endpoints": [
     {
       "path": "/",
@@ -11,7 +11,7 @@
         "color": "#35d0a2",
         "head": "default",
         "tail": "default",
-        "version": "1.1.1"
+        "version": "1.2.0"
       }
     },
     {
@@ -19,7 +19,7 @@
       "status": 200,
       "body": {
         "status": "ok",
-        "version": "1.1.1"
+        "version": "1.2.0"
       }
     },
     {
@@ -38,7 +38,7 @@
       "mode": "duels",
       "repeat": 0,
       "status": 200,
-      "rttMs": 216.5666749999998,
+      "rttMs": 206.17393000000004,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
       "answer": {
@@ -49,7 +49,7 @@
       "mode": "duels",
       "repeat": 1,
       "status": 200,
-      "rttMs": 264.7359180000001,
+      "rttMs": 166.04544700000008,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
       "answer": {
@@ -60,7 +60,7 @@
       "mode": "duels",
       "repeat": 2,
       "status": 200,
-      "rttMs": 168.49740999999995,
+      "rttMs": 146.43274500000007,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
       "answer": {
@@ -71,7 +71,7 @@
       "mode": "standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 107.20670599999994,
+      "rttMs": 212.38240100000007,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "answer": {
@@ -82,7 +82,7 @@
       "mode": "standard",
       "repeat": 1,
       "status": 200,
-      "rttMs": 149.7810599999998,
+      "rttMs": 189.57927100000006,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "answer": {
@@ -93,7 +93,7 @@
       "mode": "standard",
       "repeat": 2,
       "status": 200,
-      "rttMs": 88.19147999999996,
+      "rttMs": 151.4110760000001,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "answer": {
@@ -104,7 +104,7 @@
       "mode": "royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 172.60135500000024,
+      "rttMs": 130.29649399999994,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "answer": {
@@ -115,7 +115,7 @@
       "mode": "royale",
       "repeat": 1,
       "status": 200,
-      "rttMs": 94.894679,
+      "rttMs": 225.60262699999976,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "answer": {
@@ -126,7 +126,7 @@
       "mode": "royale",
       "repeat": 2,
       "status": 200,
-      "rttMs": 119.80297500000006,
+      "rttMs": 129.0538819999997,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "answer": {
@@ -137,7 +137,7 @@
       "mode": "constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 170.30986100000018,
+      "rttMs": 142.70721999999978,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "answer": {
@@ -148,7 +148,7 @@
       "mode": "constrictor",
       "repeat": 1,
       "status": 200,
-      "rttMs": 183.73146499999984,
+      "rttMs": 165.77777399999968,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "answer": {
@@ -159,7 +159,7 @@
       "mode": "constrictor",
       "repeat": 2,
       "status": 200,
-      "rttMs": 118.04475899999989,
+      "rttMs": 78.37548399999969,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "answer": {
@@ -167,6 +167,6 @@
       }
     }
   ],
-  "maxRttMs": 264.7359180000001,
+  "maxRttMs": 225.60262699999976,
   "allMovesUnder500ms": true
 }

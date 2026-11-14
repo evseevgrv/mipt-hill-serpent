@@ -1,0 +1,35 @@
+{
+  "verifiedAt": "2026-11-14T20:12:20.684664+03:00",
+  "botName": "MIPT Hill Serpent",
+  "account": "evseevgrv",
+  "snakeId": "aa1bb9da-902d-4765-999f-ddcb8b2b6c51",
+  "api": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site",
+  "repository": "https://github.com/evseevgrv/mipt-hill-serpent",
+  "verification": "ACTIVE status observed in signed-in Arena UI in all four modes",
+  "entries": [
+    {
+      "mode": "Duels",
+      "leaderboardId": "77212f22-20f5-4e0c-8db6-78844318a9bc",
+      "entryId": "adea3e01-9ac6-4db7-8b44-4081e8d9188e",
+      "status": "ACTIVE"
+    },
+    {
+      "mode": "Standard",
+      "leaderboardId": "d692fd01-5376-4060-8c4c-91dc2ecfe3ba",
+      "entryId": "24128e64-30e5-416e-851e-460150706494",
+      "status": "ACTIVE"
+    },
+    {
+      "mode": "Royale",
+      "leaderboardId": "77ce41bf-12ad-4eac-bac2-b11939fb9b18",
+      "entryId": "e6369bc9-92ee-4197-b32c-89a04e815a4c",
+      "status": "ACTIVE"
+    },
+    {
+      "mode": "Constrictor",
+      "leaderboardId": "2997e28a-83a0-41e0-a203-d42108cfe450",
+      "entryId": "16595ffd-754e-4d78-9282-325c60c4f1ab",
+      "status": "ACTIVE"
+    }
+  ]
+}

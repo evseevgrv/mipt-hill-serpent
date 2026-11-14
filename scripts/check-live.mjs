@@ -20,3 +20,5 @@ result.maxRttMs = Math.max(...result.moves.map(s => s.rttMs));
 result.allMovesUnder500ms = result.moves.every(s => s.rttMs < 500);
 writeFileSync('results/live-check.json', JSON.stringify(result, null, 2) + '\n');
 console.log(JSON.stringify({ ...result, moves: result.moves.map(s => ({ mode: s.mode, rttMs: Math.round(s.rttMs), depth: s.depth })) }, null, 2));
+
+if (!result.allMovesUnder500ms) process.exitCode = 1;

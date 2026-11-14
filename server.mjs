@@ -10,7 +10,7 @@ const server = http.createServer(async (req, res) => {
       chunks.push(chunk);
     }
     const request = new Request(`http://localhost:${port}${req.url}`, { method: req.method, headers: req.headers, ...(req.method === 'GET' || req.method === 'HEAD' ? {} : { body: Buffer.concat(chunks) }) });
-    const response = await worker.fetch(request);
+    const response = await worker.fetch(request, { SEARCH_PROFILE: process.env.SEARCH_PROFILE ?? 'local' });
     res.writeHead(response.status, Object.fromEntries(response.headers));
     res.end(Buffer.from(await response.arrayBuffer()));
   } catch (error) { console.error(error); res.writeHead(500); res.end('{}'); }

@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-14T16:56:06.778Z",
+  "runtime": "v22.23.4",
+  "cpu": "Intel(R) Xeon(R) 6975P-C",
+  "architecture": "x64",
+  "logicalCoresUsedBySearch": 1,
+  "cpuAffinity": "0",
+  "note": "Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.",
+  "samples": 172,
+  "fixtures": 172,
+  "latencyMs": {
+    "p50": 39.54719099999966,
+    "p95": 95.14822599999991,
+    "p99": 96.87402399999974,
+    "max": 97.22007200000007
+  },
+  "processCpuMs": {
+    "p95": 95.15,
+    "max": 97.207
+  },
+  "depth": {
+    "min": 2,
+    "max": 10
+  },
+  "under500ms": true
+}

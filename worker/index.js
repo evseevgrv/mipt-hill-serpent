@@ -1,4 +1,4 @@
-export const VERSION = '1.1.0';
+export const VERSION = '1.1.1';
 export const DIRECTIONS = ['up', 'down', 'left', 'right'];
 export const DEFAULT_WEIGHTS = Object.freeze({ territory: 2.4, space: 1.4, length: 28, food: 8, hunger: 2.5, trap: 36, center: 0.25, mobility: 5 });
 const WIN = 1000000;
@@ -260,7 +260,7 @@ export function chooseMove(request, options = {}) {
 const DETAILS = { apiversion: '1', author: 'evseevgrv', color: '#35d0a2', head: 'default', tail: 'default', version: VERSION };
 const json = (body, status = 200, extra = {}) => Response.json(body, { status, headers: { 'Cache-Control': 'no-store', ...extra } });
 export default {
-  async fetch(request) {
+  async fetch(request, env = {}) {
     const path = new URL(request.url).pathname.replace(/\/+$/, '') || '/';
     if (request.method === 'GET' && path === '/') return json(DETAILS);
     if (request.method === 'GET' && path === '/health') return json({ status: 'ok', version: VERSION });
@@ -271,7 +271,11 @@ export default {
     try { const text = await request.text(); if (text.length > 262144) return json({ error: 'Request too large' }, 413); body = JSON.parse(text); parseRequest(body); }
     catch { return json({ error: 'Invalid Battlesnake request' }, 400); }
     const start = performance.now();
-    const result = chooseMove(body);
+    const rules = body.game?.ruleset?.name ?? '';
+    const constrictor = rules.includes('constrictor') || body.game?.map?.includes('constrictor');
+    const count = body.board.snakes.length;
+    const maxNodes = env.SEARCH_PROFILE === 'local' ? 5000 : constrictor ? (count > 2 ? 300 : 1000) : count > 2 ? 1000 : 3000;
+    const result = chooseMove(body, { maxNodes });
     return json({ move: result.move }, 200, { 'Server-Timing': `search;dur=${(performance.now() - start).toFixed(2)}`, 'X-Search-Depth': String(result.depth) });
   }
 };

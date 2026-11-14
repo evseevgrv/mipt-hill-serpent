@@ -1,6 +1,6 @@
-export const VERSION = '1.1.1';
+export const VERSION = '1.2.0';
 export const DIRECTIONS = ['up', 'down', 'left', 'right'];
-export const DEFAULT_WEIGHTS = Object.freeze({ territory: 2.4, space: 1.4, length: 28, food: 8, hunger: 2.5, trap: 36, center: 0.25, mobility: 5 });
+export const DEFAULT_WEIGHTS = Object.freeze({ territory: 2.4, space: 1.4, length: 50, food: 28, hunger: 0.35, trap: 36, center: 0.25, mobility: 5 });
 const WIN = 1000000;
 
 export function parseRequest(request) {
@@ -151,7 +151,7 @@ export function evaluate(state, weights = DEFAULT_WEIGHTS) {
     else if (winner >= 0) enemyTerritory += value / Math.max(1, opponents.length);
   }
   const largest = Math.max(0, ...opponents.map(s => s.body.length));
-  let score = weights.territory * (territory - enemyTerritory) + weights.space * own.count + weights.length * Math.max(-8, Math.min(5, me.body.length - largest));
+  let score = weights.territory * (territory - enemyTerritory) + weights.space * own.count + weights.length * (me.body.length <= largest + 5 ? me.body.length - largest : 5 + 0.15 * (me.body.length - largest - 5));
   const moves = legalMoves(state, 0, blocked);
   score += weights.mobility * moves.length;
   if (state.constrictor) {
@@ -177,7 +177,7 @@ export function evaluate(state, weights = DEFAULT_WEIGHTS) {
       const other = maps[i]?.distance[p] ?? -1;
       if (other >= 0 && (state.snakes[i].body.length >= me.body.length || other < d)) enemyDistance = Math.min(enemyDistance, other);
     }
-    foodValue = Math.max(foodValue, (enemyDistance > d ? 1 : 0.25) / (d + 1));
+    foodValue = Math.max(foodValue, (enemyDistance > d ? 1 : 0.25) * Math.max(0, 1 - d / (state.w + state.h)));
   }
   const hunger = Math.max(0, 65 - me.health);
   score += (weights.food + hunger * weights.hunger + (me.body.length <= largest ? 35 : 0)) * foodValue;

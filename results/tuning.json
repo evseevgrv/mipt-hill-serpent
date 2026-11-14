@@ -16,9 +16,9 @@
       "weights": {
         "territory": 2.4,
         "space": 1.4,
-        "length": 28,
-        "food": 8,
-        "hunger": 2.5,
+        "length": 50,
+        "food": 28,
+        "hunger": 0.35,
         "trap": 36,
         "center": 0.25,
         "mobility": 5
@@ -37,9 +37,9 @@
       "weights": {
         "territory": 2.4,
         "space": 1.4,
-        "length": 44.800000000000004,
-        "food": 8,
-        "hunger": 2.5,
+        "length": 80,
+        "food": 28,
+        "hunger": 0.35,
         "trap": 36,
         "center": 0.25,
         "mobility": 5
@@ -58,9 +58,9 @@
       "weights": {
         "territory": 3.5999999999999996,
         "space": 1.4,
-        "length": 28,
-        "food": 8,
-        "hunger": 2.5,
+        "length": 50,
+        "food": 28,
+        "hunger": 0.35,
         "trap": 36,
         "center": 0.25,
         "mobility": 5
@@ -79,16 +79,16 @@
       "weights": {
         "territory": 2.4,
         "space": 1.4,
-        "length": 28,
-        "food": 16,
-        "hunger": 2.5,
+        "length": 50,
+        "food": 56,
+        "hunger": 0.35,
         "trap": 36,
         "center": 0.25,
         "mobility": 5
       },
-      "points": 6,
+      "points": 5.5,
       "games": 8,
-      "fitness": 0.75,
+      "fitness": 0.6875,
       "accepted": false
     },
     {
@@ -100,9 +100,9 @@
       "weights": {
         "territory": 2.4,
         "space": 1.4,
-        "length": 28,
-        "food": 8,
-        "hunger": 2.5,
+        "length": 50,
+        "food": 28,
+        "hunger": 0.35,
         "trap": 54,
         "center": 0.25,
         "mobility": 5
@@ -121,16 +121,16 @@
       "weights": {
         "territory": 2.4,
         "space": 0.84,
-        "length": 28,
-        "food": 8,
-        "hunger": 2.5,
+        "length": 50,
+        "food": 28,
+        "hunger": 0.35,
         "trap": 36,
         "center": 0.25,
         "mobility": 5
       },
-      "points": 6,
+      "points": 5,
       "games": 8,
-      "fitness": 0.75,
+      "fitness": 0.625,
       "accepted": false
     },
     {
@@ -142,9 +142,9 @@
       "weights": {
         "territory": 2.4,
         "space": 1.4,
-        "length": 28,
-        "food": 8,
-        "hunger": 4,
+        "length": 50,
+        "food": 28,
+        "hunger": 0.5599999999999999,
         "trap": 36,
         "center": 0.25,
         "mobility": 5
@@ -158,9 +158,9 @@
   "selected": {
     "territory": 2.4,
     "space": 1.4,
-    "length": 28,
-    "food": 8,
-    "hunger": 2.5,
+    "length": 50,
+    "food": 28,
+    "hunger": 0.35,
     "trap": 36,
     "center": 0.25,
     "mobility": 5

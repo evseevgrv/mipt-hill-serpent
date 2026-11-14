@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-11-14T20:10:04.430674+03:00",
+  "games": [
+    {
+      "gameId": "58927050-301e-4d04-9dcb-d8d5e4346db5",
+      "url": "https://arena.battlesnake.com/games/58927050-301e-4d04-9dcb-d8d5e4346db5",
+      "status": "finished",
+      "turn": 335,
+      "snakes": [
+        {
+          "Name": "MIPT Hill Serpent",
+          "Health": 90,
+          "Latency": "56",
+          "Death": null,
+          "EliminatedCause": "",
+          "Error": "",
+          "length": 13
+        },
+        {
+          "Name": "novice",
+          "Health": 96,
+          "Latency": "27",
+          "Death": {
+            "Cause": "self-collision",
+            "EliminatedBy": "7f8cbeb5-da5d-4666-bedb-2f821a3b89c9",
+            "Turn": 335
+          },
+          "EliminatedCause": "self-collision",
+          "Error": "",
+          "length": 35
+        }
+      ]
+    },
+    {
+      "gameId": "791e1530-253d-4690-92e0-bf6d28b7838e",
+      "url": "https://arena.battlesnake.com/games/791e1530-253d-4690-92e0-bf6d28b7838e",
+      "status": "finished",
+      "turn": 243,
+      "snakes": [
+        {
+          "Name": "apprentice",
+          "Health": 95,
+          "Latency": "27",
+          "Death": null,
+          "EliminatedCause": "",
+          "Error": "",
+          "length": 18
+        },
+        {
+          "Name": "MIPT Hill Serpent",
+          "Health": 96,
+          "Latency": "38",
+          "Death": {
+            "Cause": "self-collision",
+            "EliminatedBy": "b12f930a-3723-4895-9eff-d6cede8c105c",
+            "Turn": 243
+          },
+          "EliminatedCause": "self-collision",
+          "Error": "",
+          "length": 17
+        }
+      ]
+    },
+    {
+      "gameId": "fcc5f4ea-7512-4bc3-bbc7-1e1064b840dc",
+      "url": "https://arena.battlesnake.com/games/fcc5f4ea-7512-4bc3-bbc7-1e1064b840dc",
+      "status": "finished",
+      "turn": 249,
+      "snakes": [
+        {
+          "Name": "MIPT Hill Serpent",
+          "Health": 94,
+          "Latency": "53",
+          "Death": {
+            "Cause": "self-collision",
+            "EliminatedBy": "76792967-dc7d-4cba-8110-a3c111074074",
+            "Turn": 249
+          },
+          "EliminatedCause": "self-collision",
+          "Error": "",
+          "length": 17
+        },
+        {
+          "Name": "journeyman",
+          "Health": 82,
+          "Latency": "27",
+          "Death": null,
+          "EliminatedCause": "",
+          "Error": "",
+          "length": 21
+        }
+      ]
+    },
+    {
+      "gameId": "cf7899cd-e570-4779-8ba6-d49d38e89238",
+      "url": "https://arena.battlesnake.com/games/cf7899cd-e570-4779-8ba6-d49d38e89238",
+      "status": "finished",
+      "turn": 237,
+      "snakes": [
+        {
+          "Name": "expert",
+          "Health": 95,
+          "Latency": "27",
+          "Death": null,
+          "EliminatedCause": "",
+          "Error": "",
+          "length": 36
+        },
+        {
+          "Name": "MIPT Hill Serpent",
+          "Health": 97,
+          "Latency": "41",
+          "Death": {
+            "Cause": "wall-collision",
+            "EliminatedBy": "",
+            "Turn": 237
+          },
+          "EliminatedCause": "wall-collision",
+          "Error": "",
+          "length": 16
+        }
+      ]
+    },
+    {
+      "gameId": "30c87400-b1ff-4b50-a740-f0b32cd3d9fa",
+      "url": "https://arena.battlesnake.com/games/30c87400-b1ff-4b50-a740-f0b32cd3d9fa",
+      "status": "waiting",
+      "turn": null,
+      "snakes": []
+    }
+  ]
+}

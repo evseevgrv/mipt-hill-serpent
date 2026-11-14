@@ -84,3 +84,8 @@ test('Constrictor path capacity discounts branches that require revisiting a cel
   assert.equal(pathCapacity(s, 12, blocked), 3);
   assert.equal(pathCapacity(s, 2, blocked), 5);
 });
+
+test('a shorter healthy snake eats safe adjacent food before starvation', () => {
+  const r = request([snake('me', [[1, 1], [1, 0], [0, 0]], 75), snake('other', [[8, 8], [9, 8], [10, 8], [10, 7], [9, 7], [8, 7], [8, 6], [9, 6], [10, 6], [10, 5], [9, 5], [8, 5]])], { food: [[1, 2], [0, 10]] });
+  assert.equal(chooseMove(r, { maxNodes: 5000 }).move, 'up');
+});

@@ -1,0 +1,369 @@
+{
+  "engine": "BattlesnakeOfficial/rules v1.2.3",
+  "realCourseBaselines": false,
+  "note": "Local greedy and oneply opponents are original test policies, not Novice/Apprentice/Journeyman/Expert.",
+  "suites": [
+    {
+      "suite": "duels-greedy",
+      "mode": "standard",
+      "opponents": [
+        "http://127.0.0.1:8081/greedy"
+      ],
+      "games": [
+        {
+          "seed": 9001,
+          "outcome": "win",
+          "turns": 143,
+          "seconds": 3.049,
+          "maxReportedLatencyMs": 30.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9002,
+          "outcome": "win",
+          "turns": 53,
+          "seconds": 1.013,
+          "maxReportedLatencyMs": 23.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9003,
+          "outcome": "win",
+          "turns": 71,
+          "seconds": 1.526,
+          "maxReportedLatencyMs": 26.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9004,
+          "outcome": "win",
+          "turns": 33,
+          "seconds": 0.68,
+          "maxReportedLatencyMs": 24.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9005,
+          "outcome": "win",
+          "turns": 105,
+          "seconds": 2.296,
+          "maxReportedLatencyMs": 30.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9006,
+          "outcome": "win",
+          "turns": 126,
+          "seconds": 2.817,
+          "maxReportedLatencyMs": 29.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9007,
+          "outcome": "win",
+          "turns": 146,
+          "seconds": 2.829,
+          "maxReportedLatencyMs": 28.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9008,
+          "outcome": "win",
+          "turns": 108,
+          "seconds": 2.299,
+          "maxReportedLatencyMs": 29.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9009,
+          "outcome": "win",
+          "turns": 93,
+          "seconds": 1.864,
+          "maxReportedLatencyMs": 29.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9010,
+          "outcome": "win",
+          "turns": 60,
+          "seconds": 1.33,
+          "maxReportedLatencyMs": 28.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9011,
+          "outcome": "win",
+          "turns": 27,
+          "seconds": 0.514,
+          "maxReportedLatencyMs": 29.0,
+          "engineWarnings": []
+        }
+      ],
+      "wins": 11,
+      "losses": 0,
+      "draws": 0
+    },
+    {
+      "suite": "duels-oneply",
+      "mode": "standard",
+      "opponents": [
+        "http://127.0.0.1:8081/oneply"
+      ],
+      "games": [
+        {
+          "seed": 9001,
+          "outcome": "win",
+          "turns": 77,
+          "seconds": 1.727,
+          "maxReportedLatencyMs": 27.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9002,
+          "outcome": "win",
+          "turns": 327,
+          "seconds": 6.228,
+          "maxReportedLatencyMs": 25.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9003,
+          "outcome": "win",
+          "turns": 109,
+          "seconds": 2.517,
+          "maxReportedLatencyMs": 28.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9004,
+          "outcome": "win",
+          "turns": 203,
+          "seconds": 4.767,
+          "maxReportedLatencyMs": 28.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9005,
+          "outcome": "win",
+          "turns": 381,
+          "seconds": 7.11,
+          "maxReportedLatencyMs": 27.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9006,
+          "outcome": "win",
+          "turns": 415,
+          "seconds": 8.177,
+          "maxReportedLatencyMs": 31.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9007,
+          "outcome": "win",
+          "turns": 257,
+          "seconds": 5.624,
+          "maxReportedLatencyMs": 32.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9008,
+          "outcome": "win",
+          "turns": 129,
+          "seconds": 3.292,
+          "maxReportedLatencyMs": 31.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9009,
+          "outcome": "win",
+          "turns": 161,
+          "seconds": 3.746,
+          "maxReportedLatencyMs": 30.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9010,
+          "outcome": "win",
+          "turns": 29,
+          "seconds": 0.614,
+          "maxReportedLatencyMs": 30.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9011,
+          "outcome": "win",
+          "turns": 81,
+          "seconds": 1.956,
+          "maxReportedLatencyMs": 26.0,
+          "engineWarnings": []
+        }
+      ],
+      "wins": 11,
+      "losses": 0,
+      "draws": 0
+    },
+    {
+      "suite": "standard",
+      "mode": "standard",
+      "opponents": [
+        "http://127.0.0.1:8081/greedy",
+        "http://127.0.0.1:8081/oneply",
+        "http://127.0.0.1:8081/greedy"
+      ],
+      "games": [
+        {
+          "seed": 9001,
+          "outcome": "win",
+          "turns": 131,
+          "seconds": 3.442,
+          "maxReportedLatencyMs": 64.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9002,
+          "outcome": "loss",
+          "turns": 145,
+          "seconds": 5.002,
+          "maxReportedLatencyMs": 57.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9003,
+          "outcome": "loss",
+          "turns": 381,
+          "seconds": 10.028,
+          "maxReportedLatencyMs": 54.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9004,
+          "outcome": "win",
+          "turns": 115,
+          "seconds": 4.424,
+          "maxReportedLatencyMs": 57.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9005,
+          "outcome": "win",
+          "turns": 116,
+          "seconds": 3.429,
+          "maxReportedLatencyMs": 53.0,
+          "engineWarnings": []
+        }
+      ],
+      "wins": 3,
+      "losses": 2,
+      "draws": 0
+    },
+    {
+      "suite": "royale",
+      "mode": "royale",
+      "opponents": [
+        "http://127.0.0.1:8081/greedy",
+        "http://127.0.0.1:8081/oneply",
+        "http://127.0.0.1:8081/greedy"
+      ],
+      "games": [
+        {
+          "seed": 9001,
+          "outcome": "win",
+          "turns": 194,
+          "seconds": 5.11,
+          "maxReportedLatencyMs": 56.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9002,
+          "outcome": "win",
+          "turns": 153,
+          "seconds": 5.26,
+          "maxReportedLatencyMs": 59.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9003,
+          "outcome": "loss",
+          "turns": 140,
+          "seconds": 4.014,
+          "maxReportedLatencyMs": 55.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9004,
+          "outcome": "win",
+          "turns": 162,
+          "seconds": 5.116,
+          "maxReportedLatencyMs": 57.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9005,
+          "outcome": "win",
+          "turns": 245,
+          "seconds": 6.614,
+          "maxReportedLatencyMs": 55.0,
+          "engineWarnings": []
+        }
+      ],
+      "wins": 4,
+      "losses": 1,
+      "draws": 0
+    },
+    {
+      "suite": "constrictor",
+      "mode": "constrictor",
+      "opponents": [
+        "http://127.0.0.1:8081/greedy",
+        "http://127.0.0.1:8081/oneply",
+        "http://127.0.0.1:8081/greedy"
+      ],
+      "games": [
+        {
+          "seed": 9001,
+          "outcome": "win",
+          "turns": 42,
+          "seconds": 1.788,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9002,
+          "outcome": "loss",
+          "turns": 34,
+          "seconds": 0.801,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9003,
+          "outcome": "loss",
+          "turns": 20,
+          "seconds": 1.106,
+          "maxReportedLatencyMs": 97.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9004,
+          "outcome": "loss",
+          "turns": 30,
+          "seconds": 1.29,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        },
+        {
+          "seed": 9005,
+          "outcome": "win",
+          "turns": 35,
+          "seconds": 2.048,
+          "maxReportedLatencyMs": 96.0,
+          "engineWarnings": []
+        }
+      ],
+      "wins": 2,
+      "losses": 3,
+      "draws": 0
+    }
+  ]
+}

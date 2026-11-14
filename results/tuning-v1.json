@@ -1,0 +1,168 @@
+{
+  "method": "strict-improvement coordinate hill climbing",
+  "seedSet": [
+    41,
+    73
+  ],
+  "mirroredStarts": true,
+  "gamesPerCandidate": 8,
+  "searchNodes": 250,
+  "maxDepth": 3,
+  "turnLimit": 220,
+  "note": "Local deterministic simulator, current food and 15% spawn. This is tuning evidence, not course baseline results. Holdout evaluation uses the official engine.",
+  "history": [
+    {
+      "iteration": 0,
+      "weights": {
+        "territory": 2.4,
+        "space": 1.4,
+        "length": 28,
+        "food": 8,
+        "hunger": 2.5,
+        "trap": 36,
+        "center": 0.25,
+        "mobility": 5
+      },
+      "points": 6,
+      "games": 8,
+      "fitness": 0.75,
+      "accepted": true
+    },
+    {
+      "iteration": 1,
+      "mutation": {
+        "key": "length",
+        "factor": 1.6
+      },
+      "weights": {
+        "territory": 2.4,
+        "space": 1.4,
+        "length": 44.800000000000004,
+        "food": 8,
+        "hunger": 2.5,
+        "trap": 36,
+        "center": 0.25,
+        "mobility": 5
+      },
+      "points": 6,
+      "games": 8,
+      "fitness": 0.75,
+      "accepted": false
+    },
+    {
+      "iteration": 2,
+      "mutation": {
+        "key": "territory",
+        "factor": 1.5
+      },
+      "weights": {
+        "territory": 3.5999999999999996,
+        "space": 1.4,
+        "length": 28,
+        "food": 8,
+        "hunger": 2.5,
+        "trap": 36,
+        "center": 0.25,
+        "mobility": 5
+      },
+      "points": 6,
+      "games": 8,
+      "fitness": 0.75,
+      "accepted": false
+    },
+    {
+      "iteration": 3,
+      "mutation": {
+        "key": "food",
+        "factor": 2
+      },
+      "weights": {
+        "territory": 2.4,
+        "space": 1.4,
+        "length": 28,
+        "food": 16,
+        "hunger": 2.5,
+        "trap": 36,
+        "center": 0.25,
+        "mobility": 5
+      },
+      "points": 6,
+      "games": 8,
+      "fitness": 0.75,
+      "accepted": false
+    },
+    {
+      "iteration": 4,
+      "mutation": {
+        "key": "trap",
+        "factor": 1.5
+      },
+      "weights": {
+        "territory": 2.4,
+        "space": 1.4,
+        "length": 28,
+        "food": 8,
+        "hunger": 2.5,
+        "trap": 54,
+        "center": 0.25,
+        "mobility": 5
+      },
+      "points": 6,
+      "games": 8,
+      "fitness": 0.75,
+      "accepted": false
+    },
+    {
+      "iteration": 5,
+      "mutation": {
+        "key": "space",
+        "factor": 0.6
+      },
+      "weights": {
+        "territory": 2.4,
+        "space": 0.84,
+        "length": 28,
+        "food": 8,
+        "hunger": 2.5,
+        "trap": 36,
+        "center": 0.25,
+        "mobility": 5
+      },
+      "points": 6,
+      "games": 8,
+      "fitness": 0.75,
+      "accepted": false
+    },
+    {
+      "iteration": 6,
+      "mutation": {
+        "key": "hunger",
+        "factor": 1.6
+      },
+      "weights": {
+        "territory": 2.4,
+        "space": 1.4,
+        "length": 28,
+        "food": 8,
+        "hunger": 4,
+        "trap": 36,
+        "center": 0.25,
+        "mobility": 5
+      },
+      "points": 6,
+      "games": 8,
+      "fitness": 0.75,
+      "accepted": false
+    }
+  ],
+  "selected": {
+    "territory": 2.4,
+    "space": 1.4,
+    "length": 28,
+    "food": 8,
+    "hunger": 2.5,
+    "trap": 36,
+    "center": 0.25,
+    "mobility": 5
+  }
+}

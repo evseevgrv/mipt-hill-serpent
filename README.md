@@ -62,3 +62,11 @@ python scripts/evaluate.py --opponent https://opponent.example --games 11 --outp
 Для любого другого хостинга достаточно запустить Dockerfile или `node server.mjs` и направить HTTPS-поддомен на порт из `PORT`. В арене нужно зарегистрировать API URL и добавить змейку во все четыре лидерборда. Состояние публикации, регистрации и фактические проверки описаны в `REPORT.md`.
 
 Код стратегии написан для этого задания, исходники чужих змеек не использовались. Официальные правила: https://github.com/BattlesnakeOfficial/rules, контракт HTTP: https://docs.battlesnake.com/api/webhooks.
+
+Команда финальной локальной серии из отчета:
+
+```sh
+python scripts/evaluate.py --seed-start 9001 --multi-games 5 --output results/evaluation-v12.json
+```
+
+Состояние настоящих игр можно читать без авторизации: `python scripts/arena-status.py GAME_ID`. Первые матчи и рейтинги перечислены в `REPORT.md` и `results/arena-games.json`.

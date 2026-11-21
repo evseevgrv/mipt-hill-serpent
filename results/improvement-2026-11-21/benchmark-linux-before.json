@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-14T17:11:50.266Z",
+  "runtime": "v22.23.4",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "architecture": "x64",
+  "logicalCoresUsedBySearch": 1,
+  "cpuAffinity": "0",
+  "note": "Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.",
+  "samples": 224,
+  "fixtures": 224,
+  "latencyMs": {
+    "p50": 45.24248499999885,
+    "p95": 95.46448400000008,
+    "p99": 96.86304699999891,
+    "max": 97.14080399999966
+  },
+  "processCpuMs": {
+    "p95": 95.08,
+    "max": 97.146
+  },
+  "depth": {
+    "min": 2,
+    "max": 10
+  },
+  "under500ms": true
+}

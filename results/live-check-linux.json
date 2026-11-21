@@ -1,6 +1,6 @@
 {
   "url": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site",
-  "date": "2026-11-14T17:11:39.677Z",
+  "date": "2026-11-21T18:26:47.657Z",
   "endpoints": [
     {
       "path": "/",
@@ -11,7 +11,7 @@
         "color": "#35d0a2",
         "head": "default",
         "tail": "default",
-        "version": "1.2.0"
+        "version": "1.3.1"
       }
     },
     {
@@ -19,7 +19,7 @@
       "status": 200,
       "body": {
         "status": "ok",
-        "version": "1.2.0"
+        "version": "1.3.1"
       }
     },
     {
@@ -38,9 +38,10 @@
       "mode": "duels",
       "repeat": 0,
       "status": 200,
-      "rttMs": 206.17393000000004,
+      "rttMs": 173.89641399999994,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
+      "nodes": "3001",
       "answer": {
         "move": "up"
       }
@@ -49,9 +50,10 @@
       "mode": "duels",
       "repeat": 1,
       "status": 200,
-      "rttMs": 166.04544700000008,
+      "rttMs": 267.6418020000001,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
+      "nodes": "3001",
       "answer": {
         "move": "up"
       }
@@ -60,9 +62,10 @@
       "mode": "duels",
       "repeat": 2,
       "status": 200,
-      "rttMs": 146.43274500000007,
+      "rttMs": 92.53176099999996,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
+      "nodes": "3001",
       "answer": {
         "move": "up"
       }
@@ -71,9 +74,10 @@
       "mode": "standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 212.38240100000007,
+      "rttMs": 136.69807300000002,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
+      "nodes": "1001",
       "answer": {
         "move": "up"
       }
@@ -82,9 +86,10 @@
       "mode": "standard",
       "repeat": 1,
       "status": 200,
-      "rttMs": 189.57927100000006,
+      "rttMs": 120.75476400000002,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
+      "nodes": "1001",
       "answer": {
         "move": "up"
       }
@@ -93,9 +98,10 @@
       "mode": "standard",
       "repeat": 2,
       "status": 200,
-      "rttMs": 151.4110760000001,
+      "rttMs": 167.626262,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
+      "nodes": "1001",
       "answer": {
         "move": "up"
       }
@@ -104,9 +110,10 @@
       "mode": "royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 130.29649399999994,
+      "rttMs": 98.36517300000014,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
+      "nodes": "1001",
       "answer": {
         "move": "up"
       }
@@ -115,9 +122,10 @@
       "mode": "royale",
       "repeat": 1,
       "status": 200,
-      "rttMs": 225.60262699999976,
+      "rttMs": 208.248472,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
+      "nodes": "1001",
       "answer": {
         "move": "up"
       }
@@ -126,9 +134,10 @@
       "mode": "royale",
       "repeat": 2,
       "status": 200,
-      "rttMs": 129.0538819999997,
+      "rttMs": 69.50520499999993,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
+      "nodes": "1001",
       "answer": {
         "move": "up"
       }
@@ -137,9 +146,10 @@
       "mode": "constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 142.70721999999978,
+      "rttMs": 166.61795399999983,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
+      "nodes": "301",
       "answer": {
         "move": "up"
       }
@@ -148,9 +158,10 @@
       "mode": "constrictor",
       "repeat": 1,
       "status": 200,
-      "rttMs": 165.77777399999968,
+      "rttMs": 180.56495199999972,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
+      "nodes": "301",
       "answer": {
         "move": "up"
       }
@@ -159,14 +170,375 @@
       "mode": "constrictor",
       "repeat": 2,
       "status": 200,
-      "rttMs": 78.37548399999969,
+      "rttMs": 159.8655429999999,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
+      "nodes": "301",
       "answer": {
         "move": "up"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 35.951940999999806,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "108",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 82.1313869999999,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "317",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 94.50050199999987,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "1001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 54.689550000000054,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "301",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 81.224154,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "325",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 40.35912499999995,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "146",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 51.649279999999635,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "786",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 56.15192999999999,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "68",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 31.933398000000125,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "99",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 62.2786900000001,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "25",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 82.68130299999984,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "544",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 161.99836000000005,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "765",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 87.06537500000013,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "301",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 77.2750259999998,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "9",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 37.00598499999978,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "87",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 105.9628660000003,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 95.86117700000023,
+      "serverTiming": "search;dur=0.00",
+      "depth": "5",
+      "nodes": "3001",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 124.8858439999999,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "1001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 91.56164399999943,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 210.48374199999944,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "1001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 82.62132500000007,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 114.87687599999936,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "1001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 171.65322399999968,
+      "serverTiming": "search;dur=0.00",
+      "depth": "5",
+      "nodes": "3001",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 113.09783200000038,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 63.779005999999754,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "1001",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 115.23590599999989,
+      "serverTiming": "search;dur=0.00",
+      "depth": "7",
+      "nodes": "3001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 80.03061900000012,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "1001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-constrictor",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 108.19879700000001,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 80.86121600000024,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "1001",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 168.68371099999968,
+      "serverTiming": "search;dur=0.00",
+      "depth": "6",
+      "nodes": "2755",
+      "answer": {
+        "move": "left"
       }
     }
   ],
-  "maxRttMs": 225.60262699999976,
+  "maxRttMs": 267.6418020000001,
   "allMovesUnder500ms": true
 }

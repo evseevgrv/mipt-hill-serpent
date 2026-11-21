@@ -89,3 +89,48 @@ test('a shorter healthy snake eats safe adjacent food before starvation', () => 
   const r = request([snake('me', [[1, 1], [1, 0], [0, 0]], 75), snake('other', [[8, 8], [9, 8], [10, 8], [10, 7], [9, 7], [8, 7], [8, 6], [9, 6], [10, 6], [10, 5], [9, 5], [8, 5]])], { food: [[1, 2], [0, 10]] });
   assert.equal(chooseMove(r, { maxNodes: 5000 }).move, 'up');
 });
+
+test('reachable cells account for consecutive hazard damage', async () => {
+  const { distances } = await import('../worker/index.js');
+  const s = parseRequest(request([snake('me', [[0, 0], [0, 0], [0, 0]], 25)], { width: 5, height: 1, food: [[3, 0]], hazards: [[1, 0], [2, 0]] }));
+  const map = distances(s, s.snakes[0], new Uint8Array(5)).distance;
+  assert.equal(map[1], 1);
+  assert.equal(map[2], -1);
+  assert.equal(map[3], -1);
+});
+
+test('food restores health between hazardous steps', async () => {
+  const { distances } = await import('../worker/index.js');
+  const s = parseRequest(request([snake('me', [[0, 0], [0, 0], [0, 0]], 17)], { width: 5, height: 1, food: [[2, 0]], hazards: [[1, 0], [2, 0], [3, 0]] }));
+  assert.equal(distances(s, s.snakes[0], new Uint8Array(5)).distance[3], 3);
+});
+
+test('cached alpha-beta agrees with exhaustive simultaneous search', async () => {
+  const { evaluate } = await import('../worker/index.js');
+  function brute(state, depth) {
+    if (!depth || !state.snakes[0].alive || !state.snakes.slice(1).some(s => s.alive)) return evaluate(state);
+    const options = state.snakes.map((s, i) => s.alive ? legalMoves(state, i) : [0]);
+    let best = -Infinity;
+    for (const move of options[0].length ? options[0] : [0, 1, 2, 3]) {
+      const chosen = [move]; let worst = Infinity;
+      function responses(i) {
+        if (i === options.length) { worst = Math.min(worst, brute(advance(state, chosen), depth - 1)); return; }
+        for (const d of options[i].length ? options[i] : [0, 1, 2, 3]) { chosen[i] = d; responses(i + 1); }
+      }
+      responses(1); best = Math.max(best, worst);
+    }
+    return best;
+  }
+  for (const mode of ['standard', 'constrictor', 'royale']) {
+    const r = request([snake('me', [[1, 1], [1, 0], [0, 0]]), snake('other', [[3, 3], [3, 4], [4, 4]])], { width: 5, height: 5, mode, food: mode === 'constrictor' ? [] : [[2, 2]], hazards: mode === 'royale' ? [[0, 1], [0, 2]] : [] });
+    const decision = chooseMove(r, { maxDepth: 3, maxNodes: 100000, budgetMs: 170 });
+    assert.equal(decision.depth, 3);
+    assert.equal(decision.score, brute(parseRequest(r), 3));
+  }
+});
+
+test('Arena Royale is recognized when the base ruleset is standard', () => {
+  const r = request();
+  r.game.map = 'royale';
+  assert.equal(parseRequest(r).royale, true);
+});

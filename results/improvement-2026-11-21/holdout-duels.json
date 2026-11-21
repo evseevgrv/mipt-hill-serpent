@@ -1,0 +1,161 @@
+{
+  "baselineCommit": "9f31b23a9f94d7409a08907c137f81e9bc6b0565",
+  "candidateVersion": "1.3.1",
+  "engine": "BattlesnakeOfficial/rules v1.2.3",
+  "profile": "cloud",
+  "metric": "candidate survives longer than v1.2.0, including in four-player games",
+  "suites": [
+    {
+      "mode": "standard",
+      "players": 2,
+      "games": [
+        {
+          "seed": 15001,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 479,
+            "baseline": 478
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 10.009,
+          "warnings": []
+        },
+        {
+          "seed": 15002,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 333,
+            "baseline": 332
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 8.344,
+          "warnings": []
+        },
+        {
+          "seed": 15003,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 356,
+            "baseline": 357
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 8.645,
+          "warnings": []
+        },
+        {
+          "seed": 15004,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 357,
+            "baseline": 356
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 9.076,
+          "warnings": []
+        },
+        {
+          "seed": 15005,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 343,
+            "baseline": 342
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 7.958,
+          "warnings": []
+        },
+        {
+          "seed": 15006,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 359,
+            "baseline": 358
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 8.6,
+          "warnings": []
+        },
+        {
+          "seed": 15007,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 285,
+            "baseline": 284
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 7.682,
+          "warnings": []
+        },
+        {
+          "seed": 15008,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 595,
+            "baseline": 594
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 15.01,
+          "warnings": []
+        },
+        {
+          "seed": 15009,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 321,
+            "baseline": 322
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 7.996,
+          "warnings": []
+        },
+        {
+          "seed": 15010,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 241,
+            "baseline": 240
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 5.888,
+          "warnings": []
+        },
+        {
+          "seed": 15011,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 386,
+            "baseline": 387
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 8.928,
+          "warnings": []
+        }
+      ],
+      "wins": 8,
+      "losses": 3,
+      "draws": 0
+    }
+  ]
+}

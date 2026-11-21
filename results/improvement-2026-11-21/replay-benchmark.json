@@ -1,0 +1,31 @@
+{
+  "baselineVersion": "1.2.0",
+  "candidateVersion": "1.3.1",
+  "note": "Recorded losing positions are diagnostic samples, not evidence of improved win rate.",
+  "groups": {
+    "constrictor": {
+      "samples": 20,
+      "baselineDepth": 1.9,
+      "candidateDepth": 1.9,
+      "baselineMs": 6.025639450000005,
+      "candidateMs": 3.184535449999997,
+      "changedMoves": 0
+    },
+    "standard": {
+      "samples": 24,
+      "baselineDepth": 3.5416666666666665,
+      "candidateDepth": 3.625,
+      "baselineMs": 4.982418458333342,
+      "candidateMs": 5.908390583333325,
+      "changedMoves": 0
+    },
+    "royale": {
+      "samples": 16,
+      "baselineDepth": 2.5,
+      "candidateDepth": 2.5625,
+      "baselineMs": 3.227239625000001,
+      "candidateMs": 3.8379765,
+      "changedMoves": 0
+    }
+  }
+}

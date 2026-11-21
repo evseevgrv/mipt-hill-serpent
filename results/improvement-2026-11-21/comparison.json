@@ -1,0 +1,459 @@
+{
+  "baselineCommit": "9f31b23a9f94d7409a08907c137f81e9bc6b0565",
+  "candidateVersion": "1.3.0",
+  "engine": "BattlesnakeOfficial/rules v1.2.3",
+  "profile": "cloud",
+  "metric": "candidate survives longer than v1.2.0, including in four-player games",
+  "suites": [
+    {
+      "mode": "standard",
+      "players": 2,
+      "games": [
+        {
+          "seed": 13001,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 229,
+            "baseline": 228
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 2.893,
+          "warnings": []
+        },
+        {
+          "seed": 13002,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 403,
+            "baseline": 402
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 5.16,
+          "warnings": []
+        },
+        {
+          "seed": 13003,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 168,
+            "baseline": 169
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 2.52,
+          "warnings": []
+        },
+        {
+          "seed": 13004,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 293,
+            "baseline": 294
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 3.84,
+          "warnings": []
+        },
+        {
+          "seed": 13005,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 270,
+            "baseline": 271
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 3.661,
+          "warnings": []
+        },
+        {
+          "seed": 13006,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 515,
+            "baseline": 514
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 6.842,
+          "warnings": []
+        },
+        {
+          "seed": 13007,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 201,
+            "baseline": 200
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 2.703,
+          "warnings": []
+        },
+        {
+          "seed": 13008,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 303,
+            "baseline": 302
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 4.2,
+          "warnings": []
+        },
+        {
+          "seed": 13009,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 346,
+            "baseline": 345
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 4.576,
+          "warnings": []
+        },
+        {
+          "seed": 13010,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 244,
+            "baseline": 245
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 3.412,
+          "warnings": []
+        },
+        {
+          "seed": 13011,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 325,
+            "baseline": 324
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 4.505,
+          "warnings": []
+        }
+      ],
+      "wins": 7,
+      "losses": 4,
+      "draws": 0
+    },
+    {
+      "mode": "royale",
+      "players": 2,
+      "games": [
+        {
+          "seed": 13001,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 259,
+            "baseline": 260
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 3.416,
+          "warnings": []
+        },
+        {
+          "seed": 13002,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 191,
+            "baseline": 192
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 2.659,
+          "warnings": []
+        },
+        {
+          "seed": 13003,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 225,
+            "baseline": 226
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 3.146,
+          "warnings": []
+        },
+        {
+          "seed": 13004,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 131,
+            "baseline": 130
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 2.072,
+          "warnings": []
+        },
+        {
+          "seed": 13005,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 195,
+            "baseline": 194
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 2.66,
+          "warnings": []
+        },
+        {
+          "seed": 13006,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 168,
+            "baseline": 169
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 2.496,
+          "warnings": []
+        },
+        {
+          "seed": 13007,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 200,
+            "baseline": 199
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 2.72,
+          "warnings": []
+        },
+        {
+          "seed": 13008,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 181,
+            "baseline": 182
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 2.627,
+          "warnings": []
+        },
+        {
+          "seed": 13009,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 226,
+            "baseline": 225
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 3.219,
+          "warnings": []
+        },
+        {
+          "seed": 13010,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 157,
+            "baseline": 158
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 2.297,
+          "warnings": []
+        },
+        {
+          "seed": 13011,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 176,
+            "baseline": 177
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 2.708,
+          "warnings": []
+        }
+      ],
+      "wins": 4,
+      "losses": 7,
+      "draws": 0
+    },
+    {
+      "mode": "constrictor",
+      "players": 2,
+      "games": [
+        {
+          "seed": 13001,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 51,
+            "baseline": 50
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 0.61,
+          "warnings": []
+        },
+        {
+          "seed": 13002,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 46,
+            "baseline": 47
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 0.515,
+          "warnings": []
+        },
+        {
+          "seed": 13003,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 38,
+            "baseline": 37
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 0.477,
+          "warnings": []
+        },
+        {
+          "seed": 13004,
+          "outcome": "win",
+          "lastAliveTurn": {
+            "candidate": 38,
+            "baseline": 37
+          },
+          "winnerNames": [
+            "candidate"
+          ],
+          "seconds": 0.469,
+          "warnings": []
+        },
+        {
+          "seed": 13005,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 56,
+            "baseline": 57
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 0.618,
+          "warnings": []
+        },
+        {
+          "seed": 13006,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 44,
+            "baseline": 45
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 0.497,
+          "warnings": []
+        },
+        {
+          "seed": 13007,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 44,
+            "baseline": 45
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 0.494,
+          "warnings": []
+        },
+        {
+          "seed": 13008,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 47,
+            "baseline": 48
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 0.553,
+          "warnings": []
+        },
+        {
+          "seed": 13009,
+          "outcome": "draw",
+          "lastAliveTurn": {
+            "candidate": 47,
+            "baseline": 47
+          },
+          "winnerNames": [],
+          "seconds": 0.513,
+          "warnings": []
+        },
+        {
+          "seed": 13010,
+          "outcome": "draw",
+          "lastAliveTurn": {
+            "candidate": 40,
+            "baseline": 40
+          },
+          "winnerNames": [],
+          "seconds": 0.5,
+          "warnings": []
+        },
+        {
+          "seed": 13011,
+          "outcome": "draw",
+          "lastAliveTurn": {
+            "candidate": 47,
+            "baseline": 47
+          },
+          "winnerNames": [],
+          "seconds": 0.525,
+          "warnings": []
+        }
+      ],
+      "wins": 3,
+      "losses": 5,
+      "draws": 3
+    }
+  ]
+}

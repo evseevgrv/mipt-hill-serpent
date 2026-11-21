@@ -1,7 +1,7 @@
 {
   "engine": "BattlesnakeOfficial/rules v1.2.3",
-  "games": 90,
-  "checkedTransitions": 11893,
+  "games": 189,
+  "checkedTransitions": 33456,
   "result": "all compared bodies and health match",
   "limitation": "Transitions with eliminations are covered by unit scenarios, not this reconstruction, because the CLI omits eliminated snakes."
 }

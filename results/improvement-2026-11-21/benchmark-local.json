@@ -1,0 +1,27 @@
+{
+  "version": "1.3.1",
+  "date": "2026-11-21T18:24:00.392Z",
+  "runtime": "v26.0.0",
+  "cpu": "Apple M4 Pro",
+  "architecture": "arm64",
+  "logicalCoresUsedBySearch": 1,
+  "cpuAffinity": null,
+  "note": "Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.",
+  "samples": 284,
+  "fixtures": 284,
+  "latencyMs": {
+    "p50": 21.020582999999533,
+    "p95": 74.86199999999917,
+    "p99": 95.42491599999994,
+    "max": 95.69754199999988
+  },
+  "processCpuMs": {
+    "p95": 76.602,
+    "max": 98.902
+  },
+  "depth": {
+    "min": 1,
+    "max": 10
+  },
+  "under500ms": true
+}

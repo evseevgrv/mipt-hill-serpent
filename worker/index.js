@@ -1,4 +1,4 @@
-export const VERSION = '1.2.0';
+export const VERSION = '1.3.1';
 export const DIRECTIONS = ['up', 'down', 'left', 'right'];
 export const DEFAULT_WEIGHTS = Object.freeze({ territory: 2.4, space: 1.4, length: 50, food: 28, hunger: 0.35, trap: 36, center: 0.25, mobility: 5 });
 const WIN = 1000000;
@@ -18,7 +18,7 @@ export function parseRequest(request) {
   const snakes = [you, ...board.snakes.filter(s => s.id !== you.id)].map(s => ({ id: s.id, body: s.body.map(index), health: s.health, alive: true }));
   const hazards = new Int16Array(w * h);
   for (const p of board.hazards ?? []) hazards[index(p)]++;
-  return { w, h, size: w * h, neighbors, constrictor: !!constrictor, wrapped: !!wrapped, hazards, damage: rules.settings?.hazardDamagePerTurn ?? 14, royale: rules.name === 'royale', turn: request.turn ?? 0, snakes, food: new Set((board.food ?? []).map(index)), initialOpponents: snakes.length - 1 };
+  return { w, h, size: w * h, neighbors, constrictor: !!constrictor, wrapped: !!wrapped, hazards, damage: rules.settings?.hazardDamagePerTurn ?? 14, royale: rules.name === 'royale' || request.game?.map === 'royale', turn: request.turn ?? 0, snakes, food: new Set((board.food ?? []).map(index)), initialOpponents: snakes.length - 1 };
 }
 
 function occupancy(state) {
@@ -71,18 +71,20 @@ export function advance(state, moves) {
   return { ...state, turn: state.turn + 1, snakes, food: eaten.size ? new Set([...state.food].filter(p => !eaten.has(p))) : state.food };
 }
 
-function distances(state, snake, blocked, temporal = false) {
+export function distances(state, snake, blocked, temporal = false) {
   const distance = new Int16Array(state.size).fill(-1);
   const queue = new Int16Array(state.size);
+  const health = new Int16Array(state.size);
   const head = snake.body[0];
   let begin = 0, end = 1;
-  queue[0] = head; distance[head] = 0;
+  queue[0] = head; distance[head] = 0; health[head] = snake.health;
   while (begin < end) {
     const p = queue[begin++], nextDistance = distance[p] + 1;
     for (const q of state.neighbors[p]) {
       if (q < 0 || distance[q] >= 0 || (temporal ? blocked[q] > nextDistance : blocked[q])) continue;
-      if (!state.food.has(q) && nextDistance + state.hazards[q] * state.damage >= snake.health) continue;
-      distance[q] = nextDistance; queue[end++] = q;
+      const remaining = state.food.has(q) ? 100 : health[p] - 1 - state.hazards[q] * state.damage;
+      if (remaining <= 0) continue;
+      distance[q] = nextDistance; health[q] = remaining; queue[end++] = q;
     }
   }
   return { distance, count: end };
@@ -94,37 +96,51 @@ function releaseTimes(state) {
   return release;
 }
 
+let capacityScratch;
 export function pathCapacity(state, head, blocked) {
-  const seen = new Int16Array(state.size), low = new Int16Array(state.size);
-  const edges = [], blocks = [];
-  let tick = 0;
+  const n = state.size;
+  if (capacityScratch?.n !== n) {
+    capacityScratch = { n, seen: new Int16Array(n), low: new Int16Array(n), stamp: new Int16Array(n), degree: new Int16Array(n), from: new Int16Array(4 * n), to: new Int16Array(4 * n), vertex: new Int16Array(4 * n), block: new Int16Array(4 * n), first: new Int16Array(2 * n + 1), weight: new Int16Array(2 * n + 1), target: new Int16Array(8 * n), next: new Int16Array(8 * n) };
+  }
+  const { seen, low, stamp, degree, from, to, vertex, block, first, weight, target, next } = capacityScratch;
+  seen.fill(0); stamp.fill(0); degree.fill(0); first.fill(-1); weight.fill(0);
+  let tick = 0, edgeCount = 0, memberCount = 0, blockCount = 0, treeEdges = 0;
   function visit(u, parent) {
     seen[u] = low[u] = ++tick;
     for (const v of state.neighbors[u]) {
       if (v < 0 || (blocked[v] && v !== head)) continue;
       if (!seen[v]) {
-        edges.push([u, v]); visit(v, u); low[u] = Math.min(low[u], low[v]);
+        from[edgeCount] = u; to[edgeCount++] = v;
+        visit(v, u); low[u] = Math.min(low[u], low[v]);
         if (low[v] >= seen[u]) {
-          const vertices = new Set();
-          let edge;
-          do { edge = edges.pop(); vertices.add(edge[0]); vertices.add(edge[1]); } while (edge[0] !== u || edge[1] !== v);
-          blocks.push([...vertices]);
+          const label = ++blockCount;
+          let a, b;
+          do {
+            a = from[--edgeCount]; b = to[edgeCount];
+            for (const p of [a, b]) if (stamp[p] !== label) {
+              stamp[p] = label; degree[p]++; vertex[memberCount] = p; block[memberCount++] = label; weight[n + label]++;
+            }
+          } while (a !== u || b !== v);
         }
-      } else if (v !== parent && seen[v] < seen[u]) { edges.push([u, v]); low[u] = Math.min(low[u], seen[v]); }
+      } else if (v !== parent && seen[v] < seen[u]) {
+        from[edgeCount] = u; to[edgeCount++] = v; low[u] = Math.min(low[u], seen[v]);
+      }
     }
   }
   visit(head, -1);
-  if (!blocks.length) return 1;
-  const memberships = Array.from({ length: state.size }, () => []);
-  blocks.forEach((block, i) => block.forEach(v => memberships[v].push(i)));
-  const tree = blocks.map(() => []), weight = blocks.map(b => b.length);
-  let root = memberships[head][0];
-  for (let v = 0; v < state.size; v++) if (memberships[v].length > 1) {
-    const node = tree.length; tree.push([]); weight.push(1);
-    if (v === head) root = node;
-    for (const block of memberships[v]) { tree[block].push(node); tree[node].push(block); weight[block]--; }
+  if (!blockCount) return 1;
+  let root = head;
+  function connect(a, b) { target[treeEdges] = b; next[treeEdges] = first[a]; first[a] = treeEdges++; }
+  for (let i = 0; i < memberCount; i++) {
+    const v = vertex[i], b = n + block[i];
+    if (v === head && degree[v] === 1) root = b;
+    if (degree[v] > 1) { weight[b]--; weight[v] = 1; connect(v, b); connect(b, v); }
   }
-  function longest(u, parent) { let best = 0; for (const v of tree[u]) if (v !== parent) best = Math.max(best, longest(v, u)); return weight[u] + best; }
+  function longest(u, parent) {
+    let best = 0;
+    for (let e = first[u]; e >= 0; e = next[e]) if (target[e] !== parent) best = Math.max(best, longest(target[e], u));
+    return weight[u] + best;
+  }
   return longest(root, -1);
 }
 
@@ -159,13 +175,16 @@ export function evaluate(state, weights = DEFAULT_WEIGHTS) {
     const enemySpace = Math.max(0, ...state.snakes.slice(1).filter(s => s.alive).map(s => pathCapacity(state, s.body[0], blocked)));
     let even = 0, odd = 0;
     for (let p = 0; p < state.size; p++) if (own.distance[p] >= 0) ((p % state.w + Math.floor(p / state.w)) % 2 ? odd++ : even++);
-    const parityBound = 2 * Math.min(even, odd) + (even === odd ? 0 : ((me.body[0] % state.w + Math.floor(me.body[0] / state.w)) % 2 === (odd > even ? 1 : 0) ? 1 : -1));
-    return score + 18 * (Math.min(capacity, parityBound) - enemySpace) + 3 * capacity - 12 * moves.length;
+    const startsOdd = (me.body[0] % state.w + Math.floor(me.body[0] / state.w)) % 2;
+    const parityEstimate = state.wrapped && (state.w % 2 || state.h % 2) ? own.count : 2 * Math.min(even, odd) + (even === odd ? 0 : (startsOdd ? odd > even : even > odd) ? 1 : -1);
+    return score + 18 * (Math.min(capacity, parityEstimate) - enemySpace) + 3 * capacity - 12 * moves.length;
   }
   const need = Math.min(state.size * 0.7, me.body.length + 4);
-  if (own.count < need) {
+  const capacity = own.count < need + 8 ? pathCapacity(state, me.body[0], blocked) : own.count;
+  if (capacity < need) {
     const temporal = distances(state, me, releaseTimes(state), true).count;
-    score -= weights.trap * Math.max(0, need - own.count) + weights.trap * 2 * Math.max(0, me.body.length + 1 - temporal);
+    const canFollowTail = !state.royale && own.distance[me.body.at(-1)] >= 0;
+    score -= weights.trap * (need - capacity) * (canFollowTail ? 0.15 : 1) + weights.trap * 2 * Math.max(0, me.body.length + 1 - temporal);
   }
   let foodDistance = 30000, foodValue = 0;
   for (const p of state.food) {
@@ -210,7 +229,8 @@ export function chooseMove(request, options = {}) {
   const budgetMs = Math.max(1, Math.min(options.budgetMs ?? 95, (request.game?.timeout ?? 500) * 0.35));
   const deadline = performance.now() + budgetMs;
   const maxNodes = options.maxNodes ?? 5000;
-  const maxDepth = options.maxDepth ?? (state.snakes.length <= 2 ? 10 : 4);
+  const maxDepth = options.maxDepth ?? (state.constrictor ? (state.snakes.length <= 2 ? 10 : 4) : state.snakes.length <= 2 ? 14 : 6);
+  const table = new Map();
   const stopped = {};
   let nodes = 0, completedDepth = 0;
   const rootMoves = orderedMoves(state, 0, occupancy(state));
@@ -218,9 +238,18 @@ export function chooseMove(request, options = {}) {
   function search(position, depth, alpha, beta) {
     if (++nodes > maxNodes || (nodes % 32 === 0 && performance.now() >= deadline)) throw stopped;
     if (depth === 0 || !position.snakes[0].alive || (position.initialOpponents && !position.snakes.slice(1).some(s => s.alive))) return evaluate(position, weights);
+    const key = position.constrictor ? null : position.turn + ':' + position.snakes.map(s => s.alive ? s.health + ':' + s.body.join('.') : '-').join('|') + '/' + [...position.food].join('.');
+    const previous = key === null ? undefined : table.get(key);
+    if (previous?.depth >= depth) {
+      if (previous.bound === 'exact') return previous.score;
+      if (previous.bound === 'lower') alpha = Math.max(alpha, previous.score);
+      else beta = Math.min(beta, previous.score);
+      if (alpha >= beta) return previous.score;
+    }
+    const boundAlpha = alpha, boundBeta = beta;
     const blocked = occupancy(position);
-    const choices = position.snakes.map((s, i) => s.alive ? orderedMoves(position, i, blocked) : [0]);
-    let best = -Infinity;
+    const choices = position.snakes.map((s, i) => s.alive ? orderedMoves(position, i, blocked, i === 0 ? previous?.move : undefined) : [0]);
+    let best = -Infinity, bestMove = choices[0][0];
     for (const move of choices[0]) {
       const moves = [move];
       let worst = Infinity;
@@ -229,9 +258,11 @@ export function chooseMove(request, options = {}) {
         for (const d of choices[i]) { moves[i] = d; responses(i + 1); if (worst <= alpha) break; }
       }
       responses(1);
-      best = Math.max(best, worst); alpha = Math.max(alpha, best);
+      if (worst > best) { best = worst; bestMove = move; }
+      alpha = Math.max(alpha, best);
       if (alpha >= beta) break;
     }
+    if (key !== null) table.set(key, { depth, score: best, move: bestMove, bound: best <= boundAlpha ? 'upper' : best >= boundBeta ? 'lower' : 'exact' });
     return best;
   }
   for (let depth = 1; depth <= maxDepth; depth++) {
@@ -276,6 +307,6 @@ export default {
     const count = body.board.snakes.length;
     const maxNodes = env.SEARCH_PROFILE === 'local' ? 5000 : constrictor ? (count > 2 ? 300 : 1000) : count > 2 ? 1000 : 3000;
     const result = chooseMove(body, { maxNodes });
-    return json({ move: result.move }, 200, { 'Server-Timing': `search;dur=${(performance.now() - start).toFixed(2)}`, 'X-Search-Depth': String(result.depth) });
+    return json({ move: result.move }, 200, { 'Server-Timing': `search;dur=${(performance.now() - start).toFixed(2)}`, 'X-Search-Depth': String(result.depth), 'X-Search-Nodes': String(result.nodes) });
   }
 };

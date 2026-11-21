@@ -9,3 +9,4 @@ tools/*.tar.gz
 results/games/
 __pycache__/
 *.pyc
+tools/baseline-*.mjs

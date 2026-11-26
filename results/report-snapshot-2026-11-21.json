@@ -1,0 +1,3545 @@
+{
+  "capturedAt": "2026-11-21T20:24:00.645404+00:00",
+  "capturedAtMoscow": "21.11.2026 · 23:24 МСК",
+  "collectionFinishedAt": "2026-11-21T20:24:21.786743+00:00",
+  "releaseAt": "2026-11-21T18:26:35.286203+00:00",
+  "releaseMoscow": "21.11.2026 · 21:26 МСК",
+  "version": "1.3.1",
+  "profileUrl": "https://arena.battlesnake.com/battlesnakes/aa1bb9da-902d-4765-999f-ddcb8b2b6c51/profile",
+  "rankingsUrl": "https://arena.battlesnake.com/rankings",
+  "repositoryUrl": "https://github.com/evseevgrv/mipt-hill-serpent",
+  "apiUrl": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site/",
+  "summary": {
+    "games": 2883,
+    "winRate": 35.5,
+    "averagePlace": 2.1,
+    "p95Ms": 203.0,
+    "wins": 1019,
+    "placements": {
+      "first": 1019,
+      "draw": 22,
+      "second": 861,
+      "third": 519,
+      "fourth": 453
+    },
+    "completed": 2874,
+    "unresolved": 9,
+    "latencyGames": 50,
+    "p50Ms": 110,
+    "timeouts": 21,
+    "movesInLatencySample": 10543,
+    "timeoutRate": 0.1991842928957602
+  },
+  "overall": {
+    "rank": 27,
+    "name": "evseevgrv",
+    "rating": 121.3,
+    "url": "https://arena.battlesnake.com/users/evseevgrv/7adf77cf-ed8c-4ab1-8ad2-4df8a465afec",
+    "top30Threshold": 110.9
+  },
+  "boards": [
+    {
+      "mode": "Duels",
+      "rating": 26.4,
+      "games": 701,
+      "winRateRounded": 54.0,
+      "status": "Active",
+      "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/adea3e01-9ac6-4db7-8b44-4081e8d9188e",
+      "boardUrl": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc",
+      "rank": 38,
+      "winRate": 54.5
+    },
+    {
+      "mode": "Standard",
+      "rating": 48.1,
+      "games": 719,
+      "winRateRounded": 30.0,
+      "status": "Active",
+      "url": "https://arena.battlesnake.com/leaderboards/d692fd01-5376-4060-8c4c-91dc2ecfe3ba/entries/24128e64-30e5-416e-851e-460150706494",
+      "boardUrl": "https://arena.battlesnake.com/leaderboards/d692fd01-5376-4060-8c4c-91dc2ecfe3ba",
+      "rank": 40,
+      "winRate": 29.8
+    },
+    {
+      "mode": "Royale",
+      "rating": 28.7,
+      "games": 719,
+      "winRateRounded": 31.0,
+      "status": "Active",
+      "url": "https://arena.battlesnake.com/leaderboards/77ce41bf-12ad-4eac-bac2-b11939fb9b18/entries/e6369bc9-92ee-4197-b32c-89a04e815a4c",
+      "boardUrl": "https://arena.battlesnake.com/leaderboards/77ce41bf-12ad-4eac-bac2-b11939fb9b18",
+      "rank": 30,
+      "winRate": 30.7
+    },
+    {
+      "mode": "Constrictor",
+      "rating": 18.1,
+      "games": 729,
+      "winRateRounded": 27.0,
+      "status": "Active",
+      "url": "https://arena.battlesnake.com/leaderboards/2997e28a-83a0-41e0-a203-d42108cfe450/entries/16595ffd-754e-4d78-9282-325c60c4f1ab",
+      "boardUrl": "https://arena.battlesnake.com/leaderboards/2997e28a-83a0-41e0-a203-d42108cfe450",
+      "rank": 38,
+      "winRate": 27.4
+    }
+  ],
+  "references": [
+    {
+      "rank": 46,
+      "name": "novice",
+      "rating": 23.1,
+      "games": 1506,
+      "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/de9648f9-2b1b-4a60-8848-fd61b904372f",
+      "winRate": 48.2
+    },
+    {
+      "rank": 31,
+      "name": "apprentice",
+      "rating": 30.9,
+      "games": 1083,
+      "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/1c79a70a-12c9-4701-831d-e595cebbb579",
+      "winRate": 44.8
+    },
+    {
+      "rank": 32,
+      "name": "journeyman",
+      "rating": 30.9,
+      "games": 1098,
+      "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/104802d9-d2c1-4eeb-bc4c-e327f6d22128",
+      "winRate": 49.0
+    },
+    {
+      "rank": 21,
+      "name": "expert",
+      "rating": 36.1,
+      "games": 952,
+      "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/54bf6708-1d04-467d-ae5e-5752a2050071",
+      "winRate": 52.8
+    }
+  ],
+  "recentGames": [
+    {
+      "id": "b0ff94c6-a9d3-4c63-b652-eed8373d9a35",
+      "url": "https://arena.battlesnake.com/games/b0ff94c6-a9d3-4c63-b652-eed8373d9a35",
+      "createdAt": "2026-11-21T20:18:00+00:00",
+      "timeMoscow": "21.11 · 23:18",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": null,
+      "draw": false,
+      "live": true,
+      "winner": "In progress",
+      "afterRelease": true
+    },
+    {
+      "id": "e5345a92-30f2-4001-b367-f40f5a3c890d",
+      "url": "https://arena.battlesnake.com/games/e5345a92-30f2-4001-b367-f40f5a3c890d",
+      "createdAt": "2026-11-21T20:18:00+00:00",
+      "timeMoscow": "21.11 · 23:18",
+      "mode": "Royale",
+      "players": 4,
+      "place": null,
+      "draw": false,
+      "live": true,
+      "winner": "In progress",
+      "afterRelease": true
+    },
+    {
+      "id": "ab302080-f5e3-42bc-9f40-896e69ba8ab1",
+      "url": "https://arena.battlesnake.com/games/ab302080-f5e3-42bc-9f40-896e69ba8ab1",
+      "createdAt": "2026-11-21T20:17:00+00:00",
+      "timeMoscow": "21.11 · 23:17",
+      "mode": "Duels",
+      "players": 2,
+      "place": null,
+      "draw": false,
+      "live": true,
+      "winner": "In progress",
+      "afterRelease": true
+    },
+    {
+      "id": "e46cfa2b-d8ce-433f-89ca-aa848ff4dbe2",
+      "url": "https://arena.battlesnake.com/games/e46cfa2b-d8ce-433f-89ca-aa848ff4dbe2",
+      "createdAt": "2026-11-21T20:17:00+00:00",
+      "timeMoscow": "21.11 · 23:17",
+      "mode": "Standard",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Vorago",
+      "afterRelease": true,
+      "turns": 320,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "5491e1ee-a61e-4cce-95a9-4b8c02ea9566",
+        "Turn": 320
+      },
+      "length": 22,
+      "health": 87,
+      "opponents": [
+        "Vorago",
+        "Freaky Francis",
+        "Kakemonsteret-v2"
+      ]
+    },
+    {
+      "id": "28576281-cf64-428e-853b-3cea4f8c62ba",
+      "url": "https://arena.battlesnake.com/games/28576281-cf64-428e-853b-3cea4f8c62ba",
+      "createdAt": "2026-11-21T20:10:00+00:00",
+      "timeMoscow": "21.11 · 23:10",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 461,
+      "death": null,
+      "length": 35,
+      "health": 98,
+      "opponents": [
+        "Sosna Prime II"
+      ]
+    },
+    {
+      "id": "f54d9121-ce0e-43e5-bace-8eb872f56f66",
+      "url": "https://arena.battlesnake.com/games/f54d9121-ce0e-43e5-bace-8eb872f56f66",
+      "createdAt": "2026-11-21T20:03:00+00:00",
+      "timeMoscow": "21.11 · 23:03",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Chompy",
+      "afterRelease": true,
+      "turns": 39,
+      "death": {
+        "Cause": "snake-collision",
+        "EliminatedBy": "f908cdc0-bd86-4e71-a7f1-2068af4f33cd",
+        "Turn": 16
+      },
+      "length": 18,
+      "health": 100,
+      "opponents": [
+        "BoozleBot",
+        "Kakemonsteret-v2",
+        "Chompy"
+      ]
+    },
+    {
+      "id": "ecce3751-2134-400a-a4f1-ba6fbb039622",
+      "url": "https://arena.battlesnake.com/games/ecce3751-2134-400a-a4f1-ba6fbb039622",
+      "createdAt": "2026-11-21T20:03:00+00:00",
+      "timeMoscow": "21.11 · 23:03",
+      "mode": "Royale",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 158,
+      "death": null,
+      "length": 15,
+      "health": 97,
+      "opponents": [
+        "Vorago",
+        "Ferret Frenzy Pythonizer",
+        "Typhon"
+      ]
+    },
+    {
+      "id": "97e7ee0d-7190-4beb-a77e-f954f8b2807f",
+      "url": "https://arena.battlesnake.com/games/97e7ee0d-7190-4beb-a77e-f954f8b2807f",
+      "createdAt": "2026-11-21T20:03:00+00:00",
+      "timeMoscow": "21.11 · 23:03",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 305,
+      "death": null,
+      "length": 25,
+      "health": 59,
+      "opponents": [
+        "novice"
+      ]
+    },
+    {
+      "id": "b340f8d3-fac2-462f-ae0f-350ad2872093",
+      "url": "https://arena.battlesnake.com/games/b340f8d3-fac2-462f-ae0f-350ad2872093",
+      "createdAt": "2026-11-21T20:03:00+00:00",
+      "timeMoscow": "21.11 · 23:03",
+      "mode": "Standard",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth3",
+      "afterRelease": true,
+      "turns": 401,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "4e28ea6f-aad6-4e6e-b7a0-c50dae1c7936",
+        "Turn": 401
+      },
+      "length": 26,
+      "health": 84,
+      "opponents": [
+        "ActionHero",
+        "Hill Serpent",
+        "elizabeth3"
+      ]
+    },
+    {
+      "id": "1ff100f4-d7a7-4719-904f-051d37ab4a1f",
+      "url": "https://arena.battlesnake.com/games/1ff100f4-d7a7-4719-904f-051d37ab4a1f",
+      "createdAt": "2026-11-21T19:49:00+00:00",
+      "timeMoscow": "21.11 · 22:49",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": true,
+      "turns": 39,
+      "death": {
+        "Cause": "snake-collision",
+        "EliminatedBy": "3396de5b-48e3-4c2b-9f5a-8e74d3643980",
+        "Turn": 36
+      },
+      "length": 38,
+      "health": 100,
+      "opponents": [
+        "Kakemonsteret-v2",
+        "Cache Me Outside",
+        "BoozleBot"
+      ]
+    },
+    {
+      "id": "89e34290-4050-49fc-a947-db0169498550",
+      "url": "https://arena.battlesnake.com/games/89e34290-4050-49fc-a947-db0169498550",
+      "createdAt": "2026-11-21T19:49:00+00:00",
+      "timeMoscow": "21.11 · 22:49",
+      "mode": "Royale",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 224,
+      "death": null,
+      "length": 15,
+      "health": 36,
+      "opponents": [
+        "go-st",
+        "Cache Me Outside",
+        "Freaky Francis"
+      ]
+    },
+    {
+      "id": "1d10a1ee-cfb0-45c6-b18c-22a13eef972e",
+      "url": "https://arena.battlesnake.com/games/1d10a1ee-cfb0-45c6-b18c-22a13eef972e",
+      "createdAt": "2026-11-21T19:49:00+00:00",
+      "timeMoscow": "21.11 · 22:49",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 389,
+      "death": null,
+      "length": 33,
+      "health": 89,
+      "opponents": [
+        "Sosna Prime II"
+      ]
+    },
+    {
+      "id": "21576e8f-4829-4857-9e5a-c1f9908b6cb5",
+      "url": "https://arena.battlesnake.com/games/21576e8f-4829-4857-9e5a-c1f9908b6cb5",
+      "createdAt": "2026-11-21T19:48:00+00:00",
+      "timeMoscow": "21.11 · 22:48",
+      "mode": "Standard",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "UwuTek",
+      "afterRelease": true,
+      "turns": 427,
+      "death": {
+        "Cause": "wall-collision",
+        "EliminatedBy": "",
+        "Turn": 427
+      },
+      "length": 29,
+      "health": 91,
+      "opponents": [
+        "elizabeth2",
+        "elizabeth1",
+        "UwuTek"
+      ]
+    },
+    {
+      "id": "2b08cae0-8c14-44e9-96b5-76875b502c4b",
+      "url": "https://arena.battlesnake.com/games/2b08cae0-8c14-44e9-96b5-76875b502c4b",
+      "createdAt": "2026-11-21T19:34:00+00:00",
+      "timeMoscow": "21.11 · 22:34",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Vorago",
+      "afterRelease": true,
+      "turns": 26,
+      "death": {
+        "Cause": "snake-collision",
+        "EliminatedBy": "71af0a4a-49e8-4c41-b072-d5195cd55711",
+        "Turn": 22
+      },
+      "length": 24,
+      "health": 100,
+      "opponents": [
+        "Typhon",
+        "Hovering Hobbs",
+        "Vorago"
+      ]
+    },
+    {
+      "id": "57ad4f83-0742-4931-82e2-2c9e9ad78f3c",
+      "url": "https://arena.battlesnake.com/games/57ad4f83-0742-4931-82e2-2c9e9ad78f3c",
+      "createdAt": "2026-11-21T19:34:00+00:00",
+      "timeMoscow": "21.11 · 22:34",
+      "mode": "Royale",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 155,
+      "death": null,
+      "length": 12,
+      "health": 7,
+      "opponents": [
+        "SmartyRat",
+        "🐭 Muad'Dib",
+        "Cache Me Outside"
+      ]
+    },
+    {
+      "id": "8b35ed12-568f-4ecb-a743-2e85332818a8",
+      "url": "https://arena.battlesnake.com/games/8b35ed12-568f-4ecb-a743-2e85332818a8",
+      "createdAt": "2026-11-21T19:34:00+00:00",
+      "timeMoscow": "21.11 · 22:34",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth1",
+      "afterRelease": true,
+      "turns": 265,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "ca508e5b-e001-4940-b9ad-5587f39677b7",
+        "Turn": 265
+      },
+      "length": 18,
+      "health": 89,
+      "opponents": [
+        "elizabeth1"
+      ]
+    },
+    {
+      "id": "4fda63c0-c1e3-417d-b6ce-d3fcd7339cce",
+      "url": "https://arena.battlesnake.com/games/4fda63c0-c1e3-417d-b6ce-d3fcd7339cce",
+      "createdAt": "2026-11-21T19:34:00+00:00",
+      "timeMoscow": "21.11 · 22:34",
+      "mode": "Standard",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth1",
+      "afterRelease": true,
+      "turns": 295,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "8981e6d1-fbd1-4e30-84f0-975cb6e9e77a",
+        "Turn": 220
+      },
+      "length": 10,
+      "health": 88,
+      "opponents": [
+        "RootCode",
+        "elizabeth1",
+        "Kakemonsteret-v2"
+      ]
+    },
+    {
+      "id": "d826f87f-d8af-4de2-95dc-4dcdf2a88d78",
+      "url": "https://arena.battlesnake.com/games/d826f87f-d8af-4de2-95dc-4dcdf2a88d78",
+      "createdAt": "2026-11-21T19:20:00+00:00",
+      "timeMoscow": "21.11 · 22:20",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Typhon",
+      "afterRelease": true,
+      "turns": 36,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "e586a02d-d593-4280-9ca9-31d1a3013397",
+        "Turn": 22
+      },
+      "length": 24,
+      "health": 100,
+      "opponents": [
+        "Typhon",
+        "tonfabot",
+        "Kakemonsteret-v2"
+      ]
+    },
+    {
+      "id": "15f79a7d-fdb0-4524-af50-26e7d8e94470",
+      "url": "https://arena.battlesnake.com/games/15f79a7d-fdb0-4524-af50-26e7d8e94470",
+      "createdAt": "2026-11-21T19:20:00+00:00",
+      "timeMoscow": "21.11 · 22:20",
+      "mode": "Royale",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Hill Serpent",
+      "afterRelease": true,
+      "turns": 233,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "12acb767-bf78-42d2-bd3d-3684a4e2322f",
+        "Turn": 233
+      },
+      "length": 11,
+      "health": 9,
+      "opponents": [
+        "Hill Serpent",
+        "Kakemonsteret-v2",
+        "SmartyRat"
+      ]
+    },
+    {
+      "id": "8c997fee-c1f8-44e5-ba59-00423f51e64f",
+      "url": "https://arena.battlesnake.com/games/8c997fee-c1f8-44e5-ba59-00423f51e64f",
+      "createdAt": "2026-11-21T19:20:00+00:00",
+      "timeMoscow": "21.11 · 22:20",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "SmartyRat",
+      "afterRelease": true,
+      "turns": 545,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "8c5ff57c-516a-42af-88ad-35979f4a1a28",
+        "Turn": 545
+      },
+      "length": 44,
+      "health": 92,
+      "opponents": [
+        "SmartyRat"
+      ]
+    },
+    {
+      "id": "bbc8c9ec-4820-4c49-9b4c-e12c275ee8e1",
+      "url": "https://arena.battlesnake.com/games/bbc8c9ec-4820-4c49-9b4c-e12c275ee8e1",
+      "createdAt": "2026-11-21T19:19:00+00:00",
+      "timeMoscow": "21.11 · 22:19",
+      "mode": "Standard",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "RootCode",
+      "afterRelease": true,
+      "turns": 239,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "b8b27db6-a1ec-4c73-a819-42138cfbab12",
+        "Turn": 20
+      },
+      "length": 5,
+      "health": 98,
+      "opponents": [
+        "Freaky Francis",
+        "RootCode",
+        "ActionHero"
+      ]
+    },
+    {
+      "id": "04436d74-9447-47ab-aadf-48d6bfdce855",
+      "url": "https://arena.battlesnake.com/games/04436d74-9447-47ab-aadf-48d6bfdce855",
+      "createdAt": "2026-11-21T19:06:00+00:00",
+      "timeMoscow": "21.11 · 22:06",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": true,
+      "turns": 54,
+      "death": {
+        "Cause": "snake-collision",
+        "EliminatedBy": "37ad4959-d77c-4980-8970-de416023c549",
+        "Turn": 54
+      },
+      "length": 56,
+      "health": 100,
+      "opponents": [
+        "Cache Me Outside",
+        "tonfabot",
+        "Typhon"
+      ]
+    },
+    {
+      "id": "c2b2f5cb-47ee-4052-9964-2be0b609f0ff",
+      "url": "https://arena.battlesnake.com/games/c2b2f5cb-47ee-4052-9964-2be0b609f0ff",
+      "createdAt": "2026-11-21T19:05:00+00:00",
+      "timeMoscow": "21.11 · 22:05",
+      "mode": "Royale",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "Hill Serpent",
+      "afterRelease": true,
+      "turns": 188,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "3a1ae359-3d00-48cd-a3ce-a84d141588f8",
+        "Turn": 72
+      },
+      "length": 9,
+      "health": 99,
+      "opponents": [
+        "Cache Me Outside",
+        "elizabeth1",
+        "Hill Serpent"
+      ]
+    },
+    {
+      "id": "07c0a271-868e-4642-8894-051ab6217bc1",
+      "url": "https://arena.battlesnake.com/games/07c0a271-868e-4642-8894-051ab6217bc1",
+      "createdAt": "2026-11-21T19:05:00+00:00",
+      "timeMoscow": "21.11 · 22:05",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth2",
+      "afterRelease": true,
+      "turns": 322,
+      "death": {
+        "Cause": "wall-collision",
+        "EliminatedBy": "",
+        "Turn": 322
+      },
+      "length": 24,
+      "health": 92,
+      "opponents": [
+        "elizabeth2"
+      ]
+    },
+    {
+      "id": "9dee2e17-aae1-43ed-95dc-ccb66fabadfd",
+      "url": "https://arena.battlesnake.com/games/9dee2e17-aae1-43ed-95dc-ccb66fabadfd",
+      "createdAt": "2026-11-21T19:05:00+00:00",
+      "timeMoscow": "21.11 · 22:05",
+      "mode": "Standard",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth2",
+      "afterRelease": true,
+      "turns": 455,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "be88eaad-0cbe-4d4f-ae7d-6d03081c21ce",
+        "Turn": 455
+      },
+      "length": 29,
+      "health": 92,
+      "opponents": [
+        "Hill Serpent",
+        "elizabeth2",
+        "ActionHero"
+      ]
+    },
+    {
+      "id": "4f97ba10-66c5-4ef4-bb51-b13c86a817cd",
+      "url": "https://arena.battlesnake.com/games/4f97ba10-66c5-4ef4-bb51-b13c86a817cd",
+      "createdAt": "2026-11-21T18:51:00+00:00",
+      "timeMoscow": "21.11 · 21:51",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Moses' Staff",
+      "afterRelease": true,
+      "turns": 25,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "f93c1024-1920-4120-97ab-b3e739b0e7ee",
+        "Turn": 12
+      },
+      "length": 14,
+      "health": 100,
+      "opponents": [
+        "Moses' Staff",
+        "Guido",
+        "Hovering Hobbs"
+      ]
+    },
+    {
+      "id": "eb8c97d6-a396-414c-85ab-e3382524f6ec",
+      "url": "https://arena.battlesnake.com/games/eb8c97d6-a396-414c-85ab-e3382524f6ec",
+      "createdAt": "2026-11-21T18:51:00+00:00",
+      "timeMoscow": "21.11 · 21:51",
+      "mode": "Royale",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Hill Serpent",
+      "afterRelease": true,
+      "turns": 191,
+      "death": {
+        "Cause": "snake-collision",
+        "EliminatedBy": "c73b928d-ce5c-4942-b5c0-fea04e1ef10c",
+        "Turn": 191
+      },
+      "length": 13,
+      "health": 91,
+      "opponents": [
+        "Kakemonsteret-v2",
+        "Hill Serpent",
+        "RootCode"
+      ]
+    },
+    {
+      "id": "25faa0e4-b9d3-4c06-86f0-a15df0515eb2",
+      "url": "https://arena.battlesnake.com/games/25faa0e4-b9d3-4c06-86f0-a15df0515eb2",
+      "createdAt": "2026-11-21T18:51:00+00:00",
+      "timeMoscow": "21.11 · 21:51",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Python Python",
+      "afterRelease": true,
+      "turns": 563,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "8d5fe32c-3d32-40fb-8a29-a1d655efb8f5",
+        "Turn": 563
+      },
+      "length": 40,
+      "health": 97,
+      "opponents": [
+        "Python Python"
+      ]
+    },
+    {
+      "id": "9dfdac8f-d080-4ab5-b763-c84bc866ebd6",
+      "url": "https://arena.battlesnake.com/games/9dfdac8f-d080-4ab5-b763-c84bc866ebd6",
+      "createdAt": "2026-11-21T18:51:00+00:00",
+      "timeMoscow": "21.11 · 21:51",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 262,
+      "death": null,
+      "length": 21,
+      "health": 87,
+      "opponents": [
+        "Kakemonsteret-v2",
+        "Typhon",
+        "ActionHero"
+      ]
+    },
+    {
+      "id": "3861f76f-ca18-4319-9308-164d4c34fba7",
+      "url": "https://arena.battlesnake.com/games/3861f76f-ca18-4319-9308-164d4c34fba7",
+      "createdAt": "2026-11-21T18:37:00+00:00",
+      "timeMoscow": "21.11 · 21:37",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 36,
+      "death": null,
+      "length": 38,
+      "health": 100,
+      "opponents": [
+        "Felersnake",
+        "BoozleBot",
+        "Kakemonsteret-v2"
+      ]
+    },
+    {
+      "id": "117e4c84-941a-4de0-b3c1-e070999189b1",
+      "url": "https://arena.battlesnake.com/games/117e4c84-941a-4de0-b3c1-e070999189b1",
+      "createdAt": "2026-11-21T18:37:00+00:00",
+      "timeMoscow": "21.11 · 21:37",
+      "mode": "Royale",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 226,
+      "death": null,
+      "length": 16,
+      "health": 78,
+      "opponents": [
+        "Vorago",
+        "Olej1 Royale",
+        "go-st"
+      ]
+    },
+    {
+      "id": "43d95a9f-8463-41ea-8e76-29c0934100cb",
+      "url": "https://arena.battlesnake.com/games/43d95a9f-8463-41ea-8e76-29c0934100cb",
+      "createdAt": "2026-11-21T18:36:00+00:00",
+      "timeMoscow": "21.11 · 21:36",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth1",
+      "afterRelease": true,
+      "turns": 214,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "e951c5e6-9c9c-4490-b3d3-ee2aebb0a542",
+        "Turn": 214
+      },
+      "length": 18,
+      "health": 88,
+      "opponents": [
+        "elizabeth1"
+      ]
+    },
+    {
+      "id": "832815e2-4f6e-4e1a-85df-194dcb00e59a",
+      "url": "https://arena.battlesnake.com/games/832815e2-4f6e-4e1a-85df-194dcb00e59a",
+      "createdAt": "2026-11-21T18:36:00+00:00",
+      "timeMoscow": "21.11 · 21:36",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": true,
+      "turns": 305,
+      "death": null,
+      "length": 21,
+      "health": 88,
+      "opponents": [
+        "Typhon",
+        "RootCode",
+        "Ferret Frenzy Pythonizer"
+      ]
+    },
+    {
+      "id": "6612f346-1ec3-4b68-a620-42aef4fbfc52",
+      "url": "https://arena.battlesnake.com/games/6612f346-1ec3-4b68-a620-42aef4fbfc52",
+      "createdAt": "2026-11-21T18:22:00+00:00",
+      "timeMoscow": "21.11 · 21:22",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 41,
+      "death": null,
+      "length": 43,
+      "health": 100,
+      "opponents": [
+        "Hovering Hobbs",
+        "BoozleBot",
+        "Chompy"
+      ]
+    },
+    {
+      "id": "a5fe3534-4e7f-476e-aebb-e4fc2bd712ce",
+      "url": "https://arena.battlesnake.com/games/a5fe3534-4e7f-476e-aebb-e4fc2bd712ce",
+      "createdAt": "2026-11-21T18:22:00+00:00",
+      "timeMoscow": "21.11 · 21:22",
+      "mode": "Royale",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "SmartyRat",
+      "afterRelease": false,
+      "turns": 175,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "8b67fa4d-2d56-4fc2-b56e-8f8cbaff611e",
+        "Turn": 81
+      },
+      "length": 5,
+      "health": 7,
+      "opponents": [
+        "hive-royale",
+        "Hill Serpent",
+        "SmartyRat"
+      ]
+    },
+    {
+      "id": "f03884d3-c7a5-4cba-a422-bcf9703d5b07",
+      "url": "https://arena.battlesnake.com/games/f03884d3-c7a5-4cba-a422-bcf9703d5b07",
+      "createdAt": "2026-11-21T18:22:00+00:00",
+      "timeMoscow": "21.11 · 21:22",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 480,
+      "death": null,
+      "length": 38,
+      "health": 90,
+      "opponents": [
+        "SmartyRat"
+      ]
+    },
+    {
+      "id": "a998ffe2-6b14-4aac-856c-07fa08463c1c",
+      "url": "https://arena.battlesnake.com/games/a998ffe2-6b14-4aac-856c-07fa08463c1c",
+      "createdAt": "2026-11-21T18:22:00+00:00",
+      "timeMoscow": "21.11 · 21:22",
+      "mode": "Standard",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "SmartyRat",
+      "afterRelease": false,
+      "turns": 393,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "3f838ec1-bb47-4dd3-8672-b9e7f3b06bbc",
+        "Turn": 393
+      },
+      "length": 27,
+      "health": 93,
+      "opponents": [
+        "RootCode",
+        "SmartyRat",
+        "Vorago"
+      ]
+    },
+    {
+      "id": "1f2d7ca6-a367-411e-bdba-e5de4bec323b",
+      "url": "https://arena.battlesnake.com/games/1f2d7ca6-a367-411e-bdba-e5de4bec323b",
+      "createdAt": "2026-11-21T18:08:00+00:00",
+      "timeMoscow": "21.11 · 21:08",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": false,
+      "turns": 48,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "01a8002c-4e59-45c2-83a2-feaf3c789ee9",
+        "Turn": 25
+      },
+      "length": 27,
+      "health": 100,
+      "opponents": [
+        "Hovering Hobbs",
+        "Cache Me Outside",
+        "Moses' Staff"
+      ]
+    },
+    {
+      "id": "e70fa5d7-aa15-4a53-8fcd-3e6e96e881ad",
+      "url": "https://arena.battlesnake.com/games/e70fa5d7-aa15-4a53-8fcd-3e6e96e881ad",
+      "createdAt": "2026-11-21T18:08:00+00:00",
+      "timeMoscow": "21.11 · 21:08",
+      "mode": "Royale",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "SmartyRat",
+      "afterRelease": false,
+      "turns": 295,
+      "death": {
+        "Cause": "out-of-health",
+        "EliminatedBy": "",
+        "Turn": 101
+      },
+      "length": 7,
+      "health": 0,
+      "opponents": [
+        "go-st",
+        "SmartyRat",
+        "🐭 Muad'Dib"
+      ]
+    },
+    {
+      "id": "f95d056e-fda2-4e57-a3e9-5b905c1e631f",
+      "url": "https://arena.battlesnake.com/games/f95d056e-fda2-4e57-a3e9-5b905c1e631f",
+      "createdAt": "2026-11-21T18:08:00+00:00",
+      "timeMoscow": "21.11 · 21:08",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 307,
+      "death": null,
+      "length": 28,
+      "health": 95,
+      "opponents": [
+        "elizabeth2"
+      ]
+    },
+    {
+      "id": "bdefb67b-7d1d-4db9-9ad8-34b5e2e03cac",
+      "url": "https://arena.battlesnake.com/games/bdefb67b-7d1d-4db9-9ad8-34b5e2e03cac",
+      "createdAt": "2026-11-21T18:07:00+00:00",
+      "timeMoscow": "21.11 · 21:07",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 194,
+      "death": null,
+      "length": 18,
+      "health": 67,
+      "opponents": [
+        "Kakemonsteret-v2",
+        "SmartyRat",
+        "RootCode"
+      ]
+    },
+    {
+      "id": "95b059ef-3f7b-4c5d-893a-4a4ef882d55e",
+      "url": "https://arena.battlesnake.com/games/95b059ef-3f7b-4c5d-893a-4a4ef882d55e",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Typhon",
+      "afterRelease": false,
+      "turns": 38,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "9061da56-723c-4f78-847c-eeecc07be4d5",
+        "Turn": 38
+      },
+      "length": 40,
+      "health": 100,
+      "opponents": [
+        "Typhon",
+        "tonfabot",
+        "Cache Me Outside"
+      ]
+    },
+    {
+      "id": "8940e123-4a83-47b5-b953-46a99d0be334",
+      "url": "https://arena.battlesnake.com/games/8940e123-4a83-47b5-b953-46a99d0be334",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "No winner",
+      "afterRelease": false,
+      "turns": 57,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "19f5ba5b-432e-41b2-a71b-8cfb993ce5dc",
+        "Turn": 22
+      },
+      "length": 24,
+      "health": 100,
+      "opponents": [
+        "BoozleBot",
+        "Moses' Staff",
+        "Guido"
+      ]
+    },
+    {
+      "id": "2c51275b-e15a-423b-8c73-761eb1d6cab2",
+      "url": "https://arena.battlesnake.com/games/2c51275b-e15a-423b-8c73-761eb1d6cab2",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "mode": "Royale",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "Hill Serpent",
+      "afterRelease": false,
+      "turns": 231,
+      "death": {
+        "Cause": "hazard",
+        "EliminatedBy": "",
+        "Turn": 113
+      },
+      "length": 7,
+      "health": 0,
+      "opponents": [
+        "RootCode",
+        "Vorago",
+        "Hill Serpent"
+      ]
+    },
+    {
+      "id": "3ab0b8a2-7990-45a1-abd8-ad449ff36e72",
+      "url": "https://arena.battlesnake.com/games/3ab0b8a2-7990-45a1-abd8-ad449ff36e72",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Typhon",
+      "afterRelease": false,
+      "turns": 336,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "81493b5d-6d29-4274-9078-b842195ff1b4",
+        "Turn": 336
+      },
+      "length": 26,
+      "health": 85,
+      "opponents": [
+        "Typhon"
+      ]
+    },
+    {
+      "id": "c4de29a5-7422-4fbc-8a2b-876555c4ca2f",
+      "url": "https://arena.battlesnake.com/games/c4de29a5-7422-4fbc-8a2b-876555c4ca2f",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "mode": "Standard",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "SmartyRat",
+      "afterRelease": false,
+      "turns": 282,
+      "death": {
+        "Cause": "head-collision",
+        "EliminatedBy": "ac554423-380a-4f84-89b9-664425d01fee",
+        "Turn": 175
+      },
+      "length": 8,
+      "health": 10,
+      "opponents": [
+        "Hill Serpent",
+        "SmartyRat",
+        "ActionHero"
+      ]
+    },
+    {
+      "id": "3734587a-3347-46a4-8d7f-3da43d561baa",
+      "url": "https://arena.battlesnake.com/games/3734587a-3347-46a4-8d7f-3da43d561baa",
+      "createdAt": "2026-11-21T17:39:00+00:00",
+      "timeMoscow": "21.11 · 20:39",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 29,
+      "death": null,
+      "length": 31,
+      "health": 100,
+      "opponents": [
+        "tonfabot",
+        "Hovering Hobbs",
+        "Kakemonsteret-v2"
+      ]
+    },
+    {
+      "id": "cd0cffc4-f71f-4928-9ad7-7f489e00f203",
+      "url": "https://arena.battlesnake.com/games/cd0cffc4-f71f-4928-9ad7-7f489e00f203",
+      "createdAt": "2026-11-21T17:39:00+00:00",
+      "timeMoscow": "21.11 · 20:39",
+      "mode": "Royale",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "hive-royale",
+      "afterRelease": false,
+      "turns": 221,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "8b8a6c6b-7755-4db8-896f-18dc42c31de0",
+        "Turn": 171
+      },
+      "length": 7,
+      "health": 25,
+      "opponents": [
+        "hive-royale",
+        "RootCode",
+        "go-st"
+      ]
+    },
+    {
+      "id": "967cd814-ec55-4eb3-b5f9-006bd50b6bda",
+      "url": "https://arena.battlesnake.com/games/967cd814-ec55-4eb3-b5f9-006bd50b6bda",
+      "createdAt": "2026-11-21T17:39:00+00:00",
+      "timeMoscow": "21.11 · 20:39",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 257,
+      "death": null,
+      "length": 22,
+      "health": 100,
+      "opponents": [
+        "go-st"
+      ]
+    },
+    {
+      "id": "96544eea-d213-4e4c-be5f-85fc2be73209",
+      "url": "https://arena.battlesnake.com/games/96544eea-d213-4e4c-be5f-85fc2be73209",
+      "createdAt": "2026-11-21T17:38:00+00:00",
+      "timeMoscow": "21.11 · 20:38",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 405,
+      "death": null,
+      "length": 30,
+      "health": 100,
+      "opponents": [
+        "Freaky Francis",
+        "Ferret Frenzy Pythonizer",
+        "Tester"
+      ]
+    },
+    {
+      "id": "2d1f6235-4d04-4df0-abe3-2e3dc0ace184",
+      "url": "https://arena.battlesnake.com/games/2d1f6235-4d04-4df0-abe3-2e3dc0ace184",
+      "createdAt": "2026-11-21T17:25:00+00:00",
+      "timeMoscow": "21.11 · 20:25",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": false
+    },
+    {
+      "id": "45f55b1c-7e20-4734-83f6-a1fac9030e1d",
+      "url": "https://arena.battlesnake.com/games/45f55b1c-7e20-4734-83f6-a1fac9030e1d",
+      "createdAt": "2026-11-21T17:24:00+00:00",
+      "timeMoscow": "21.11 · 20:24",
+      "mode": "Royale",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": false
+    },
+    {
+      "id": "499a9002-3f24-4e4e-8c73-770c64ecd670",
+      "url": "https://arena.battlesnake.com/games/499a9002-3f24-4e4e-8c73-770c64ecd670",
+      "createdAt": "2026-11-21T17:24:00+00:00",
+      "timeMoscow": "21.11 · 20:24",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth2",
+      "afterRelease": false
+    },
+    {
+      "id": "431adb99-0c2b-46a1-8eee-c485a5e5f9d5",
+      "url": "https://arena.battlesnake.com/games/431adb99-0c2b-46a1-8eee-c485a5e5f9d5",
+      "createdAt": "2026-11-21T17:24:00+00:00",
+      "timeMoscow": "21.11 · 20:24",
+      "mode": "Standard",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "ActionHero",
+      "afterRelease": false
+    },
+    {
+      "id": "6121a214-0914-4be2-89af-114da09a66f3",
+      "url": "https://arena.battlesnake.com/games/6121a214-0914-4be2-89af-114da09a66f3",
+      "createdAt": "2026-11-21T17:10:00+00:00",
+      "timeMoscow": "21.11 · 20:10",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Moses' Staff",
+      "afterRelease": false
+    },
+    {
+      "id": "2b761e7b-c7d4-4520-bf48-c04ebf5234a5",
+      "url": "https://arena.battlesnake.com/games/2b761e7b-c7d4-4520-bf48-c04ebf5234a5",
+      "createdAt": "2026-11-21T17:10:00+00:00",
+      "timeMoscow": "21.11 · 20:10",
+      "mode": "Royale",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "Vorago",
+      "afterRelease": false
+    },
+    {
+      "id": "508d283e-f49f-44ac-8333-1709bea383fe",
+      "url": "https://arena.battlesnake.com/games/508d283e-f49f-44ac-8333-1709bea383fe",
+      "createdAt": "2026-11-21T17:10:00+00:00",
+      "timeMoscow": "21.11 · 20:10",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "89851d48-facc-4b1c-b34d-0302b4bde0d1",
+      "url": "https://arena.battlesnake.com/games/89851d48-facc-4b1c-b34d-0302b4bde0d1",
+      "createdAt": "2026-11-21T17:10:00+00:00",
+      "timeMoscow": "21.11 · 20:10",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "ad273a5a-2572-4447-a097-5cd333c2b83e",
+      "url": "https://arena.battlesnake.com/games/ad273a5a-2572-4447-a097-5cd333c2b83e",
+      "createdAt": "2026-11-21T16:56:00+00:00",
+      "timeMoscow": "21.11 · 19:56",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": false
+    },
+    {
+      "id": "d49945ec-afbd-463c-9e0c-e30660c3099d",
+      "url": "https://arena.battlesnake.com/games/d49945ec-afbd-463c-9e0c-e30660c3099d",
+      "createdAt": "2026-11-21T16:56:00+00:00",
+      "timeMoscow": "21.11 · 19:56",
+      "mode": "Royale",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Freaky Francis",
+      "afterRelease": false
+    },
+    {
+      "id": "19b458a7-a4cb-40c9-846a-933729d0523a",
+      "url": "https://arena.battlesnake.com/games/19b458a7-a4cb-40c9-846a-933729d0523a",
+      "createdAt": "2026-11-21T16:55:00+00:00",
+      "timeMoscow": "21.11 · 19:55",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "cd23e44b-6fea-4697-b0ad-1b6547c53a0f",
+      "url": "https://arena.battlesnake.com/games/cd23e44b-6fea-4697-b0ad-1b6547c53a0f",
+      "createdAt": "2026-11-21T16:55:00+00:00",
+      "timeMoscow": "21.11 · 19:55",
+      "mode": "Standard",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "4fcf2a63-e9b3-496f-90de-2197c79fd008",
+      "url": "https://arena.battlesnake.com/games/4fcf2a63-e9b3-496f-90de-2197c79fd008",
+      "createdAt": "2026-11-21T16:41:00+00:00",
+      "timeMoscow": "21.11 · 19:41",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "tonfabot",
+      "afterRelease": false
+    },
+    {
+      "id": "e71e0ac1-7b46-4911-b9f9-8094b44f7947",
+      "url": "https://arena.battlesnake.com/games/e71e0ac1-7b46-4911-b9f9-8094b44f7947",
+      "createdAt": "2026-11-21T16:41:00+00:00",
+      "timeMoscow": "21.11 · 19:41",
+      "mode": "Royale",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Freaky Francis",
+      "afterRelease": false
+    },
+    {
+      "id": "b468918a-e59d-400d-a71c-32fbe25a52ac",
+      "url": "https://arena.battlesnake.com/games/b468918a-e59d-400d-a71c-32fbe25a52ac",
+      "createdAt": "2026-11-21T16:41:00+00:00",
+      "timeMoscow": "21.11 · 19:41",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth2",
+      "afterRelease": false
+    },
+    {
+      "id": "0b1f9fa3-48b0-4db6-a5df-dfb9bce5bf54",
+      "url": "https://arena.battlesnake.com/games/0b1f9fa3-48b0-4db6-a5df-dfb9bce5bf54",
+      "createdAt": "2026-11-21T16:41:00+00:00",
+      "timeMoscow": "21.11 · 19:41",
+      "mode": "Standard",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "ab0c1de5-77c8-486f-b1a2-1e7d681d9d5e",
+      "url": "https://arena.battlesnake.com/games/ab0c1de5-77c8-486f-b1a2-1e7d681d9d5e",
+      "createdAt": "2026-11-21T16:27:00+00:00",
+      "timeMoscow": "21.11 · 19:27",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "Vorago",
+      "afterRelease": false
+    },
+    {
+      "id": "a1265ee8-44e9-41f7-bf57-b9f93f507fe7",
+      "url": "https://arena.battlesnake.com/games/a1265ee8-44e9-41f7-bf57-b9f93f507fe7",
+      "createdAt": "2026-11-21T16:27:00+00:00",
+      "timeMoscow": "21.11 · 19:27",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "7108d2bf-b18c-44f7-ae7b-099fd93c1a29",
+      "url": "https://arena.battlesnake.com/games/7108d2bf-b18c-44f7-ae7b-099fd93c1a29",
+      "createdAt": "2026-11-21T16:27:00+00:00",
+      "timeMoscow": "21.11 · 19:27",
+      "mode": "Royale",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Vorago",
+      "afterRelease": false
+    },
+    {
+      "id": "73035528-07dc-4dda-8051-5ab85ccb5b4e",
+      "url": "https://arena.battlesnake.com/games/73035528-07dc-4dda-8051-5ab85ccb5b4e",
+      "createdAt": "2026-11-21T16:26:00+00:00",
+      "timeMoscow": "21.11 · 19:26",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth2",
+      "afterRelease": false
+    },
+    {
+      "id": "8731e810-30a0-4929-bde2-5643f0e416e3",
+      "url": "https://arena.battlesnake.com/games/8731e810-30a0-4929-bde2-5643f0e416e3",
+      "createdAt": "2026-11-21T16:26:00+00:00",
+      "timeMoscow": "21.11 · 19:26",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "4e2a3914-ecf2-422f-ac69-65fb793328f7",
+      "url": "https://arena.battlesnake.com/games/4e2a3914-ecf2-422f-ac69-65fb793328f7",
+      "createdAt": "2026-11-21T16:12:00+00:00",
+      "timeMoscow": "21.11 · 19:12",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": false
+    },
+    {
+      "id": "43f90fb2-f6c2-45e8-989c-3f296d66e68b",
+      "url": "https://arena.battlesnake.com/games/43f90fb2-f6c2-45e8-989c-3f296d66e68b",
+      "createdAt": "2026-11-21T16:12:00+00:00",
+      "timeMoscow": "21.11 · 19:12",
+      "mode": "Royale",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "6cc1cf82-99bb-478e-a46f-d25ed75a25a0",
+      "url": "https://arena.battlesnake.com/games/6cc1cf82-99bb-478e-a46f-d25ed75a25a0",
+      "createdAt": "2026-11-21T16:12:00+00:00",
+      "timeMoscow": "21.11 · 19:12",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "1b93e768-a11e-44b0-972b-06ff6a23cca1",
+      "url": "https://arena.battlesnake.com/games/1b93e768-a11e-44b0-972b-06ff6a23cca1",
+      "createdAt": "2026-11-21T16:12:00+00:00",
+      "timeMoscow": "21.11 · 19:12",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "e6e06a97-f2a7-438b-b4fc-e0dbe3939f16",
+      "url": "https://arena.battlesnake.com/games/e6e06a97-f2a7-438b-b4fc-e0dbe3939f16",
+      "createdAt": "2026-11-21T15:58:00+00:00",
+      "timeMoscow": "21.11 · 18:58",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Chompy",
+      "afterRelease": false
+    },
+    {
+      "id": "bd617fd4-467c-4467-b871-e62b4041cbd4",
+      "url": "https://arena.battlesnake.com/games/bd617fd4-467c-4467-b871-e62b4041cbd4",
+      "createdAt": "2026-11-21T15:58:00+00:00",
+      "timeMoscow": "21.11 · 18:58",
+      "mode": "Royale",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "ff9dbded-742b-4b56-832a-b39c3c0c26b3",
+      "url": "https://arena.battlesnake.com/games/ff9dbded-742b-4b56-832a-b39c3c0c26b3",
+      "createdAt": "2026-11-21T15:58:00+00:00",
+      "timeMoscow": "21.11 · 18:58",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "5511b9fe-3349-442d-a55e-a880d1944cc4",
+      "url": "https://arena.battlesnake.com/games/5511b9fe-3349-442d-a55e-a880d1944cc4",
+      "createdAt": "2026-11-21T15:57:00+00:00",
+      "timeMoscow": "21.11 · 18:57",
+      "mode": "Standard",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth1",
+      "afterRelease": false
+    },
+    {
+      "id": "2bcf8c17-3fca-43cb-9ba6-36b1534bc698",
+      "url": "https://arena.battlesnake.com/games/2bcf8c17-3fca-43cb-9ba6-36b1534bc698",
+      "createdAt": "2026-11-21T15:44:00+00:00",
+      "timeMoscow": "21.11 · 18:44",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "e78a8d5b-0456-4a2e-9b08-a0d39e1f379d",
+      "url": "https://arena.battlesnake.com/games/e78a8d5b-0456-4a2e-9b08-a0d39e1f379d",
+      "createdAt": "2026-11-21T15:44:00+00:00",
+      "timeMoscow": "21.11 · 18:44",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "Hovering Hobbs",
+      "afterRelease": false
+    },
+    {
+      "id": "07b2a037-bb42-4711-bf93-ddd0c97cb2c4",
+      "url": "https://arena.battlesnake.com/games/07b2a037-bb42-4711-bf93-ddd0c97cb2c4",
+      "createdAt": "2026-11-21T15:43:00+00:00",
+      "timeMoscow": "21.11 · 18:43",
+      "mode": "Royale",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "2dbaa103-735a-414c-8c80-4bbaaf5e9d78",
+      "url": "https://arena.battlesnake.com/games/2dbaa103-735a-414c-8c80-4bbaaf5e9d78",
+      "createdAt": "2026-11-21T15:43:00+00:00",
+      "timeMoscow": "21.11 · 18:43",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "554edc16-11cb-4be2-bee8-c985c6f48edd",
+      "url": "https://arena.battlesnake.com/games/554edc16-11cb-4be2-bee8-c985c6f48edd",
+      "createdAt": "2026-11-21T15:43:00+00:00",
+      "timeMoscow": "21.11 · 18:43",
+      "mode": "Standard",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Vorago",
+      "afterRelease": false
+    },
+    {
+      "id": "b54c7ed1-032c-4cbf-aa31-8fa3dc6acc41",
+      "url": "https://arena.battlesnake.com/games/b54c7ed1-032c-4cbf-aa31-8fa3dc6acc41",
+      "createdAt": "2026-11-21T15:29:00+00:00",
+      "timeMoscow": "21.11 · 18:29",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": false
+    },
+    {
+      "id": "a186d7d7-aaf0-47ba-b97d-f9e4f28fcb52",
+      "url": "https://arena.battlesnake.com/games/a186d7d7-aaf0-47ba-b97d-f9e4f28fcb52",
+      "createdAt": "2026-11-21T15:29:00+00:00",
+      "timeMoscow": "21.11 · 18:29",
+      "mode": "Royale",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth2",
+      "afterRelease": false
+    },
+    {
+      "id": "42eae3ec-d16b-4d35-9782-bee8b55043f1",
+      "url": "https://arena.battlesnake.com/games/42eae3ec-d16b-4d35-9782-bee8b55043f1",
+      "createdAt": "2026-11-21T15:29:00+00:00",
+      "timeMoscow": "21.11 · 18:29",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "b6721308-3046-43ad-a518-c815ea2bfbea",
+      "url": "https://arena.battlesnake.com/games/b6721308-3046-43ad-a518-c815ea2bfbea",
+      "createdAt": "2026-11-21T15:29:00+00:00",
+      "timeMoscow": "21.11 · 18:29",
+      "mode": "Standard",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "SmartyRat",
+      "afterRelease": false
+    },
+    {
+      "id": "5b841f88-a2a5-4f41-a62f-7398858ef755",
+      "url": "https://arena.battlesnake.com/games/5b841f88-a2a5-4f41-a62f-7398858ef755",
+      "createdAt": "2026-11-21T15:15:00+00:00",
+      "timeMoscow": "21.11 · 18:15",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Cache Me Outside",
+      "afterRelease": false
+    },
+    {
+      "id": "fc1840a6-a66b-4181-82bb-dd58966488e0",
+      "url": "https://arena.battlesnake.com/games/fc1840a6-a66b-4181-82bb-dd58966488e0",
+      "createdAt": "2026-11-21T15:15:00+00:00",
+      "timeMoscow": "21.11 · 18:15",
+      "mode": "Royale",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "Freaky Francis",
+      "afterRelease": false
+    },
+    {
+      "id": "7d4efdf1-0a9f-4efc-a37c-37adf1f62835",
+      "url": "https://arena.battlesnake.com/games/7d4efdf1-0a9f-4efc-a37c-37adf1f62835",
+      "createdAt": "2026-11-21T15:14:00+00:00",
+      "timeMoscow": "21.11 · 18:14",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "2e283569-74f0-4510-b567-04e7cb1d27cd",
+      "url": "https://arena.battlesnake.com/games/2e283569-74f0-4510-b567-04e7cb1d27cd",
+      "createdAt": "2026-11-21T15:14:00+00:00",
+      "timeMoscow": "21.11 · 18:14",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "cdd3de52-1997-48d6-9640-de909d878ca0",
+      "url": "https://arena.battlesnake.com/games/cdd3de52-1997-48d6-9640-de909d878ca0",
+      "createdAt": "2026-11-21T15:00:00+00:00",
+      "timeMoscow": "21.11 · 18:00",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Moses' Staff",
+      "afterRelease": false
+    },
+    {
+      "id": "0e46eff6-d25a-4e0a-81ef-5e1dda908280",
+      "url": "https://arena.battlesnake.com/games/0e46eff6-d25a-4e0a-81ef-5e1dda908280",
+      "createdAt": "2026-11-21T15:00:00+00:00",
+      "timeMoscow": "21.11 · 18:00",
+      "mode": "Royale",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "ad823ec2-52f8-432b-bcb6-3ac51ffff33f",
+      "url": "https://arena.battlesnake.com/games/ad823ec2-52f8-432b-bcb6-3ac51ffff33f",
+      "createdAt": "2026-11-21T15:00:00+00:00",
+      "timeMoscow": "21.11 · 18:00",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "cassiopeia",
+      "afterRelease": false
+    },
+    {
+      "id": "f8a8a879-142e-46ea-911a-9e87bb5eef53",
+      "url": "https://arena.battlesnake.com/games/f8a8a879-142e-46ea-911a-9e87bb5eef53",
+      "createdAt": "2026-11-21T15:00:00+00:00",
+      "timeMoscow": "21.11 · 18:00",
+      "mode": "Standard",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "elizabeth3",
+      "afterRelease": false
+    },
+    {
+      "id": "d7f67956-d7d7-4f98-a1ab-5c6037e979b4",
+      "url": "https://arena.battlesnake.com/games/d7f67956-d7d7-4f98-a1ab-5c6037e979b4",
+      "createdAt": "2026-11-21T14:46:00+00:00",
+      "timeMoscow": "21.11 · 17:46",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Kakemonsteret-v2",
+      "afterRelease": false
+    },
+    {
+      "id": "33e0e7c8-bd69-4f70-8187-d5937ca3ed9e",
+      "url": "https://arena.battlesnake.com/games/33e0e7c8-bd69-4f70-8187-d5937ca3ed9e",
+      "createdAt": "2026-11-21T14:46:00+00:00",
+      "timeMoscow": "21.11 · 17:46",
+      "mode": "Royale",
+      "players": 4,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "RootCode",
+      "afterRelease": false
+    },
+    {
+      "id": "2c5c3509-0355-4450-802b-9a57f4b418e1",
+      "url": "https://arena.battlesnake.com/games/2c5c3509-0355-4450-802b-9a57f4b418e1",
+      "createdAt": "2026-11-21T14:46:00+00:00",
+      "timeMoscow": "21.11 · 17:46",
+      "mode": "Duels",
+      "players": 2,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false
+    },
+    {
+      "id": "34e662e8-8cca-4121-a155-9e235f026c97",
+      "url": "https://arena.battlesnake.com/games/34e662e8-8cca-4121-a155-9e235f026c97",
+      "createdAt": "2026-11-21T14:45:00+00:00",
+      "timeMoscow": "21.11 · 17:45",
+      "mode": "Standard",
+      "players": 4,
+      "place": 3,
+      "draw": false,
+      "live": false,
+      "winner": "Hill Serpent",
+      "afterRelease": false
+    }
+  ],
+  "latency": [
+    {
+      "id": "499a9002-3f24-4e4e-8c73-770c64ecd670",
+      "url": "https://arena.battlesnake.com/games/499a9002-3f24-4e4e-8c73-770c64ecd670",
+      "createdAt": "2026-11-21T17:24:00+00:00",
+      "timeMoscow": "21.11 · 20:24",
+      "p50": 110,
+      "p95": 164,
+      "timeouts": 1,
+      "moves": 264
+    },
+    {
+      "id": "45f55b1c-7e20-4734-83f6-a1fac9030e1d",
+      "url": "https://arena.battlesnake.com/games/45f55b1c-7e20-4734-83f6-a1fac9030e1d",
+      "createdAt": "2026-11-21T17:24:00+00:00",
+      "timeMoscow": "21.11 · 20:24",
+      "p50": 96,
+      "p95": 206,
+      "timeouts": 0,
+      "moves": 153
+    },
+    {
+      "id": "2d1f6235-4d04-4df0-abe3-2e3dc0ace184",
+      "url": "https://arena.battlesnake.com/games/2d1f6235-4d04-4df0-abe3-2e3dc0ace184",
+      "createdAt": "2026-11-21T17:25:00+00:00",
+      "timeMoscow": "21.11 · 20:25",
+      "p50": 84,
+      "p95": 248,
+      "timeouts": 0,
+      "moves": 27
+    },
+    {
+      "id": "96544eea-d213-4e4c-be5f-85fc2be73209",
+      "url": "https://arena.battlesnake.com/games/96544eea-d213-4e4c-be5f-85fc2be73209",
+      "createdAt": "2026-11-21T17:38:00+00:00",
+      "timeMoscow": "21.11 · 20:38",
+      "p50": 83,
+      "p95": 140,
+      "timeouts": 1,
+      "moves": 405
+    },
+    {
+      "id": "967cd814-ec55-4eb3-b5f9-006bd50b6bda",
+      "url": "https://arena.battlesnake.com/games/967cd814-ec55-4eb3-b5f9-006bd50b6bda",
+      "createdAt": "2026-11-21T17:39:00+00:00",
+      "timeMoscow": "21.11 · 20:39",
+      "p50": 129,
+      "p95": 227,
+      "timeouts": 0,
+      "moves": 257
+    },
+    {
+      "id": "cd0cffc4-f71f-4928-9ad7-7f489e00f203",
+      "url": "https://arena.battlesnake.com/games/cd0cffc4-f71f-4928-9ad7-7f489e00f203",
+      "createdAt": "2026-11-21T17:39:00+00:00",
+      "timeMoscow": "21.11 · 20:39",
+      "p50": 99,
+      "p95": 160,
+      "timeouts": 0,
+      "moves": 171
+    },
+    {
+      "id": "3734587a-3347-46a4-8d7f-3da43d561baa",
+      "url": "https://arena.battlesnake.com/games/3734587a-3347-46a4-8d7f-3da43d561baa",
+      "createdAt": "2026-11-21T17:39:00+00:00",
+      "timeMoscow": "21.11 · 20:39",
+      "p50": 72,
+      "p95": 159,
+      "timeouts": 0,
+      "moves": 29
+    },
+    {
+      "id": "c4de29a5-7422-4fbc-8a2b-876555c4ca2f",
+      "url": "https://arena.battlesnake.com/games/c4de29a5-7422-4fbc-8a2b-876555c4ca2f",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "p50": 95,
+      "p95": 211,
+      "timeouts": 0,
+      "moves": 175
+    },
+    {
+      "id": "3ab0b8a2-7990-45a1-abd8-ad449ff36e72",
+      "url": "https://arena.battlesnake.com/games/3ab0b8a2-7990-45a1-abd8-ad449ff36e72",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "p50": 112,
+      "p95": 221,
+      "timeouts": 1,
+      "moves": 336
+    },
+    {
+      "id": "2c51275b-e15a-423b-8c73-761eb1d6cab2",
+      "url": "https://arena.battlesnake.com/games/2c51275b-e15a-423b-8c73-761eb1d6cab2",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "p50": 115,
+      "p95": 248,
+      "timeouts": 0,
+      "moves": 113
+    },
+    {
+      "id": "8940e123-4a83-47b5-b953-46a99d0be334",
+      "url": "https://arena.battlesnake.com/games/8940e123-4a83-47b5-b953-46a99d0be334",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "p50": 98,
+      "p95": 186,
+      "timeouts": 0,
+      "moves": 22
+    },
+    {
+      "id": "95b059ef-3f7b-4c5d-893a-4a4ef882d55e",
+      "url": "https://arena.battlesnake.com/games/95b059ef-3f7b-4c5d-893a-4a4ef882d55e",
+      "createdAt": "2026-11-21T17:53:00+00:00",
+      "timeMoscow": "21.11 · 20:53",
+      "p50": 79,
+      "p95": 227,
+      "timeouts": 0,
+      "moves": 38
+    },
+    {
+      "id": "bdefb67b-7d1d-4db9-9ad8-34b5e2e03cac",
+      "url": "https://arena.battlesnake.com/games/bdefb67b-7d1d-4db9-9ad8-34b5e2e03cac",
+      "createdAt": "2026-11-21T18:07:00+00:00",
+      "timeMoscow": "21.11 · 21:07",
+      "p50": 88,
+      "p95": 179,
+      "timeouts": 1,
+      "moves": 194
+    },
+    {
+      "id": "f95d056e-fda2-4e57-a3e9-5b905c1e631f",
+      "url": "https://arena.battlesnake.com/games/f95d056e-fda2-4e57-a3e9-5b905c1e631f",
+      "createdAt": "2026-11-21T18:08:00+00:00",
+      "timeMoscow": "21.11 · 21:08",
+      "p50": 94,
+      "p95": 164,
+      "timeouts": 1,
+      "moves": 307
+    },
+    {
+      "id": "e70fa5d7-aa15-4a53-8fcd-3e6e96e881ad",
+      "url": "https://arena.battlesnake.com/games/e70fa5d7-aa15-4a53-8fcd-3e6e96e881ad",
+      "createdAt": "2026-11-21T18:08:00+00:00",
+      "timeMoscow": "21.11 · 21:08",
+      "p50": 64,
+      "p95": 104,
+      "timeouts": 0,
+      "moves": 101
+    },
+    {
+      "id": "1f2d7ca6-a367-411e-bdba-e5de4bec323b",
+      "url": "https://arena.battlesnake.com/games/1f2d7ca6-a367-411e-bdba-e5de4bec323b",
+      "createdAt": "2026-11-21T18:08:00+00:00",
+      "timeMoscow": "21.11 · 21:08",
+      "p50": 85,
+      "p95": 175,
+      "timeouts": 0,
+      "moves": 25
+    },
+    {
+      "id": "a998ffe2-6b14-4aac-856c-07fa08463c1c",
+      "url": "https://arena.battlesnake.com/games/a998ffe2-6b14-4aac-856c-07fa08463c1c",
+      "createdAt": "2026-11-21T18:22:00+00:00",
+      "timeMoscow": "21.11 · 21:22",
+      "p50": 92,
+      "p95": 165,
+      "timeouts": 1,
+      "moves": 393
+    },
+    {
+      "id": "f03884d3-c7a5-4cba-a422-bcf9703d5b07",
+      "url": "https://arena.battlesnake.com/games/f03884d3-c7a5-4cba-a422-bcf9703d5b07",
+      "createdAt": "2026-11-21T18:22:00+00:00",
+      "timeMoscow": "21.11 · 21:22",
+      "p50": 132,
+      "p95": 243,
+      "timeouts": 1,
+      "moves": 480
+    },
+    {
+      "id": "a5fe3534-4e7f-476e-aebb-e4fc2bd712ce",
+      "url": "https://arena.battlesnake.com/games/a5fe3534-4e7f-476e-aebb-e4fc2bd712ce",
+      "createdAt": "2026-11-21T18:22:00+00:00",
+      "timeMoscow": "21.11 · 21:22",
+      "p50": 118,
+      "p95": 189,
+      "timeouts": 0,
+      "moves": 81
+    },
+    {
+      "id": "6612f346-1ec3-4b68-a620-42aef4fbfc52",
+      "url": "https://arena.battlesnake.com/games/6612f346-1ec3-4b68-a620-42aef4fbfc52",
+      "createdAt": "2026-11-21T18:22:00+00:00",
+      "timeMoscow": "21.11 · 21:22",
+      "p50": 69,
+      "p95": 156,
+      "timeouts": 0,
+      "moves": 41
+    },
+    {
+      "id": "832815e2-4f6e-4e1a-85df-194dcb00e59a",
+      "url": "https://arena.battlesnake.com/games/832815e2-4f6e-4e1a-85df-194dcb00e59a",
+      "createdAt": "2026-11-21T18:36:00+00:00",
+      "timeMoscow": "21.11 · 21:36",
+      "p50": 92,
+      "p95": 234,
+      "timeouts": 1,
+      "moves": 305
+    },
+    {
+      "id": "43d95a9f-8463-41ea-8e76-29c0934100cb",
+      "url": "https://arena.battlesnake.com/games/43d95a9f-8463-41ea-8e76-29c0934100cb",
+      "createdAt": "2026-11-21T18:36:00+00:00",
+      "timeMoscow": "21.11 · 21:36",
+      "p50": 133,
+      "p95": 201,
+      "timeouts": 0,
+      "moves": 214
+    },
+    {
+      "id": "117e4c84-941a-4de0-b3c1-e070999189b1",
+      "url": "https://arena.battlesnake.com/games/117e4c84-941a-4de0-b3c1-e070999189b1",
+      "createdAt": "2026-11-21T18:37:00+00:00",
+      "timeMoscow": "21.11 · 21:37",
+      "p50": 108,
+      "p95": 238,
+      "timeouts": 1,
+      "moves": 226
+    },
+    {
+      "id": "3861f76f-ca18-4319-9308-164d4c34fba7",
+      "url": "https://arena.battlesnake.com/games/3861f76f-ca18-4319-9308-164d4c34fba7",
+      "createdAt": "2026-11-21T18:37:00+00:00",
+      "timeMoscow": "21.11 · 21:37",
+      "p50": 87,
+      "p95": 324,
+      "timeouts": 0,
+      "moves": 36
+    },
+    {
+      "id": "9dfdac8f-d080-4ab5-b763-c84bc866ebd6",
+      "url": "https://arena.battlesnake.com/games/9dfdac8f-d080-4ab5-b763-c84bc866ebd6",
+      "createdAt": "2026-11-21T18:51:00+00:00",
+      "timeMoscow": "21.11 · 21:51",
+      "p50": 74,
+      "p95": 125,
+      "timeouts": 0,
+      "moves": 262
+    },
+    {
+      "id": "25faa0e4-b9d3-4c06-86f0-a15df0515eb2",
+      "url": "https://arena.battlesnake.com/games/25faa0e4-b9d3-4c06-86f0-a15df0515eb2",
+      "createdAt": "2026-11-21T18:51:00+00:00",
+      "timeMoscow": "21.11 · 21:51",
+      "p50": 133,
+      "p95": 238,
+      "timeouts": 0,
+      "moves": 563
+    },
+    {
+      "id": "eb8c97d6-a396-414c-85ab-e3382524f6ec",
+      "url": "https://arena.battlesnake.com/games/eb8c97d6-a396-414c-85ab-e3382524f6ec",
+      "createdAt": "2026-11-21T18:51:00+00:00",
+      "timeMoscow": "21.11 · 21:51",
+      "p50": 99,
+      "p95": 185,
+      "timeouts": 1,
+      "moves": 191
+    },
+    {
+      "id": "4f97ba10-66c5-4ef4-bb51-b13c86a817cd",
+      "url": "https://arena.battlesnake.com/games/4f97ba10-66c5-4ef4-bb51-b13c86a817cd",
+      "createdAt": "2026-11-21T18:51:00+00:00",
+      "timeMoscow": "21.11 · 21:51",
+      "p50": 74,
+      "p95": 122,
+      "timeouts": 0,
+      "moves": 12
+    },
+    {
+      "id": "9dee2e17-aae1-43ed-95dc-ccb66fabadfd",
+      "url": "https://arena.battlesnake.com/games/9dee2e17-aae1-43ed-95dc-ccb66fabadfd",
+      "createdAt": "2026-11-21T19:05:00+00:00",
+      "timeMoscow": "21.11 · 22:05",
+      "p50": 98,
+      "p95": 171,
+      "timeouts": 1,
+      "moves": 455
+    },
+    {
+      "id": "07c0a271-868e-4642-8894-051ab6217bc1",
+      "url": "https://arena.battlesnake.com/games/07c0a271-868e-4642-8894-051ab6217bc1",
+      "createdAt": "2026-11-21T19:05:00+00:00",
+      "timeMoscow": "21.11 · 22:05",
+      "p50": 152,
+      "p95": 206,
+      "timeouts": 0,
+      "moves": 322
+    },
+    {
+      "id": "c2b2f5cb-47ee-4052-9964-2be0b609f0ff",
+      "url": "https://arena.battlesnake.com/games/c2b2f5cb-47ee-4052-9964-2be0b609f0ff",
+      "createdAt": "2026-11-21T19:05:00+00:00",
+      "timeMoscow": "21.11 · 22:05",
+      "p50": 138,
+      "p95": 220,
+      "timeouts": 1,
+      "moves": 72
+    },
+    {
+      "id": "04436d74-9447-47ab-aadf-48d6bfdce855",
+      "url": "https://arena.battlesnake.com/games/04436d74-9447-47ab-aadf-48d6bfdce855",
+      "createdAt": "2026-11-21T19:06:00+00:00",
+      "timeMoscow": "21.11 · 22:06",
+      "p50": 68,
+      "p95": 155,
+      "timeouts": 0,
+      "moves": 54
+    },
+    {
+      "id": "bbc8c9ec-4820-4c49-9b4c-e12c275ee8e1",
+      "url": "https://arena.battlesnake.com/games/bbc8c9ec-4820-4c49-9b4c-e12c275ee8e1",
+      "createdAt": "2026-11-21T19:19:00+00:00",
+      "timeMoscow": "21.11 · 22:19",
+      "p50": 134,
+      "p95": 230,
+      "timeouts": 0,
+      "moves": 20
+    },
+    {
+      "id": "8c997fee-c1f8-44e5-ba59-00423f51e64f",
+      "url": "https://arena.battlesnake.com/games/8c997fee-c1f8-44e5-ba59-00423f51e64f",
+      "createdAt": "2026-11-21T19:20:00+00:00",
+      "timeMoscow": "21.11 · 22:20",
+      "p50": 128,
+      "p95": 216,
+      "timeouts": 1,
+      "moves": 545
+    },
+    {
+      "id": "15f79a7d-fdb0-4524-af50-26e7d8e94470",
+      "url": "https://arena.battlesnake.com/games/15f79a7d-fdb0-4524-af50-26e7d8e94470",
+      "createdAt": "2026-11-21T19:20:00+00:00",
+      "timeMoscow": "21.11 · 22:20",
+      "p50": 110,
+      "p95": 168,
+      "timeouts": 0,
+      "moves": 233
+    },
+    {
+      "id": "d826f87f-d8af-4de2-95dc-4dcdf2a88d78",
+      "url": "https://arena.battlesnake.com/games/d826f87f-d8af-4de2-95dc-4dcdf2a88d78",
+      "createdAt": "2026-11-21T19:20:00+00:00",
+      "timeMoscow": "21.11 · 22:20",
+      "p50": 67,
+      "p95": 177,
+      "timeouts": 0,
+      "moves": 22
+    },
+    {
+      "id": "4fda63c0-c1e3-417d-b6ce-d3fcd7339cce",
+      "url": "https://arena.battlesnake.com/games/4fda63c0-c1e3-417d-b6ce-d3fcd7339cce",
+      "createdAt": "2026-11-21T19:34:00+00:00",
+      "timeMoscow": "21.11 · 22:34",
+      "p50": 102,
+      "p95": 149,
+      "timeouts": 0,
+      "moves": 220
+    },
+    {
+      "id": "8b35ed12-568f-4ecb-a743-2e85332818a8",
+      "url": "https://arena.battlesnake.com/games/8b35ed12-568f-4ecb-a743-2e85332818a8",
+      "createdAt": "2026-11-21T19:34:00+00:00",
+      "timeMoscow": "21.11 · 22:34",
+      "p50": 141,
+      "p95": 200,
+      "timeouts": 0,
+      "moves": 265
+    },
+    {
+      "id": "57ad4f83-0742-4931-82e2-2c9e9ad78f3c",
+      "url": "https://arena.battlesnake.com/games/57ad4f83-0742-4931-82e2-2c9e9ad78f3c",
+      "createdAt": "2026-11-21T19:34:00+00:00",
+      "timeMoscow": "21.11 · 22:34",
+      "p50": 96,
+      "p95": 181,
+      "timeouts": 0,
+      "moves": 155
+    },
+    {
+      "id": "2b08cae0-8c14-44e9-96b5-76875b502c4b",
+      "url": "https://arena.battlesnake.com/games/2b08cae0-8c14-44e9-96b5-76875b502c4b",
+      "createdAt": "2026-11-21T19:34:00+00:00",
+      "timeMoscow": "21.11 · 22:34",
+      "p50": 91,
+      "p95": 110,
+      "timeouts": 0,
+      "moves": 22
+    },
+    {
+      "id": "21576e8f-4829-4857-9e5a-c1f9908b6cb5",
+      "url": "https://arena.battlesnake.com/games/21576e8f-4829-4857-9e5a-c1f9908b6cb5",
+      "createdAt": "2026-11-21T19:48:00+00:00",
+      "timeMoscow": "21.11 · 22:48",
+      "p50": 105,
+      "p95": 187,
+      "timeouts": 0,
+      "moves": 427
+    },
+    {
+      "id": "1d10a1ee-cfb0-45c6-b18c-22a13eef972e",
+      "url": "https://arena.battlesnake.com/games/1d10a1ee-cfb0-45c6-b18c-22a13eef972e",
+      "createdAt": "2026-11-21T19:49:00+00:00",
+      "timeMoscow": "21.11 · 22:49",
+      "p50": 135,
+      "p95": 254,
+      "timeouts": 1,
+      "moves": 389
+    },
+    {
+      "id": "89e34290-4050-49fc-a947-db0169498550",
+      "url": "https://arena.battlesnake.com/games/89e34290-4050-49fc-a947-db0169498550",
+      "createdAt": "2026-11-21T19:49:00+00:00",
+      "timeMoscow": "21.11 · 22:49",
+      "p50": 95,
+      "p95": 147,
+      "timeouts": 0,
+      "moves": 224
+    },
+    {
+      "id": "1ff100f4-d7a7-4719-904f-051d37ab4a1f",
+      "url": "https://arena.battlesnake.com/games/1ff100f4-d7a7-4719-904f-051d37ab4a1f",
+      "createdAt": "2026-11-21T19:49:00+00:00",
+      "timeMoscow": "21.11 · 22:49",
+      "p50": 52,
+      "p95": 98,
+      "timeouts": 0,
+      "moves": 36
+    },
+    {
+      "id": "b340f8d3-fac2-462f-ae0f-350ad2872093",
+      "url": "https://arena.battlesnake.com/games/b340f8d3-fac2-462f-ae0f-350ad2872093",
+      "createdAt": "2026-11-21T20:03:00+00:00",
+      "timeMoscow": "21.11 · 23:03",
+      "p50": 123,
+      "p95": 245,
+      "timeouts": 4,
+      "moves": 401
+    },
+    {
+      "id": "97e7ee0d-7190-4beb-a77e-f954f8b2807f",
+      "url": "https://arena.battlesnake.com/games/97e7ee0d-7190-4beb-a77e-f954f8b2807f",
+      "createdAt": "2026-11-21T20:03:00+00:00",
+      "timeMoscow": "21.11 · 23:03",
+      "p50": 103,
+      "p95": 179,
+      "timeouts": 2,
+      "moves": 305
+    },
+    {
+      "id": "ecce3751-2134-400a-a4f1-ba6fbb039622",
+      "url": "https://arena.battlesnake.com/games/ecce3751-2134-400a-a4f1-ba6fbb039622",
+      "createdAt": "2026-11-21T20:03:00+00:00",
+      "timeMoscow": "21.11 · 23:03",
+      "p50": 100,
+      "p95": 152,
+      "timeouts": 0,
+      "moves": 158
+    },
+    {
+      "id": "f54d9121-ce0e-43e5-bace-8eb872f56f66",
+      "url": "https://arena.battlesnake.com/games/f54d9121-ce0e-43e5-bace-8eb872f56f66",
+      "createdAt": "2026-11-21T20:03:00+00:00",
+      "timeMoscow": "21.11 · 23:03",
+      "p50": 78,
+      "p95": 160,
+      "timeouts": 0,
+      "moves": 16
+    },
+    {
+      "id": "28576281-cf64-428e-853b-3cea4f8c62ba",
+      "url": "https://arena.battlesnake.com/games/28576281-cf64-428e-853b-3cea4f8c62ba",
+      "createdAt": "2026-11-21T20:10:00+00:00",
+      "timeMoscow": "21.11 · 23:10",
+      "p50": 105,
+      "p95": 157,
+      "timeouts": 0,
+      "moves": 461
+    },
+    {
+      "id": "e46cfa2b-d8ce-433f-89ca-aa848ff4dbe2",
+      "url": "https://arena.battlesnake.com/games/e46cfa2b-d8ce-433f-89ca-aa848ff4dbe2",
+      "createdAt": "2026-11-21T20:17:00+00:00",
+      "timeMoscow": "21.11 · 23:17",
+      "p50": 118,
+      "p95": 179,
+      "timeouts": 1,
+      "moves": 320
+    }
+  ],
+  "detailSampleSize": 47,
+  "cpuBenchmark": {
+    "version": "1.3.1",
+    "date": "2026-11-21T18:27:02.857Z",
+    "runtime": "v22.23.5",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "architecture": "x64",
+    "logicalCoresUsedBySearch": 1,
+    "cpuAffinity": "0",
+    "note": "Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.",
+    "samples": 284,
+    "fixtures": 284,
+    "latencyMs": {
+      "p50": 53.08438400000068,
+      "p95": 95.59569099999999,
+      "p99": 96.65123099999983,
+      "max": 99.79602399999999
+    },
+    "processCpuMs": {
+      "p95": 95.603,
+      "max": 99.795
+    },
+    "depth": {
+      "min": 1,
+      "max": 10
+    },
+    "under500ms": true
+  },
+  "liveCheck": {
+    "url": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site",
+    "date": "2026-11-21T18:26:47.657Z",
+    "endpoints": [
+      {
+        "path": "/",
+        "status": 200,
+        "body": {
+          "apiversion": "1",
+          "author": "evseevgrv",
+          "color": "#35d0a2",
+          "head": "default",
+          "tail": "default",
+          "version": "1.3.1"
+        }
+      },
+      {
+        "path": "/health",
+        "status": 200,
+        "body": {
+          "status": "ok",
+          "version": "1.3.1"
+        }
+      },
+      {
+        "path": "/start",
+        "status": 200,
+        "body": {}
+      },
+      {
+        "path": "/end",
+        "status": 200,
+        "body": {}
+      }
+    ],
+    "moves": [
+      {
+        "mode": "duels",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 173.89641399999994,
+        "serverTiming": "search;dur=0.00",
+        "depth": "5",
+        "nodes": "3001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "duels",
+        "repeat": 1,
+        "status": 200,
+        "rttMs": 267.6418020000001,
+        "serverTiming": "search;dur=0.00",
+        "depth": "5",
+        "nodes": "3001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "duels",
+        "repeat": 2,
+        "status": 200,
+        "rttMs": 92.53176099999996,
+        "serverTiming": "search;dur=0.00",
+        "depth": "5",
+        "nodes": "3001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 136.69807300000002,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "standard",
+        "repeat": 1,
+        "status": 200,
+        "rttMs": 120.75476400000002,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "standard",
+        "repeat": 2,
+        "status": 200,
+        "rttMs": 167.626262,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 98.36517300000014,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "royale",
+        "repeat": 1,
+        "status": 200,
+        "rttMs": 208.248472,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "royale",
+        "repeat": 2,
+        "status": 200,
+        "rttMs": 69.50520499999993,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 166.61795399999983,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "constrictor",
+        "repeat": 1,
+        "status": 200,
+        "rttMs": 180.56495199999972,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "constrictor",
+        "repeat": 2,
+        "status": 200,
+        "rttMs": 159.8655429999999,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 35.951940999999806,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "108",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 82.1313869999999,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "317",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 94.50050199999987,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "1001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 54.689550000000054,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "301",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 81.224154,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "325",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 40.35912499999995,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "146",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 51.649279999999635,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "786",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 56.15192999999999,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "68",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 31.933398000000125,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "99",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 62.2786900000001,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "25",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 82.68130299999984,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "544",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 161.99836000000005,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "765",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 87.06537500000013,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 77.2750259999998,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "9",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 37.00598499999978,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "87",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 105.9628660000003,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 95.86117700000023,
+        "serverTiming": "search;dur=0.00",
+        "depth": "5",
+        "nodes": "3001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 124.8858439999999,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "1001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 91.56164399999943,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 210.48374199999944,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "1001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 82.62132500000007,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 114.87687599999936,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "1001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 171.65322399999968,
+        "serverTiming": "search;dur=0.00",
+        "depth": "5",
+        "nodes": "3001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 113.09783200000038,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 63.779005999999754,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 115.23590599999989,
+        "serverTiming": "search;dur=0.00",
+        "depth": "7",
+        "nodes": "3001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 80.03061900000012,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-constrictor",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 108.19879700000001,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 80.86121600000024,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 168.68371099999968,
+        "serverTiming": "search;dur=0.00",
+        "depth": "6",
+        "nodes": "2755",
+        "answer": {
+          "move": "left"
+        }
+      }
+    ],
+    "maxRttMs": 267.6418020000001,
+    "allMovesUnder500ms": true
+  },
+  "ruleConformance": {
+    "engine": "BattlesnakeOfficial/rules v1.2.3",
+    "games": 189,
+    "checkedTransitions": 33456,
+    "result": "all compared bodies and health match",
+    "limitation": "Transitions with eliminations are covered by unit scenarios, not this reconstruction, because the CLI omits eliminated snakes."
+  },
+  "holdoutDuels": {
+    "baselineCommit": "9f31b23a9f94d7409a08907c137f81e9bc6b0565",
+    "candidateVersion": "1.3.1",
+    "engine": "BattlesnakeOfficial/rules v1.2.3",
+    "profile": "cloud",
+    "metric": "candidate survives longer than v1.2.0, including in four-player games",
+    "suites": [
+      {
+        "mode": "standard",
+        "players": 2,
+        "games": [
+          {
+            "seed": 15001,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 479,
+              "baseline": 478
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 10.009,
+            "warnings": []
+          },
+          {
+            "seed": 15002,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 333,
+              "baseline": 332
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 8.344,
+            "warnings": []
+          },
+          {
+            "seed": 15003,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 356,
+              "baseline": 357
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 8.645,
+            "warnings": []
+          },
+          {
+            "seed": 15004,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 357,
+              "baseline": 356
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 9.076,
+            "warnings": []
+          },
+          {
+            "seed": 15005,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 343,
+              "baseline": 342
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 7.958,
+            "warnings": []
+          },
+          {
+            "seed": 15006,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 359,
+              "baseline": 358
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 8.6,
+            "warnings": []
+          },
+          {
+            "seed": 15007,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 285,
+              "baseline": 284
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 7.682,
+            "warnings": []
+          },
+          {
+            "seed": 15008,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 595,
+              "baseline": 594
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 15.01,
+            "warnings": []
+          },
+          {
+            "seed": 15009,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 321,
+              "baseline": 322
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 7.996,
+            "warnings": []
+          },
+          {
+            "seed": 15010,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 241,
+              "baseline": 240
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 5.888,
+            "warnings": []
+          },
+          {
+            "seed": 15011,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 386,
+              "baseline": 387
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 8.928,
+            "warnings": []
+          }
+        ],
+        "wins": 8,
+        "losses": 3,
+        "draws": 0
+      }
+    ]
+  },
+  "holdoutFour": {
+    "baselineCommit": "9f31b23a9f94d7409a08907c137f81e9bc6b0565",
+    "candidateVersion": "1.3.1",
+    "engine": "BattlesnakeOfficial/rules v1.2.3",
+    "profile": "cloud",
+    "metric": "candidate survives longer than v1.2.0, including in four-player games",
+    "suites": [
+      {
+        "mode": "standard",
+        "players": 4,
+        "games": [
+          {
+            "seed": 15001,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 410,
+              "baseline": 409
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 8.85,
+            "warnings": []
+          },
+          {
+            "seed": 15002,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 294,
+              "baseline": 175
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 7.486,
+            "warnings": []
+          },
+          {
+            "seed": 15003,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 186,
+              "baseline": 316
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 7.645,
+            "warnings": []
+          },
+          {
+            "seed": 15004,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 330,
+              "baseline": 331
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 8.348,
+            "warnings": []
+          },
+          {
+            "seed": 15005,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 179,
+              "baseline": 220
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 4.911,
+            "warnings": []
+          },
+          {
+            "seed": 15006,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 164,
+              "baseline": 307
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 7.038,
+            "warnings": []
+          },
+          {
+            "seed": 15007,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 275,
+              "baseline": 238
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 6.56,
+            "warnings": []
+          },
+          {
+            "seed": 15008,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 329,
+              "baseline": 328
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 8.431,
+            "warnings": []
+          },
+          {
+            "seed": 15009,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 470,
+              "baseline": 471
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 12.294,
+            "warnings": []
+          },
+          {
+            "seed": 15010,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 362,
+              "baseline": 175
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 9.086,
+            "warnings": []
+          },
+          {
+            "seed": 15011,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 276,
+              "baseline": 237
+            },
+            "winnerNames": [
+              "oneply"
+            ],
+            "seconds": 6.375,
+            "warnings": []
+          }
+        ],
+        "wins": 6,
+        "losses": 5,
+        "draws": 0
+      },
+      {
+        "mode": "royale",
+        "players": 4,
+        "games": [
+          {
+            "seed": 15001,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 165,
+              "baseline": 166
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 4.109,
+            "warnings": []
+          },
+          {
+            "seed": 15002,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 218,
+              "baseline": 219
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 4.664,
+            "warnings": []
+          },
+          {
+            "seed": 15003,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 185,
+              "baseline": 204
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 2.473,
+            "warnings": []
+          },
+          {
+            "seed": 15004,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 134,
+              "baseline": 216
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 2.278,
+            "warnings": []
+          },
+          {
+            "seed": 15005,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 187,
+              "baseline": 186
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 1.682,
+            "warnings": []
+          },
+          {
+            "seed": 15006,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 160,
+              "baseline": 159
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 1.471,
+            "warnings": []
+          },
+          {
+            "seed": 15007,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 249,
+              "baseline": 198
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.358,
+            "warnings": []
+          },
+          {
+            "seed": 15008,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 161,
+              "baseline": 12
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 1.556,
+            "warnings": []
+          },
+          {
+            "seed": 15009,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 228,
+              "baseline": 182
+            },
+            "winnerNames": [
+              "oneply"
+            ],
+            "seconds": 2.037,
+            "warnings": []
+          },
+          {
+            "seed": 15010,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 230,
+              "baseline": 87
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.142,
+            "warnings": []
+          },
+          {
+            "seed": 15011,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 145,
+              "baseline": 24
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 1.485,
+            "warnings": []
+          }
+        ],
+        "wins": 7,
+        "losses": 4,
+        "draws": 0
+      }
+    ]
+  },
+  "replayBenchmark": {
+    "baselineVersion": "1.2.0",
+    "candidateVersion": "1.3.1",
+    "note": "Recorded losing positions are diagnostic samples, not evidence of improved win rate.",
+    "groups": {
+      "constrictor": {
+        "samples": 20,
+        "baselineDepth": 1.9,
+        "candidateDepth": 1.9,
+        "baselineMs": 6.025639450000005,
+        "candidateMs": 3.184535449999997,
+        "changedMoves": 0
+      },
+      "standard": {
+        "samples": 24,
+        "baselineDepth": 3.5416666666666665,
+        "candidateDepth": 3.625,
+        "baselineMs": 4.982418458333342,
+        "candidateMs": 5.908390583333325,
+        "changedMoves": 0
+      },
+      "royale": {
+        "samples": 16,
+        "baselineDepth": 2.5,
+        "candidateDepth": 2.5625,
+        "baselineMs": 3.227239625000001,
+        "candidateMs": 3.8379765,
+        "changedMoves": 0
+      }
+    }
+  },
+  "before": {
+    "games": 2833,
+    "wins": 1002,
+    "winRate": 35.5,
+    "overallRank": 27,
+    "overallRating": 120.9,
+    "boards": {
+      "Duels": 26.5,
+      "Standard": 47.8,
+      "Royale": 28.6,
+      "Constrictor": 18.0
+    }
+  },
+  "checks": {
+    "tests": 18,
+    "cpuCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/44935563812",
+    "apiCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/44935565764"
+  }
+}

@@ -1,4 +1,4 @@
-export const VERSION = '1.3.1';
+export const VERSION = '1.4.0';
 export const DIRECTIONS = ['up', 'down', 'left', 'right'];
 export const DEFAULT_WEIGHTS = Object.freeze({ territory: 2.4, space: 1.4, length: 50, food: 28, hunger: 0.35, trap: 36, center: 0.25, mobility: 5 });
 const WIN = 1000000;
@@ -81,9 +81,10 @@ export function distances(state, snake, blocked, temporal = false) {
   while (begin < end) {
     const p = queue[begin++], nextDistance = distance[p] + 1;
     for (const q of state.neighbors[p]) {
-      if (q < 0 || distance[q] >= 0 || (temporal ? blocked[q] > nextDistance : blocked[q])) continue;
+      if (q < 0 || (distance[q] >= 0 && distance[q] !== nextDistance) || (temporal ? blocked[q] > nextDistance : blocked[q])) continue;
       const remaining = state.food.has(q) ? 100 : health[p] - 1 - state.hazards[q] * state.damage;
       if (remaining <= 0) continue;
+      if (distance[q] === nextDistance) { health[q] = Math.max(health[q], remaining); continue; }
       distance[q] = nextDistance; health[q] = remaining; queue[end++] = q;
     }
   }
@@ -179,12 +180,20 @@ export function evaluate(state, weights = DEFAULT_WEIGHTS) {
     const parityEstimate = state.wrapped && (state.w % 2 || state.h % 2) ? own.count : 2 * Math.min(even, odd) + (even === odd ? 0 : (startsOdd ? odd > even : even > odd) ? 1 : -1);
     return score + 18 * (Math.min(capacity, parityEstimate) - enemySpace) + 3 * capacity - 12 * moves.length;
   }
-  const need = Math.min(state.size * 0.7, me.body.length + 4);
-  const capacity = own.count < need + 8 ? pathCapacity(state, me.body[0], blocked) : own.count;
-  if (capacity < need) {
-    const temporal = distances(state, me, releaseTimes(state), true).count;
-    const canFollowTail = !state.royale && own.distance[me.body.at(-1)] >= 0;
-    score -= weights.trap * (need - capacity) * (canFollowTail ? 0.15 : 1) + weights.trap * 2 * Math.max(0, me.body.length + 1 - temporal);
+  let release;
+  function trapRisk(snake, map) {
+    const need = Math.min(state.size * 0.7, snake.body.length + 4);
+    const capacity = map.count < need + 8 ? pathCapacity(state, snake.body[0], blocked) : map.count;
+    if (capacity >= need) return 0;
+    release ??= releaseTimes(state);
+    const temporal = distances(state, snake, release, true).count;
+    const canFollowTail = !state.royale && map.distance[snake.body.at(-1)] >= 0;
+    return weights.trap * (need - capacity) * (canFollowTail ? 0.15 : 1) + weights.trap * 2 * Math.max(0, snake.body.length + 1 - temporal);
+  }
+  score -= trapRisk(me, own);
+  if (opponents.length === 1) {
+    const i = state.snakes.findIndex((s, i) => i > 0 && s.alive);
+    score += 0.75 * trapRisk(state.snakes[i], maps[i]);
   }
   let foodDistance = 30000, foodValue = 0;
   for (const p of state.food) {

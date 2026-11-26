@@ -1,0 +1,1827 @@
+{
+  "groups": {
+    "standard:2": {
+      "samples": 23,
+      "changedMoves": 0,
+      "oldForcedLoss": 8,
+      "newForcedLoss": 8
+    },
+    "empty:2": {
+      "samples": 4,
+      "changedMoves": 0,
+      "oldForcedLoss": 3,
+      "newForcedLoss": 3
+    },
+    "empty:4": {
+      "samples": 21,
+      "changedMoves": 0,
+      "oldForcedLoss": 6,
+      "newForcedLoss": 6
+    },
+    "standard:3": {
+      "samples": 13,
+      "changedMoves": 1,
+      "oldForcedLoss": 4,
+      "newForcedLoss": 4
+    },
+    "royale:3": {
+      "samples": 2,
+      "changedMoves": 0,
+      "oldForcedLoss": 1,
+      "newForcedLoss": 1
+    },
+    "royale:4": {
+      "samples": 13,
+      "changedMoves": 1,
+      "oldForcedLoss": 5,
+      "newForcedLoss": 5
+    },
+    "empty:3": {
+      "samples": 2,
+      "changedMoves": 0,
+      "oldForcedLoss": 1,
+      "newForcedLoss": 1
+    },
+    "royale:2": {
+      "samples": 9,
+      "changedMoves": 0,
+      "oldForcedLoss": 4,
+      "newForcedLoss": 4
+    },
+    "standard:4": {
+      "samples": 6,
+      "changedMoves": 0,
+      "oldForcedLoss": 2,
+      "newForcedLoss": 2
+    }
+  },
+  "details": [
+    {
+      "gameId": "a5cef28f-5531-4fd2-846d-1e05bb7b4e99",
+      "turn": 457,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999542
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999542
+      }
+    },
+    {
+      "gameId": "a5cef28f-5531-4fd2-846d-1e05bb7b4e99",
+      "turn": 450,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 10,
+        "nodes": 3001,
+        "score": -499542
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 10,
+        "nodes": 3001,
+        "score": -499542
+      }
+    },
+    {
+      "gameId": "a5cef28f-5531-4fd2-846d-1e05bb7b4e99",
+      "turn": 418,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 7,
+        "nodes": 3001,
+        "score": 193.91545454545454
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 7,
+        "nodes": 3001,
+        "score": 386.4154545454545
+      }
+    },
+    {
+      "gameId": "3df2c32e-d282-4987-8770-f32ca3879ee4",
+      "turn": 24,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 10,
+        "nodes": 10,
+        "score": -499975
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 10,
+        "nodes": 10,
+        "score": -499975
+      }
+    },
+    {
+      "gameId": "3df2c32e-d282-4987-8770-f32ca3879ee4",
+      "turn": 17,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 3,
+        "nodes": 1001,
+        "score": 23.400000000000006
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 3,
+        "nodes": 1001,
+        "score": 23.400000000000006
+      }
+    },
+    {
+      "gameId": "3df2c32e-d282-4987-8770-f32ca3879ee4",
+      "turn": 0,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      }
+    },
+    {
+      "gameId": "ccd278cc-79ba-4137-8bae-00323ef3106b",
+      "turn": 223,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 7,
+        "score": -999776
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 7,
+        "score": -999776
+      }
+    },
+    {
+      "gameId": "ccd278cc-79ba-4137-8bae-00323ef3106b",
+      "turn": 216,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 4,
+        "nodes": 1001,
+        "score": -324.46
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 4,
+        "nodes": 1001,
+        "score": 904.6854545454545
+      }
+    },
+    {
+      "gameId": "ccd278cc-79ba-4137-8bae-00323ef3106b",
+      "turn": 184,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 5,
+        "nodes": 1001,
+        "score": -185.9136363636364
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 5,
+        "nodes": 1001,
+        "score": -185.9136363636364
+      }
+    },
+    {
+      "gameId": "53cb4e49-b730-401c-b8e4-5166c1381fb5",
+      "turn": 22,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 7,
+        "score": -999977
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 7,
+        "score": -999977
+      }
+    },
+    {
+      "gameId": "53cb4e49-b730-401c-b8e4-5166c1381fb5",
+      "turn": 15,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 4,
+        "nodes": 289,
+        "score": -354.2
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 4,
+        "nodes": 289,
+        "score": -354.2
+      }
+    },
+    {
+      "gameId": "53cb4e49-b730-401c-b8e4-5166c1381fb5",
+      "turn": 0,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      }
+    },
+    {
+      "gameId": "0ceac7a2-ed33-4255-a422-4f96273c0529",
+      "turn": 163,
+      "offset": 1,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999836
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999836
+      }
+    },
+    {
+      "gameId": "0ceac7a2-ed33-4255-a422-4f96273c0529",
+      "turn": 156,
+      "offset": 8,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "right",
+        "depth": 5,
+        "nodes": 1001,
+        "score": -330.50999999999993
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 5,
+        "nodes": 1001,
+        "score": -342.5499999999999
+      }
+    },
+    {
+      "gameId": "0ceac7a2-ed33-4255-a422-4f96273c0529",
+      "turn": 124,
+      "offset": 40,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -174.40954545454545
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -174.40954545454545
+      }
+    },
+    {
+      "gameId": "2a51e1b8-0813-44fc-a734-da5d34c61b38",
+      "turn": 235,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999764
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999764
+      }
+    },
+    {
+      "gameId": "2a51e1b8-0813-44fc-a734-da5d34c61b38",
+      "turn": 228,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -358.2836363636364
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -358.2836363636364
+      }
+    },
+    {
+      "gameId": "2a51e1b8-0813-44fc-a734-da5d34c61b38",
+      "turn": 196,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 3,
+        "nodes": 1001,
+        "score": -57.495454545454564
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 3,
+        "nodes": 1001,
+        "score": -57.495454545454564
+      }
+    },
+    {
+      "gameId": "6bc44931-fe4d-496a-ae8e-c58dafda2968",
+      "turn": 16,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 11,
+        "score": -999983
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 11,
+        "score": -999983
+      }
+    },
+    {
+      "gameId": "6bc44931-fe4d-496a-ae8e-c58dafda2968",
+      "turn": 9,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 3,
+        "nodes": 1001,
+        "score": -1183.3999999999999
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 3,
+        "nodes": 1001,
+        "score": -1183.3999999999999
+      }
+    },
+    {
+      "gameId": "6bc44931-fe4d-496a-ae8e-c58dafda2968",
+      "turn": 0,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      }
+    },
+    {
+      "gameId": "0c98d688-b836-4d32-9dc7-8c81a43d7c27",
+      "turn": 106,
+      "offset": 1,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 15,
+        "score": -999893
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 15,
+        "score": -999893
+      }
+    },
+    {
+      "gameId": "0c98d688-b836-4d32-9dc7-8c81a43d7c27",
+      "turn": 99,
+      "offset": 8,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "left",
+        "depth": 2,
+        "nodes": 192,
+        "score": -999899
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 2,
+        "nodes": 196,
+        "score": -999899
+      }
+    },
+    {
+      "gameId": "0c98d688-b836-4d32-9dc7-8c81a43d7c27",
+      "turn": 67,
+      "offset": 40,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "up",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 109.53909090909099
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 112.17909090909097
+      }
+    },
+    {
+      "gameId": "c7c34ef2-0fe3-476b-ac18-fa6a71e80018",
+      "turn": 398,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 1,
+        "nodes": 2,
+        "score": -999601
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 1,
+        "nodes": 2,
+        "score": -999601
+      }
+    },
+    {
+      "gameId": "c7c34ef2-0fe3-476b-ac18-fa6a71e80018",
+      "turn": 391,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -128.85500000000002
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -128.85500000000002
+      }
+    },
+    {
+      "gameId": "c7c34ef2-0fe3-476b-ac18-fa6a71e80018",
+      "turn": 359,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -97.18909090909092
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -97.18909090909092
+      }
+    },
+    {
+      "gameId": "dbdcc272-353e-4dcd-a0f0-7f91916d87f0",
+      "turn": 24,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 7,
+        "score": -999975
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 7,
+        "score": -999975
+      }
+    },
+    {
+      "gameId": "dbdcc272-353e-4dcd-a0f0-7f91916d87f0",
+      "turn": 17,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 4,
+        "nodes": 142,
+        "score": -787
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 4,
+        "nodes": 142,
+        "score": -787
+      }
+    },
+    {
+      "gameId": "dbdcc272-353e-4dcd-a0f0-7f91916d87f0",
+      "turn": 0,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 470.6000000000001
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 470.6000000000001
+      }
+    },
+    {
+      "gameId": "26e87f98-7034-4264-971f-becde9793f4c",
+      "turn": 144,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999855
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999855
+      }
+    },
+    {
+      "gameId": "26e87f98-7034-4264-971f-becde9793f4c",
+      "turn": 137,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -158.67590909090913
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -158.67590909090913
+      }
+    },
+    {
+      "gameId": "26e87f98-7034-4264-971f-becde9793f4c",
+      "turn": 105,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 5,
+        "nodes": 3001,
+        "score": 103.53454545454542
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 5,
+        "nodes": 3001,
+        "score": 103.53454545454542
+      }
+    },
+    {
+      "gameId": "7935a0b6-f897-4c08-b32f-b5bbf3ede6f6",
+      "turn": 544,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999455
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999455
+      }
+    },
+    {
+      "gameId": "7935a0b6-f897-4c08-b32f-b5bbf3ede6f6",
+      "turn": 537,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -4398.839999999999
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -4366.44
+      }
+    },
+    {
+      "gameId": "7935a0b6-f897-4c08-b32f-b5bbf3ede6f6",
+      "turn": 505,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 10,
+        "nodes": 3001,
+        "score": -64.21
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 10,
+        "nodes": 3001,
+        "score": -3.1327272727272693
+      }
+    },
+    {
+      "gameId": "d629d9c2-f124-428f-b8a5-cebd1e07149a",
+      "turn": 44,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 4,
+        "score": -999955
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 4,
+        "score": -999955
+      }
+    },
+    {
+      "gameId": "d629d9c2-f124-428f-b8a5-cebd1e07149a",
+      "turn": 37,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 8,
+        "nodes": 536,
+        "score": -999955
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 8,
+        "nodes": 536,
+        "score": -999955
+      }
+    },
+    {
+      "gameId": "d629d9c2-f124-428f-b8a5-cebd1e07149a",
+      "turn": 5,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 43.39999999999998
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 43.39999999999998
+      }
+    },
+    {
+      "gameId": "2030b695-55e5-4a39-bf49-eb35241b7d33",
+      "turn": 82,
+      "offset": 1,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 11,
+        "score": -999917
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 11,
+        "score": -999917
+      }
+    },
+    {
+      "gameId": "2030b695-55e5-4a39-bf49-eb35241b7d33",
+      "turn": 75,
+      "offset": 8,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -528.6899999999999
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -528.6899999999999
+      }
+    },
+    {
+      "gameId": "2030b695-55e5-4a39-bf49-eb35241b7d33",
+      "turn": 43,
+      "offset": 40,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 56.010000000000026
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 56.010000000000026
+      }
+    },
+    {
+      "gameId": "ad6fb045-3c8f-41e5-b735-6e7ffe852612",
+      "turn": 354,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 7,
+        "score": -999645
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 7,
+        "score": -999645
+      }
+    },
+    {
+      "gameId": "ad6fb045-3c8f-41e5-b735-6e7ffe852612",
+      "turn": 347,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 4,
+        "nodes": 1001,
+        "score": -2217.55
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 4,
+        "nodes": 1001,
+        "score": -2197.3
+      }
+    },
+    {
+      "gameId": "ad6fb045-3c8f-41e5-b735-6e7ffe852612",
+      "turn": 315,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 3,
+        "nodes": 1001,
+        "score": 165.1090909090909
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 3,
+        "nodes": 1001,
+        "score": 165.1090909090909
+      }
+    },
+    {
+      "gameId": "5c97efd8-4388-4090-aa7c-2a241c5f3066",
+      "turn": 13,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 9,
+        "score": -999986
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 9,
+        "score": -999986
+      }
+    },
+    {
+      "gameId": "5c97efd8-4388-4090-aa7c-2a241c5f3066",
+      "turn": 6,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 649,
+        "score": -999992
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 649,
+        "score": -999992
+      }
+    },
+    {
+      "gameId": "5c97efd8-4388-4090-aa7c-2a241c5f3066",
+      "turn": 0,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      }
+    },
+    {
+      "gameId": "7679c466-2f72-4144-b468-c1544ea35368",
+      "turn": 374,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 11,
+        "score": -999625
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 11,
+        "score": -999625
+      }
+    },
+    {
+      "gameId": "7679c466-2f72-4144-b468-c1544ea35368",
+      "turn": 367,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 3,
+        "nodes": 1001,
+        "score": -1917.5381818181816
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 3,
+        "nodes": 1001,
+        "score": -1917.5381818181816
+      }
+    },
+    {
+      "gameId": "7679c466-2f72-4144-b468-c1544ea35368",
+      "turn": 335,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 3,
+        "nodes": 1001,
+        "score": -1410.92
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 3,
+        "nodes": 1001,
+        "score": -1319.02
+      }
+    },
+    {
+      "gameId": "3b924eda-9688-4ab7-8529-386d11d154a4",
+      "turn": 121,
+      "offset": 1,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 21,
+        "score": -999878
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 21,
+        "score": -999878
+      }
+    },
+    {
+      "gameId": "3b924eda-9688-4ab7-8529-386d11d154a4",
+      "turn": 114,
+      "offset": 8,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "up",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -28.52000000000013
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 3.9999999999998934
+      }
+    },
+    {
+      "gameId": "3b924eda-9688-4ab7-8529-386d11d154a4",
+      "turn": 82,
+      "offset": 40,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "up",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 62.65545454545449
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 62.65545454545449
+      }
+    },
+    {
+      "gameId": "2fa23b09-d862-405e-ab92-e3be6b7b03f1",
+      "turn": 193,
+      "offset": 1,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999806
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999806
+      }
+    },
+    {
+      "gameId": "2fa23b09-d862-405e-ab92-e3be6b7b03f1",
+      "turn": 186,
+      "offset": 8,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "up",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -683.28
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -683.28
+      }
+    },
+    {
+      "gameId": "2fa23b09-d862-405e-ab92-e3be6b7b03f1",
+      "turn": 154,
+      "offset": 40,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "right",
+        "depth": 7,
+        "nodes": 3001,
+        "score": 250.60999999999999
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 7,
+        "nodes": 3001,
+        "score": 250.60999999999999
+      }
+    },
+    {
+      "gameId": "3a1ad659-d107-4487-a7f7-97ebb89eaa0c",
+      "turn": 386,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "wall-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999613
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999613
+      }
+    },
+    {
+      "gameId": "3a1ad659-d107-4487-a7f7-97ebb89eaa0c",
+      "turn": 379,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "wall-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -3831.5
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -3831.5
+      }
+    },
+    {
+      "gameId": "3a1ad659-d107-4487-a7f7-97ebb89eaa0c",
+      "turn": 347,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "wall-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 8,
+        "nodes": 3001,
+        "score": 261.69545454545454
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 8,
+        "nodes": 3001,
+        "score": 261.69545454545454
+      }
+    },
+    {
+      "gameId": "f28f2411-5dea-4199-9fe0-b42dc895b8f3",
+      "turn": 105,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 18,
+        "score": -999894
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 18,
+        "score": -999894
+      }
+    },
+    {
+      "gameId": "f28f2411-5dea-4199-9fe0-b42dc895b8f3",
+      "turn": 98,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -116.02136363636355
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -116.02136363636355
+      }
+    },
+    {
+      "gameId": "f28f2411-5dea-4199-9fe0-b42dc895b8f3",
+      "turn": 66,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 202.33272727272734
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 202.33272727272734
+      }
+    },
+    {
+      "gameId": "0d45be45-93b2-4198-9c22-c437af89863f",
+      "turn": 15,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999984
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999984
+      }
+    },
+    {
+      "gameId": "0d45be45-93b2-4198-9c22-c437af89863f",
+      "turn": 8,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -541.1999999999999
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -541.1999999999999
+      }
+    },
+    {
+      "gameId": "0d45be45-93b2-4198-9c22-c437af89863f",
+      "turn": 0,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "snake-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 470.6000000000001
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 470.6000000000001
+      }
+    },
+    {
+      "gameId": "b2f01c54-73e1-473a-8084-c37b58d2b95c",
+      "turn": 239,
+      "offset": 1,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999760
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999760
+      }
+    },
+    {
+      "gameId": "b2f01c54-73e1-473a-8084-c37b58d2b95c",
+      "turn": 232,
+      "offset": 8,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "down",
+        "depth": 8,
+        "nodes": 1453,
+        "score": -999760
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 8,
+        "nodes": 1453,
+        "score": -999760
+      }
+    },
+    {
+      "gameId": "b2f01c54-73e1-473a-8084-c37b58d2b95c",
+      "turn": 200,
+      "offset": 40,
+      "mode": "royale",
+      "cause": "out-of-health",
+      "baseline": {
+        "move": "up",
+        "depth": 5,
+        "nodes": 3001,
+        "score": -115.27000000000002
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 5,
+        "nodes": 3001,
+        "score": -115.27000000000002
+      }
+    },
+    {
+      "gameId": "8b0a82c4-2dc3-4a0c-a97a-77e4ff1ea8e7",
+      "turn": 362,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999637
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999637
+      }
+    },
+    {
+      "gameId": "8b0a82c4-2dc3-4a0c-a97a-77e4ff1ea8e7",
+      "turn": 355,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 5,
+        "nodes": 3001,
+        "score": -3013.12
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 5,
+        "nodes": 3001,
+        "score": -3005.02
+      }
+    },
+    {
+      "gameId": "8b0a82c4-2dc3-4a0c-a97a-77e4ff1ea8e7",
+      "turn": 323,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -7.415
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -7.415
+      }
+    },
+    {
+      "gameId": "ed675417-75a3-4e41-8765-bac6ede4a2b1",
+      "turn": 108,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 9,
+        "score": -999891
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 9,
+        "score": -999891
+      }
+    },
+    {
+      "gameId": "ed675417-75a3-4e41-8765-bac6ede4a2b1",
+      "turn": 101,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -72.12090909090912
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -72.12090909090912
+      }
+    },
+    {
+      "gameId": "ed675417-75a3-4e41-8765-bac6ede4a2b1",
+      "turn": 69,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 67.22545454545457
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 67.22545454545457
+      }
+    },
+    {
+      "gameId": "5bfad6d0-c5c7-4cca-bd42-f09ab32df45e",
+      "turn": 17,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 1,
+        "nodes": 2,
+        "score": -999982
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 1,
+        "nodes": 2,
+        "score": -999982
+      }
+    },
+    {
+      "gameId": "5bfad6d0-c5c7-4cca-bd42-f09ab32df45e",
+      "turn": 10,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 62.39999999999998
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": 62.39999999999998
+      }
+    },
+    {
+      "gameId": "5bfad6d0-c5c7-4cca-bd42-f09ab32df45e",
+      "turn": 0,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      }
+    },
+    {
+      "gameId": "c56d4460-1e08-421e-973e-e5539323d2b9",
+      "turn": 285,
+      "offset": 1,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999714
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 5,
+        "score": -999714
+      }
+    },
+    {
+      "gameId": "c56d4460-1e08-421e-973e-e5539323d2b9",
+      "turn": 278,
+      "offset": 8,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "left",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -107.33000000000004
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -112.37000000000006
+      }
+    },
+    {
+      "gameId": "c56d4460-1e08-421e-973e-e5539323d2b9",
+      "turn": 246,
+      "offset": 40,
+      "mode": "royale",
+      "cause": "hazard",
+      "baseline": {
+        "move": "right",
+        "depth": 7,
+        "nodes": 3001,
+        "score": 359.1045454545455
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 6,
+        "nodes": 3001,
+        "score": 372.6218181818182
+      }
+    },
+    {
+      "gameId": "1691b2a5-1c1b-47c0-890b-7073cddd0a57",
+      "turn": 342,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999657
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 6,
+        "score": -999657
+      }
+    },
+    {
+      "gameId": "1691b2a5-1c1b-47c0-890b-7073cddd0a57",
+      "turn": 335,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -3843.62
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 7,
+        "nodes": 3001,
+        "score": -3843.62
+      }
+    },
+    {
+      "gameId": "1691b2a5-1c1b-47c0-890b-7073cddd0a57",
+      "turn": 303,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 8,
+        "nodes": 3001,
+        "score": 382.7318181818182
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 7,
+        "nodes": 3001,
+        "score": 382.92727272727274
+      }
+    },
+    {
+      "gameId": "c3e92011-32a7-49af-9a1e-b9e59a427865",
+      "turn": 433,
+      "offset": 1,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 2,
+        "score": -999566
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 2,
+        "score": -999566
+      }
+    },
+    {
+      "gameId": "c3e92011-32a7-49af-9a1e-b9e59a427865",
+      "turn": 426,
+      "offset": 8,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -487.47999999999996
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 6,
+        "nodes": 3001,
+        "score": -487.47999999999996
+      }
+    },
+    {
+      "gameId": "c3e92011-32a7-49af-9a1e-b9e59a427865",
+      "turn": 394,
+      "offset": 40,
+      "mode": "standard",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 4,
+        "nodes": 1001,
+        "score": -224.92
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 4,
+        "nodes": 1001,
+        "score": -187.97
+      }
+    },
+    {
+      "gameId": "60144cff-a090-4c66-a13e-3f81453b60b6",
+      "turn": 28,
+      "offset": 1,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 4,
+        "score": -999971
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 1,
+        "nodes": 4,
+        "score": -999971
+      }
+    },
+    {
+      "gameId": "60144cff-a090-4c66-a13e-3f81453b60b6",
+      "turn": 21,
+      "offset": 8,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "up",
+        "depth": 4,
+        "nodes": 611,
+        "score": -335
+      },
+      "candidate": {
+        "move": "up",
+        "depth": 4,
+        "nodes": 611,
+        "score": -335
+      }
+    },
+    {
+      "gameId": "60144cff-a090-4c66-a13e-3f81453b60b6",
+      "turn": 0,
+      "offset": 40,
+      "mode": "empty",
+      "cause": "self-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      },
+      "candidate": {
+        "move": "down",
+        "depth": 1,
+        "nodes": 1001,
+        "score": 460.0000000000001
+      }
+    },
+    {
+      "gameId": "2a66c2f8-38f7-4f59-b37a-2b7124a2c3dd",
+      "turn": 79,
+      "offset": 1,
+      "mode": "royale",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "left",
+        "depth": 1,
+        "nodes": 21,
+        "score": -999920
+      },
+      "candidate": {
+        "move": "left",
+        "depth": 1,
+        "nodes": 21,
+        "score": -999920
+      }
+    },
+    {
+      "gameId": "2a66c2f8-38f7-4f59-b37a-2b7124a2c3dd",
+      "turn": 72,
+      "offset": 8,
+      "mode": "royale",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "right",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -300.31363636363636
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -298.91363636363633
+      }
+    },
+    {
+      "gameId": "2a66c2f8-38f7-4f59-b37a-2b7124a2c3dd",
+      "turn": 40,
+      "offset": 40,
+      "mode": "royale",
+      "cause": "head-collision",
+      "baseline": {
+        "move": "down",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -108.9368181818181
+      },
+      "candidate": {
+        "move": "right",
+        "depth": 2,
+        "nodes": 1001,
+        "score": -108.33681818181807
+      }
+    }
+  ]
+}

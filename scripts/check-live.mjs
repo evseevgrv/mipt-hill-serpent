@@ -10,6 +10,7 @@ const snakes = [snake('me', [[2, 2], [2, 1], [2, 0]]), snake('a', [[8, 8], [8, 9
 const cases = [];
 for (const mode of ['duels', 'standard', 'royale', 'constrictor']) for (let repeat = 0; repeat < 3; repeat++) cases.push({ mode, repeat, body: request(mode === 'duels' ? undefined : snakes, { mode: mode === 'duels' ? 'standard' : mode, food: mode === 'constrictor' ? [] : [[5, 5], [3, 4]] }) });
 for (const sample of JSON.parse(readFileSync('results/improvement-2026-11-21/replay-positions.json')).filter(r => [4, 40].includes(r.turnsBeforeDeath) && r.request?.board)) cases.push({ mode: 'replay-' + (sample.request.game.map === 'royale' ? 'royale' : sample.request.game.ruleset.name), repeat: 0, body: sample.request });
+for (const sample of JSON.parse(readFileSync('results/improvement-2026-11-26/replay-positions.json')).filter(r => r.offset === 40 && r.request?.board)) cases.push({ mode: 'replay-new-' + sample.request.game.map, repeat: 0, body: sample.request });
 for (const { mode, repeat, body } of cases) {
   const start = performance.now();
   const response = await fetch(url + '/move', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), signal: AbortSignal.timeout(5000) });

@@ -105,6 +105,25 @@ test('food restores health between hazardous steps', async () => {
   assert.equal(distances(s, s.snakes[0], new Uint8Array(5)).distance[3], 3);
 });
 
+test('equal length routes preserve the healthier arrival before expanding hazards', async () => {
+  const { distances } = await import('../worker/index.js');
+  const s = parseRequest(request([snake('me', [[0, 0], [0, 0], [0, 0]], 40)], { width: 4, height: 2, food: [], hazards: [[0, 1], [2, 1], [3, 1]] }));
+  const blocked = new Uint8Array(8);
+  blocked[2] = blocked[3] = 1;
+  assert.equal(distances(s, s.snakes[0], blocked).distance[7], 4);
+});
+
+test('a trapped last opponent is valuable without encouraging attacks on a third snake', async () => {
+  const { evaluate, DEFAULT_WEIGHTS } = await import('../worker/index.js');
+  const snakes = [snake('me', [[1, 1], [1, 0], [0, 0]]), snake('other', [[4, 3], [4, 2], [3, 2], [3, 3], [3, 4], [2, 4], [2, 3], [2, 2]])];
+  const options = { width: 5, height: 5, food: [[0, 4]] };
+  const duel = parseRequest(request(snakes, options));
+  const withoutTraps = { ...DEFAULT_WEIGHTS, trap: 0 };
+  assert.ok(evaluate(duel) > evaluate(duel, withoutTraps));
+  const multi = parseRequest(request([...snakes, snake('third', [[0, 3], [0, 2], [0, 1]])], options));
+  assert.equal(evaluate(multi), evaluate(multi, withoutTraps));
+});
+
 test('cached alpha-beta agrees with exhaustive simultaneous search', async () => {
   const { evaluate } = await import('../worker/index.js');
   function brute(state, depth) {

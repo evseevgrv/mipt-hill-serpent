@@ -8,6 +8,7 @@ import urllib.request
 parser = argparse.ArgumentParser()
 parser.add_argument('--candidate', default='http://127.0.0.1:8080')
 parser.add_argument('--baseline', default='http://127.0.0.1:8082')
+parser.add_argument('--baseline-commit', default='6c0a84c7a089601071aaf49d6e83d671ee4ae649')
 parser.add_argument('--games', type=int, default=11)
 parser.add_argument('--seed-start', type=int, default=13001)
 parser.add_argument('--modes', nargs='+', default=['standard', 'royale', 'constrictor'])
@@ -16,6 +17,8 @@ parser.add_argument('--output', default='results/improvement-2026-11-21/comparis
 args = parser.parse_args()
 with urllib.request.urlopen(args.candidate) as response:
     candidate_version = json.load(response)['version']
+with urllib.request.urlopen(args.baseline) as response:
+    baseline_version = json.load(response)['version']
 root = pathlib.Path('results/games'); root.mkdir(exist_ok=True)
 suites = []
 for mode in args.modes:
@@ -44,4 +47,4 @@ for mode in args.modes:
         print(mode, args.players, seed, outcome, last_alive, flush=True)
     suite = {'mode': mode, 'players': args.players, 'games': games, **{name: sum(g['outcome'] == value for g in games) for name, value in [('wins', 'win'), ('losses', 'loss'), ('draws', 'draw')]}}
     suites.append(suite)
-    pathlib.Path(args.output).write_text(json.dumps({'baselineCommit': '9f31b23a9f94d7409a08907c137f81e9bc6b0565', 'candidateVersion': candidate_version, 'engine': 'BattlesnakeOfficial/rules v1.2.3', 'profile': 'cloud', 'metric': 'candidate survives longer than v1.2.0, including in four-player games', 'suites': suites}, indent=2) + '\n')
+    pathlib.Path(args.output).write_text(json.dumps({'baselineCommit': args.baseline_commit, 'baselineVersion': baseline_version, 'candidateVersion': candidate_version, 'engine': 'BattlesnakeOfficial/rules v1.2.3', 'profile': 'cloud', 'metric': 'candidate survives longer than baseline, including in four-player games', 'suites': suites}, indent=2) + '\n')

@@ -15,7 +15,10 @@ jobs:
         run: |
           core=$(awk '/Cpus_allowed_list/{split($2,a,/[,-]/); print a[1]}' /proc/self/status)
           CPU_AFFINITY=$core taskset -c "$core" npm run bench
+          CPU_AFFINITY=$core taskset -c "$core" node scripts/benchmark-cloud.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: single-cpu-benchmark
-          path: results/benchmark.json
+          path: |
+            results/benchmark.json
+            results/benchmark-cloud.json

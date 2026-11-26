@@ -5,6 +5,7 @@ import { request, snake } from '../tests/fixtures.mjs';
 const samples = [request(), request(undefined, { mode: 'royale', hazards: Array.from({ length: 11 }, (_, y) => [0, y]) }), request(undefined, { mode: 'constrictor', food: [] }), request([snake('me', [[2, 2], [2, 1], [2, 0]]), snake('a', [[8, 8], [8, 9], [8, 10]]), snake('b', [[2, 8], [2, 9], [2, 10]]), snake('c', [[8, 2], [8, 1], [8, 0]])])];
 if (existsSync('results/positions.json')) samples.push(...JSON.parse(readFileSync('results/positions.json')));
 if (existsSync('results/improvement-2026-11-21/replay-positions.json')) samples.push(...JSON.parse(readFileSync('results/improvement-2026-11-21/replay-positions.json')).filter(r => r.request?.board).map(r => r.request));
+if (existsSync('results/improvement-2026-11-26/replay-positions.json')) samples.push(...JSON.parse(readFileSync('results/improvement-2026-11-26/replay-positions.json')).filter(r => r.request?.board).map(r => r.request));
 const times = [], cpu = [], depths = [];
 for (let i = 0; i < 12; i++) chooseMove(samples[i % samples.length]);
 for (let i = 0; i < Math.max(100, samples.length); i++) {

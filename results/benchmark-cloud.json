@@ -1,0 +1,38 @@
+{
+  "version": "1.4.0",
+  "date": "2026-11-26T18:49:03.286Z",
+  "runtime": "v26.0.0",
+  "cpu": "Apple M4 Pro",
+  "architecture": "arm64",
+  "cpuAffinity": null,
+  "samples": 377,
+  "profile": "production node caps with frozen search clock",
+  "latencyMs": {
+    "p50": 12.832707999999911,
+    "p95": 18.397750000000087,
+    "max": 23.040792000000238
+  },
+  "groups": {
+    "duels": {
+      "samples": 240,
+      "maxMs": 23.040792000000238,
+      "maxNodes": 3001
+    },
+    "royale": {
+      "samples": 41,
+      "maxMs": 16.287374999999997,
+      "maxNodes": 3001
+    },
+    "constrictor": {
+      "samples": 66,
+      "maxMs": 12.367792000000009,
+      "maxNodes": 1001
+    },
+    "standard": {
+      "samples": 30,
+      "maxMs": 13.876666999999998,
+      "maxNodes": 3001
+    }
+  },
+  "under500ms": true
+}

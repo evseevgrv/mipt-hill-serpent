@@ -1,0 +1,18 @@
+{
+  "version": "1.4.0",
+  "releasedAt": "2026-11-26T18:51:18.540421+00:00",
+  "codeCommit": "6df30d9f8b32b90f464000daa1b95193f18e4d1d",
+  "comparisonDirectory": "results/improvement-2026-11-26",
+  "notes": [
+    "В Standard и Royale оценивается риск ловушки последнего соперника. Бонус при нескольких противниках отклонен после результата 2:9 в Standard.",
+    "Из двух кратчайших маршрутов одинаковой длины сохраняется вариант с большим запасом здоровья для дальнейшего прохода опасных клеток.",
+    "Добавлены 93 позиции реальных матчей и проверка полного облачного бюджета с замороженными часами. На одном CPU Linux проверены 377 позиций.",
+    "Для контрольных игр закреплена оценка v1.3.1, а случайное разрешение равных ходов заменено воспроизводимым выбором по состоянию поля."
+  ],
+  "checks": {
+    "tests": 20,
+    "cpuCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/45879007383",
+    "apiCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/45879427547",
+    "initialApiCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/45879231952"
+  }
+}

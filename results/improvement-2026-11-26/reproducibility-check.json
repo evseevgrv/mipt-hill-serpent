@@ -1,0 +1,93 @@
+{
+  "baselineCommit": "6c0a84c7a089601071aaf49d6e83d671ee4ae649",
+  "baselineVersion": "1.3.1",
+  "candidateVersion": "1.4.0",
+  "testOpponents": {
+    "apiversion": "1",
+    "color": "#d07835",
+    "head": "default",
+    "tail": "default",
+    "evaluatorVersion": "1.3.1",
+    "tieBreak": "deterministic request hash"
+  },
+  "engine": "BattlesnakeOfficial/rules v1.2.3",
+  "profile": "cloud",
+  "metric": "candidate survives longer than baseline, including in four-player games",
+  "suites": [
+    {
+      "mode": "standard",
+      "players": 4,
+      "games": [
+        {
+          "seed": 29001,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 432,
+            "baseline": 433
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 4.525,
+          "warnings": []
+        }
+      ],
+      "wins": 0,
+      "losses": 1,
+      "draws": 0
+    },
+    {
+      "mode": "royale",
+      "players": 4,
+      "games": [
+        {
+          "seed": 29001,
+          "outcome": "loss",
+          "lastAliveTurn": {
+            "candidate": 270,
+            "baseline": 271
+          },
+          "winnerNames": [
+            "baseline"
+          ],
+          "seconds": 3.317,
+          "warnings": []
+        }
+      ],
+      "wins": 0,
+      "losses": 1,
+      "draws": 0
+    }
+  ],
+  "repeatComparison": [
+    {
+      "mode": "standard",
+      "seed": 29001,
+      "sameOutcome": true,
+      "sameLastAliveTurns": false,
+      "originalLastAliveTurn": {
+        "candidate": 131,
+        "baseline": 169
+      },
+      "repeatLastAliveTurn": {
+        "candidate": 432,
+        "baseline": 433
+      }
+    },
+    {
+      "mode": "royale",
+      "seed": 29001,
+      "sameOutcome": true,
+      "sameLastAliveTurns": true,
+      "originalLastAliveTurn": {
+        "candidate": 270,
+        "baseline": 271
+      },
+      "repeatLastAliveTurn": {
+        "candidate": 270,
+        "baseline": 271
+      }
+    }
+  ],
+  "limitation": "Test policies are deterministic functions of the supplied state. Two repeated engine starts retained outcomes, but Standard turn counts differed, so complete game trajectories are not claimed to be bitwise reproducible."
+}

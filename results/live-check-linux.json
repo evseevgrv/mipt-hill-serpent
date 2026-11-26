@@ -1,6 +1,6 @@
 {
   "url": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site",
-  "date": "2026-11-21T18:26:47.657Z",
+  "date": "2026-11-26T18:53:16.654Z",
   "endpoints": [
     {
       "path": "/",
@@ -11,7 +11,7 @@
         "color": "#35d0a2",
         "head": "default",
         "tail": "default",
-        "version": "1.3.1"
+        "version": "1.4.0"
       }
     },
     {
@@ -19,7 +19,7 @@
       "status": 200,
       "body": {
         "status": "ok",
-        "version": "1.3.1"
+        "version": "1.4.0"
       }
     },
     {
@@ -38,7 +38,7 @@
       "mode": "duels",
       "repeat": 0,
       "status": 200,
-      "rttMs": 173.89641399999994,
+      "rttMs": 292.4115099999999,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
       "nodes": "3001",
@@ -50,7 +50,7 @@
       "mode": "duels",
       "repeat": 1,
       "status": 200,
-      "rttMs": 267.6418020000001,
+      "rttMs": 194.02614400000016,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
       "nodes": "3001",
@@ -62,7 +62,7 @@
       "mode": "duels",
       "repeat": 2,
       "status": 200,
-      "rttMs": 92.53176099999996,
+      "rttMs": 173.52771900000016,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
       "nodes": "3001",
@@ -74,7 +74,7 @@
       "mode": "standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 136.69807300000002,
+      "rttMs": 125.5969090000001,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "1001",
@@ -86,7 +86,7 @@
       "mode": "standard",
       "repeat": 1,
       "status": 200,
-      "rttMs": 120.75476400000002,
+      "rttMs": 198.92090699999994,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "1001",
@@ -98,7 +98,7 @@
       "mode": "standard",
       "repeat": 2,
       "status": 200,
-      "rttMs": 167.626262,
+      "rttMs": 132.1288360000001,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "1001",
@@ -110,7 +110,7 @@
       "mode": "royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 98.36517300000014,
+      "rttMs": 155.09203000000002,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "1001",
@@ -122,7 +122,7 @@
       "mode": "royale",
       "repeat": 1,
       "status": 200,
-      "rttMs": 208.248472,
+      "rttMs": 105.21963000000005,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "1001",
@@ -134,7 +134,7 @@
       "mode": "royale",
       "repeat": 2,
       "status": 200,
-      "rttMs": 69.50520499999993,
+      "rttMs": 148.55624799999987,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "1001",
@@ -146,7 +146,7 @@
       "mode": "constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 166.61795399999983,
+      "rttMs": 116.009861,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "301",
@@ -158,7 +158,7 @@
       "mode": "constrictor",
       "repeat": 1,
       "status": 200,
-      "rttMs": 180.56495199999972,
+      "rttMs": 181.24344500000007,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "301",
@@ -170,7 +170,7 @@
       "mode": "constrictor",
       "repeat": 2,
       "status": 200,
-      "rttMs": 159.8655429999999,
+      "rttMs": 63.309181999999964,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "301",
@@ -182,7 +182,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 35.951940999999806,
+      "rttMs": 56.65673000000015,
       "serverTiming": "search;dur=0.00",
       "depth": "4",
       "nodes": "108",
@@ -194,10 +194,10 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 82.1313869999999,
+      "rttMs": 69.67739500000016,
       "serverTiming": "search;dur=0.00",
       "depth": "4",
-      "nodes": "317",
+      "nodes": "335",
       "answer": {
         "move": "up"
       }
@@ -206,7 +206,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 94.50050199999987,
+      "rttMs": 147.07261900000003,
       "serverTiming": "search;dur=0.00",
       "depth": "3",
       "nodes": "1001",
@@ -218,7 +218,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 54.689550000000054,
+      "rttMs": 48.19128499999988,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "301",
@@ -230,7 +230,7 @@
       "mode": "replay-royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 81.224154,
+      "rttMs": 58.729027000000315,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "325",
@@ -242,7 +242,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 40.35912499999995,
+      "rttMs": 73.48778399999992,
       "serverTiming": "search;dur=0.00",
       "depth": "3",
       "nodes": "146",
@@ -254,7 +254,7 @@
       "mode": "replay-royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 51.649279999999635,
+      "rttMs": 44.460553999999775,
       "serverTiming": "search;dur=0.00",
       "depth": "4",
       "nodes": "786",
@@ -266,7 +266,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 56.15192999999999,
+      "rttMs": 32.47289799999999,
       "serverTiming": "search;dur=0.00",
       "depth": "4",
       "nodes": "68",
@@ -278,7 +278,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 31.933398000000125,
+      "rttMs": 33.98315599999978,
       "serverTiming": "search;dur=0.00",
       "depth": "4",
       "nodes": "99",
@@ -290,7 +290,7 @@
       "mode": "replay-royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 62.2786900000001,
+      "rttMs": 35.84328699999969,
       "serverTiming": "search;dur=0.00",
       "depth": "4",
       "nodes": "25",
@@ -302,10 +302,10 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 82.68130299999984,
+      "rttMs": 176.95467199999985,
       "serverTiming": "search;dur=0.00",
       "depth": "4",
-      "nodes": "544",
+      "nodes": "571",
       "answer": {
         "move": "left"
       }
@@ -314,7 +314,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 161.99836000000005,
+      "rttMs": 99.171515,
       "serverTiming": "search;dur=0.00",
       "depth": "3",
       "nodes": "765",
@@ -326,7 +326,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 87.06537500000013,
+      "rttMs": 59.01315599999998,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "301",
@@ -338,7 +338,7 @@
       "mode": "replay-royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 77.2750259999998,
+      "rttMs": 36.51354700000002,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "9",
@@ -350,7 +350,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 37.00598499999978,
+      "rttMs": 94.0009970000001,
       "serverTiming": "search;dur=0.00",
       "depth": "4",
       "nodes": "87",
@@ -362,7 +362,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 105.9628660000003,
+      "rttMs": 64.42542599999979,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "301",
@@ -374,7 +374,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 95.86117700000023,
+      "rttMs": 162.4969669999996,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
       "nodes": "3001",
@@ -386,7 +386,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 124.8858439999999,
+      "rttMs": 81.10057700000016,
       "serverTiming": "search;dur=0.00",
       "depth": "3",
       "nodes": "1001",
@@ -398,7 +398,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 91.56164399999943,
+      "rttMs": 181.5135380000006,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "301",
@@ -410,7 +410,7 @@
       "mode": "replay-royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 210.48374199999944,
+      "rttMs": 130.86902499999997,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "1001",
@@ -422,7 +422,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 82.62132500000007,
+      "rttMs": 77.76821199999995,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "301",
@@ -434,7 +434,7 @@
       "mode": "replay-royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 114.87687599999936,
+      "rttMs": 258.0912980000003,
       "serverTiming": "search;dur=0.00",
       "depth": "3",
       "nodes": "1001",
@@ -446,7 +446,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 171.65322399999968,
+      "rttMs": 147.8307330000007,
       "serverTiming": "search;dur=0.00",
       "depth": "5",
       "nodes": "3001",
@@ -458,7 +458,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 113.09783200000038,
+      "rttMs": 55.228604999999334,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "301",
@@ -470,7 +470,7 @@
       "mode": "replay-royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 63.779005999999754,
+      "rttMs": 258.0395819999994,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "1001",
@@ -482,7 +482,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 115.23590599999989,
+      "rttMs": 105.01581799999985,
       "serverTiming": "search;dur=0.00",
       "depth": "7",
       "nodes": "3001",
@@ -494,7 +494,7 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 80.03061900000012,
+      "rttMs": 133.4822119999999,
       "serverTiming": "search;dur=0.00",
       "depth": "2",
       "nodes": "1001",
@@ -506,7 +506,7 @@
       "mode": "replay-constrictor",
       "repeat": 0,
       "status": 200,
-      "rttMs": 108.19879700000001,
+      "rttMs": 62.8411700000006,
       "serverTiming": "search;dur=0.00",
       "depth": "1",
       "nodes": "301",
@@ -518,7 +518,7 @@
       "mode": "replay-royale",
       "repeat": 0,
       "status": 200,
-      "rttMs": 80.86121600000024,
+      "rttMs": 103.22210199999972,
       "serverTiming": "search;dur=0.00",
       "depth": "3",
       "nodes": "1001",
@@ -530,15 +530,387 @@
       "mode": "replay-standard",
       "repeat": 0,
       "status": 200,
-      "rttMs": 168.68371099999968,
+      "rttMs": 99.71508100000028,
       "serverTiming": "search;dur=0.00",
       "depth": "6",
-      "nodes": "2755",
+      "nodes": "2759",
       "answer": {
         "move": "left"
       }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 144.01747799999976,
+      "serverTiming": "search;dur=0.00",
+      "depth": "7",
+      "nodes": "3001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 416.5956959999994,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 92.54470000000038,
+      "serverTiming": "search;dur=0.00",
+      "depth": "5",
+      "nodes": "1001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 89.9025160000001,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-new-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 94.77384400000028,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "1001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 70.90683900000022,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "1001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 94.09667600000012,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 74.52711200000067,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "1001",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 134.70083499999964,
+      "serverTiming": "search;dur=0.00",
+      "depth": "7",
+      "nodes": "3001",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 79.27660600000036,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 176.90544099999988,
+      "serverTiming": "search;dur=0.00",
+      "depth": "5",
+      "nodes": "3001",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 101.45332099999996,
+      "serverTiming": "search;dur=0.00",
+      "depth": "10",
+      "nodes": "3001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 106.86520299999938,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-new-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 98.79056300000047,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "1001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 124.69940600000064,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "1001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 108.95318399999996,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 321.55316500000026,
+      "serverTiming": "search;dur=0.00",
+      "depth": "3",
+      "nodes": "1001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-new-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 96.78298900000027,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "1001",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-new-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 147.58208899999954,
+      "serverTiming": "search;dur=0.00",
+      "depth": "7",
+      "nodes": "3001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 134.54156500000136,
+      "serverTiming": "search;dur=0.00",
+      "depth": "8",
+      "nodes": "3001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 114.95851000000039,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "1001",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 216.85862000000088,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 172.466147000001,
+      "serverTiming": "search;dur=0.00",
+      "depth": "5",
+      "nodes": "3001",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 112.80037300000004,
+      "serverTiming": "search;dur=0.00",
+      "depth": "6",
+      "nodes": "3001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 131.92365400000017,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "1001",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 333.13783499999954,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "up"
+      }
+    },
+    {
+      "mode": "replay-new-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 167.4274860000005,
+      "serverTiming": "search;dur=0.00",
+      "depth": "6",
+      "nodes": "3001",
+      "answer": {
+        "move": "right"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 91.24121799999921,
+      "serverTiming": "search;dur=0.00",
+      "depth": "7",
+      "nodes": "3001",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "mode": "replay-new-standard",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 93.43629500000134,
+      "serverTiming": "search;dur=0.00",
+      "depth": "4",
+      "nodes": "1001",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-empty",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 76.33504600000015,
+      "serverTiming": "search;dur=0.00",
+      "depth": "1",
+      "nodes": "301",
+      "answer": {
+        "move": "down"
+      }
+    },
+    {
+      "mode": "replay-new-royale",
+      "repeat": 0,
+      "status": 200,
+      "rttMs": 141.45174000000043,
+      "serverTiming": "search;dur=0.00",
+      "depth": "2",
+      "nodes": "1001",
+      "answer": {
+        "move": "right"
+      }
     }
   ],
-  "maxRttMs": 267.6418020000001,
+  "maxRttMs": 416.5956959999994,
   "allMovesUnder500ms": true
 }

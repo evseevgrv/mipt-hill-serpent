@@ -166,7 +166,8 @@ def collect():
     if RELEASE_INFO:
         assert snapshot['version'] == RELEASE_INFO['version'], 'Published version differs from release metadata'
         folder = RELEASE_INFO['comparisonDirectory']
-        snapshot.update({'holdoutDuels': load_json(folder + '/holdout-duels.json'), 'holdoutFour': load_json(folder + '/holdout-four.json'), 'rejectedMultiplayer': load_json(folder + '/rejected-all-opponents.json'), 'cloudBenchmark': load_json('results/benchmark-cloud-linux-one-cpu.json'), 'releaseNotes': RELEASE_INFO['notes'], 'checks': RELEASE_INFO['checks']})
+        snapshot.update({'holdoutDuels': load_json(folder + '/holdout-duels.json'), 'holdoutFour': load_json(folder + '/holdout-four.json'), 'rejectedMultiplayer': load_json(folder + '/rejected-all-opponents.json'), 'cloudBenchmark': load_json('results/benchmark-cloud-linux-one-cpu.json'), 'releaseNotes': RELEASE_INFO['notes'], 'checks': RELEASE_INFO['checks'], 'networkDiagnostics': {'initialCheck': load_json(folder + '/live-check-linux-initial.json'), 'workerTiming': load_json(folder + '/worker-timing-sample.json'), 'localRecheck': load_json(folder + '/slow-request-recheck.json')}})
+        snapshot['reproducibilityCheck'] = load_json(folder + '/reproducibility-check.json')
     return snapshot
 
 

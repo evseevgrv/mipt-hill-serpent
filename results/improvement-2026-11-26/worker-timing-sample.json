@@ -1,0 +1,21 @@
+{
+  "source": "Sites get_site_worker_logs, 100 recent successful production invocations",
+  "capturedAt": "2026-11-26T18:54:14.558Z",
+  "samples": 100,
+  "firstTimestamp": 1795719119072,
+  "lastTimestamp": 1795719161692,
+  "cpuTimeMs": {
+    "p50": 75,
+    "p95": 105,
+    "max": 114
+  },
+  "wallTimeMs": {
+    "p50": 77,
+    "p95": 107,
+    "max": 117
+  },
+  "outcomes": [
+    "ok"
+  ],
+  "limitation": "This sample is not correlated to the initial slow Linux request and does not measure network round-trip time."
+}

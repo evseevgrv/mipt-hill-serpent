@@ -1,0 +1,38 @@
+{
+  "version": "1.4.0",
+  "date": "2026-11-26T18:50:19.926Z",
+  "runtime": "v22.23.5",
+  "cpu": "AMD EPYC 9V45 96-Core Processor",
+  "architecture": "x64",
+  "cpuAffinity": "0",
+  "samples": 377,
+  "profile": "production node caps with frozen search clock",
+  "latencyMs": {
+    "p50": 18.939652000000024,
+    "p95": 26.68150199999991,
+    "max": 73.34472000000005
+  },
+  "groups": {
+    "duels": {
+      "samples": 240,
+      "maxMs": 73.34472000000005,
+      "maxNodes": 3001
+    },
+    "royale": {
+      "samples": 41,
+      "maxMs": 69.89811099999997,
+      "maxNodes": 3001
+    },
+    "constrictor": {
+      "samples": 66,
+      "maxMs": 50.72496799999999,
+      "maxNodes": 1001
+    },
+    "standard": {
+      "samples": 30,
+      "maxMs": 41.340956000000006,
+      "maxNodes": 3001
+    }
+  },
+  "under500ms": true
+}

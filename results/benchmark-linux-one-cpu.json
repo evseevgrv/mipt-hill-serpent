@@ -1,27 +1,27 @@
 {
-  "version": "1.3.1",
-  "date": "2026-11-21T18:27:02.857Z",
+  "version": "1.4.0",
+  "date": "2026-11-26T18:50:13.254Z",
   "runtime": "v22.23.5",
-  "cpu": "AMD EPYC 7763 64-Core Processor",
+  "cpu": "AMD EPYC 9V45 96-Core Processor",
   "architecture": "x64",
   "logicalCoresUsedBySearch": 1,
   "cpuAffinity": "0",
   "note": "Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.",
-  "samples": 284,
-  "fixtures": 284,
+  "samples": 377,
+  "fixtures": 377,
   "latencyMs": {
-    "p50": 53.08438400000068,
-    "p95": 95.59569099999999,
-    "p99": 96.65123099999983,
-    "max": 99.79602399999999
+    "p50": 37.13053200000013,
+    "p95": 95.35859099999925,
+    "p99": 95.88147600000048,
+    "max": 97.6290169999993
   },
   "processCpuMs": {
-    "p95": 95.603,
-    "max": 99.795
+    "p95": 95.337,
+    "max": 97.636
   },
   "depth": {
     "min": 1,
-    "max": 10
+    "max": 11
   },
   "under500ms": true
 }

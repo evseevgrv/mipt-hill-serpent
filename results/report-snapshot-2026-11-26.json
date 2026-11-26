@@ -1,34 +1,34 @@
 {
-  "capturedAt": "2026-11-26T18:41:26.556053+00:00",
-  "capturedAtMoscow": "26.11.2026 · 21:41 МСК",
-  "collectionFinishedAt": "2026-11-26T18:42:05.749923+00:00",
-  "releaseAt": "2026-11-21T18:26:35.286203+00:00",
-  "releaseMoscow": "21.11.2026 · 21:26 МСК",
-  "version": "1.3.1",
+  "capturedAt": "2026-11-26T18:55:14.875636+00:00",
+  "capturedAtMoscow": "26.11.2026 · 21:55 МСК",
+  "collectionFinishedAt": "2026-11-26T18:55:56.665644+00:00",
+  "releaseAt": "2026-11-26T18:51:18.540421+00:00",
+  "releaseMoscow": "26.11.2026 · 21:51 МСК",
+  "version": "1.4.0",
   "profileUrl": "https://arena.battlesnake.com/battlesnakes/aa1bb9da-902d-4765-999f-ddcb8b2b6c51/profile",
   "rankingsUrl": "https://arena.battlesnake.com/rankings",
   "repositoryUrl": "https://github.com/evseevgrv/mipt-hill-serpent",
   "apiUrl": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site/",
   "summary": {
-    "games": 4892,
+    "games": 4896,
     "winRate": 32.9,
     "averagePlace": 2.2,
-    "p95Ms": 139.0,
-    "wins": 1604,
+    "p95Ms": 146.0,
+    "wins": 1606,
     "placements": {
-      "first": 1604,
+      "first": 1606,
       "draw": 36,
-      "second": 1520,
+      "second": 1523,
       "third": 927,
-      "fourth": 795
+      "fourth": 796
     },
-    "completed": 4882,
-    "unresolved": 10,
+    "completed": 4888,
+    "unresolved": 8,
     "latencyGames": 50,
-    "p50Ms": 89,
-    "timeouts": 11,
-    "movesInLatencySample": 9635,
-    "timeoutRate": 0.1141670991177997
+    "p50Ms": 91,
+    "timeouts": 9,
+    "movesInLatencySample": 9755,
+    "timeoutRate": 0.09226037929267042
   },
   "overall": {
     "rank": 28,
@@ -40,55 +40,55 @@
   "boards": [
     {
       "mode": "Duels",
-      "rating": 26.5,
-      "games": 1196,
+      "rating": 26.3,
+      "games": 1199,
       "winRateRounded": 51.0,
       "status": "Active",
       "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/adea3e01-9ac6-4db7-8b44-4081e8d9188e",
       "boardUrl": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc",
-      "rank": 51,
-      "winRate": 51.3
+      "rank": 52,
+      "winRate": 51.2
     },
     {
       "mode": "Standard",
-      "rating": 49.2,
-      "games": 1217,
+      "rating": 49.3,
+      "games": 1218,
       "winRateRounded": 27.0,
       "status": "Active",
       "url": "https://arena.battlesnake.com/leaderboards/d692fd01-5376-4060-8c4c-91dc2ecfe3ba/entries/24128e64-30e5-416e-851e-460150706494",
       "boardUrl": "https://arena.battlesnake.com/leaderboards/d692fd01-5376-4060-8c4c-91dc2ecfe3ba",
-      "rank": 47,
-      "winRate": 26.6
+      "rank": 46,
+      "winRate": 26.7
     },
     {
       "mode": "Royale",
       "rating": 29.4,
-      "games": 1221,
-      "winRateRounded": 28.0,
+      "games": 1222,
+      "winRateRounded": 27.0,
       "status": "Active",
       "url": "https://arena.battlesnake.com/leaderboards/77ce41bf-12ad-4eac-bac2-b11939fb9b18/entries/e6369bc9-92ee-4197-b32c-89a04e815a4c",
       "boardUrl": "https://arena.battlesnake.com/leaderboards/77ce41bf-12ad-4eac-bac2-b11939fb9b18",
-      "rank": 30,
+      "rank": 31,
       "winRate": 27.5
     },
     {
       "mode": "Constrictor",
-      "rating": 19.4,
-      "games": 1239,
+      "rating": 19.5,
+      "games": 1240,
       "winRateRounded": 26.0,
       "status": "Active",
       "url": "https://arena.battlesnake.com/leaderboards/2997e28a-83a0-41e0-a203-d42108cfe450/entries/16595ffd-754e-4d78-9282-325c60c4f1ab",
       "boardUrl": "https://arena.battlesnake.com/leaderboards/2997e28a-83a0-41e0-a203-d42108cfe450",
       "rank": 42,
-      "winRate": 26.4
+      "winRate": 26.5
     }
   ],
   "references": [
     {
-      "rank": 64,
+      "rank": 65,
       "name": "novice",
-      "rating": 22.3,
-      "games": 2001,
+      "rating": 22.4,
+      "games": 2003,
       "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/de9648f9-2b1b-4a60-8848-fd61b904372f",
       "winRate": 47.0
     },
@@ -101,28 +101,28 @@
       "winRate": 44.2
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "journeyman",
-      "rating": 31.3,
-      "games": 1591,
+      "rating": 31.2,
+      "games": 1592,
       "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/104802d9-d2c1-4eeb-bc4c-e327f6d22128",
-      "winRate": 47.8
+      "winRate": 47.7
     },
     {
       "rank": 29,
       "name": "expert",
       "rating": 35.4,
-      "games": 1444,
+      "games": 1445,
       "url": "https://arena.battlesnake.com/leaderboards/77212f22-20f5-4e0c-8db6-78844318a9bc/entries/54bf6708-1d04-467d-ae5e-5752a2050071",
-      "winRate": 50.1
+      "winRate": 50.0
     }
   ],
   "recentGames": [
     {
-      "id": "a7d398cf-3d67-4e14-8402-1e90f36f0a92",
-      "url": "https://arena.battlesnake.com/games/a7d398cf-3d67-4e14-8402-1e90f36f0a92",
-      "createdAt": "2026-11-26T18:37:00+00:00",
-      "timeMoscow": "26.11 · 21:37",
+      "id": "2943f541-df7d-4eca-a044-b51ce89bf90e",
+      "url": "https://arena.battlesnake.com/games/2943f541-df7d-4eca-a044-b51ce89bf90e",
+      "createdAt": "2026-11-26T18:52:00+00:00",
+      "timeMoscow": "26.11 · 21:52",
       "mode": "Constrictor",
       "players": 4,
       "place": null,
@@ -132,17 +132,111 @@
       "afterRelease": true
     },
     {
-      "id": "1316d877-296a-4e7f-8629-e656ad084c07",
-      "url": "https://arena.battlesnake.com/games/1316d877-296a-4e7f-8629-e656ad084c07",
-      "createdAt": "2026-11-26T18:37:00+00:00",
-      "timeMoscow": "26.11 · 21:37",
+      "id": "e1e55f92-a50b-4962-84aa-3308179f2d6f",
+      "url": "https://arena.battlesnake.com/games/e1e55f92-a50b-4962-84aa-3308179f2d6f",
+      "createdAt": "2026-11-26T18:51:00+00:00",
+      "timeMoscow": "26.11 · 21:51",
       "mode": "Royale",
       "players": 4,
       "place": null,
       "draw": false,
       "live": true,
       "winner": "In progress",
-      "afterRelease": true
+      "afterRelease": false
+    },
+    {
+      "id": "55c3b602-5190-41a3-90ad-f720b0ad7281",
+      "url": "https://arena.battlesnake.com/games/55c3b602-5190-41a3-90ad-f720b0ad7281",
+      "createdAt": "2026-11-26T18:51:00+00:00",
+      "timeMoscow": "26.11 · 21:51",
+      "mode": "Duels",
+      "players": 2,
+      "place": 2,
+      "draw": false,
+      "live": false,
+      "winner": "Olej1 Duels",
+      "afterRelease": false,
+      "turns": 233,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "4ca1503e-da6f-4a67-b33d-b28834c0ee76",
+        "Turn": 233
+      },
+      "length": 20,
+      "health": 92,
+      "opponents": [
+        "Olej1 Duels"
+      ]
+    },
+    {
+      "id": "1716d58d-2a03-4e9c-8f4b-e83c9a422fe0",
+      "url": "https://arena.battlesnake.com/games/1716d58d-2a03-4e9c-8f4b-e83c9a422fe0",
+      "createdAt": "2026-11-26T18:50:00+00:00",
+      "timeMoscow": "26.11 · 21:50",
+      "mode": "Standard",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 304,
+      "death": null,
+      "length": 26,
+      "health": 100,
+      "opponents": [
+        "ActionHero",
+        "Hill Serpent",
+        "ZeroEntropy v5.4a"
+      ]
+    },
+    {
+      "id": "a7d398cf-3d67-4e14-8402-1e90f36f0a92",
+      "url": "https://arena.battlesnake.com/games/a7d398cf-3d67-4e14-8402-1e90f36f0a92",
+      "createdAt": "2026-11-26T18:37:00+00:00",
+      "timeMoscow": "26.11 · 21:37",
+      "mode": "Constrictor",
+      "players": 4,
+      "place": 1,
+      "draw": false,
+      "live": false,
+      "winner": "MIPT Hill Serpent",
+      "afterRelease": false,
+      "turns": 35,
+      "death": null,
+      "length": 37,
+      "health": 100,
+      "opponents": [
+        "ActionHero",
+        "Olej1 Constrictor",
+        "Baikal Coil"
+      ]
+    },
+    {
+      "id": "1316d877-296a-4e7f-8629-e656ad084c07",
+      "url": "https://arena.battlesnake.com/games/1316d877-296a-4e7f-8629-e656ad084c07",
+      "createdAt": "2026-11-26T18:37:00+00:00",
+      "timeMoscow": "26.11 · 21:37",
+      "mode": "Royale",
+      "players": 4,
+      "place": 4,
+      "draw": false,
+      "live": false,
+      "winner": "Hill Serpent",
+      "afterRelease": false,
+      "turns": 204,
+      "death": {
+        "Cause": "out-of-health",
+        "EliminatedBy": "",
+        "Turn": 57
+      },
+      "length": 5,
+      "health": 0,
+      "opponents": [
+        "SmartyRat",
+        "Hill Serpent",
+        "Taiga Fang"
+      ]
     },
     {
       "id": "9b07474f-77b6-4b12-a82e-4ad128953296",
@@ -151,11 +245,22 @@
       "timeMoscow": "26.11 · 21:36",
       "mode": "Duels",
       "players": 2,
-      "place": null,
+      "place": 2,
       "draw": false,
-      "live": true,
-      "winner": "In progress",
-      "afterRelease": true
+      "live": false,
+      "winner": "elizabeth1",
+      "afterRelease": false,
+      "turns": 139,
+      "death": {
+        "Cause": "wall-collision",
+        "EliminatedBy": "",
+        "Turn": 139
+      },
+      "length": 12,
+      "health": 92,
+      "opponents": [
+        "elizabeth1"
+      ]
     },
     {
       "id": "09e6ee20-4c2e-4c1b-8db2-1d803ae3aa5f",
@@ -164,11 +269,22 @@
       "timeMoscow": "26.11 · 21:36",
       "mode": "Duels",
       "players": 2,
-      "place": null,
+      "place": 2,
       "draw": false,
-      "live": true,
-      "winner": "In progress",
-      "afterRelease": true
+      "live": false,
+      "winner": "novice",
+      "afterRelease": false,
+      "turns": 315,
+      "death": {
+        "Cause": "self-collision",
+        "EliminatedBy": "604b6a7a-6214-4ac8-84a0-03545c39b44e",
+        "Turn": 315
+      },
+      "length": 21,
+      "health": 99,
+      "opponents": [
+        "novice"
+      ]
     },
     {
       "id": "a5cef28f-5531-4fd2-846d-1e05bb7b4e99",
@@ -181,7 +297,7 @@
       "draw": false,
       "live": false,
       "winner": "Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 458,
       "death": {
         "Cause": "head-collision",
@@ -207,7 +323,7 @@
       "draw": true,
       "live": false,
       "winner": "No winner",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 25,
       "death": {
         "Cause": "head-collision",
@@ -233,7 +349,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 220,
       "death": null,
       "length": 17,
@@ -255,7 +371,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 269,
       "death": null,
       "length": 18,
@@ -275,7 +391,7 @@
       "draw": false,
       "live": false,
       "winner": "Forkfang",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 381,
       "death": {
         "Cause": "self-collision",
@@ -301,7 +417,7 @@
       "draw": false,
       "live": false,
       "winner": "No winner",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 24,
       "death": {
         "Cause": "self-collision",
@@ -327,7 +443,7 @@
       "draw": false,
       "live": false,
       "winner": "Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 167,
       "death": {
         "Cause": "hazard",
@@ -353,7 +469,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 41,
       "death": null,
       "length": 8,
@@ -373,7 +489,7 @@
       "draw": false,
       "live": false,
       "winner": "Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 545,
       "death": {
         "Cause": "self-collision",
@@ -399,7 +515,7 @@
       "draw": false,
       "live": false,
       "winner": "Moses' Staff",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 28,
       "death": {
         "Cause": "snake-collision",
@@ -425,7 +541,7 @@
       "draw": false,
       "live": false,
       "winner": "RootCode",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 152,
       "death": {
         "Cause": "hazard",
@@ -451,7 +567,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 421,
       "death": null,
       "length": 31,
@@ -471,7 +587,7 @@
       "draw": false,
       "live": false,
       "winner": "Forkfang",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 399,
       "death": {
         "Cause": "head-collision",
@@ -497,7 +613,7 @@
       "draw": false,
       "live": false,
       "winner": "Olej1 Constrictor",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 31,
       "death": {
         "Cause": "snake-collision",
@@ -523,7 +639,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 213,
       "death": null,
       "length": 22,
@@ -545,7 +661,7 @@
       "draw": false,
       "live": false,
       "winner": "FusionSnake",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 145,
       "death": {
         "Cause": "self-collision",
@@ -569,7 +685,7 @@
       "draw": false,
       "live": false,
       "winner": "SmartyRat",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 545,
       "death": {
         "Cause": "self-collision",
@@ -595,7 +711,7 @@
       "draw": false,
       "live": false,
       "winner": "Typhon",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 45,
       "death": {
         "Cause": "self-collision",
@@ -621,7 +737,7 @@
       "draw": false,
       "live": false,
       "winner": "elizabeth1",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 240,
       "death": {
         "Cause": "out-of-health",
@@ -647,7 +763,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 207,
       "death": null,
       "length": 16,
@@ -667,7 +783,7 @@
       "draw": false,
       "live": false,
       "winner": "Dusk Leviathan",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 471,
       "death": {
         "Cause": "snake-collision",
@@ -693,7 +809,7 @@
       "draw": false,
       "live": false,
       "winner": "Class B Super-Snake",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 36,
       "death": {
         "Cause": "snake-collision",
@@ -719,7 +835,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 219,
       "death": null,
       "length": 11,
@@ -741,7 +857,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 304,
       "death": null,
       "length": 24,
@@ -761,7 +877,7 @@
       "draw": false,
       "live": false,
       "winner": "Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 375,
       "death": {
         "Cause": "self-collision",
@@ -787,7 +903,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 30,
       "death": null,
       "length": 32,
@@ -809,7 +925,7 @@
       "draw": false,
       "live": false,
       "winner": "ActionHero",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 215,
       "death": {
         "Cause": "hazard",
@@ -835,7 +951,7 @@
       "draw": false,
       "live": false,
       "winner": "Козявка",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 194,
       "death": {
         "Cause": "out-of-health",
@@ -861,7 +977,7 @@
       "draw": false,
       "live": false,
       "winner": "elizabeth1",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 387,
       "death": {
         "Cause": "wall-collision",
@@ -885,7 +1001,7 @@
       "draw": false,
       "live": false,
       "winner": "Dusk Leviathan",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 433,
       "death": {
         "Cause": "head-collision",
@@ -911,7 +1027,7 @@
       "draw": false,
       "live": false,
       "winner": "Rino",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 27,
       "death": {
         "Cause": "snake-collision",
@@ -937,7 +1053,7 @@
       "draw": false,
       "live": false,
       "winner": "Vorago",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 240,
       "death": {
         "Cause": "out-of-health",
@@ -963,7 +1079,7 @@
       "draw": false,
       "live": false,
       "winner": "elizabeth2",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 363,
       "death": {
         "Cause": "self-collision",
@@ -987,7 +1103,7 @@
       "draw": false,
       "live": false,
       "winner": "UwuTek",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 301,
       "death": {
         "Cause": "head-collision",
@@ -1013,7 +1129,7 @@
       "draw": false,
       "live": false,
       "winner": "Viper",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 49,
       "death": {
         "Cause": "head-collision",
@@ -1039,7 +1155,7 @@
       "draw": false,
       "live": false,
       "winner": "SmartyRat",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 286,
       "death": {
         "Cause": "hazard",
@@ -1065,7 +1181,7 @@
       "draw": false,
       "live": false,
       "winner": "Vector Asp",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 343,
       "death": {
         "Cause": "self-collision",
@@ -1089,7 +1205,7 @@
       "draw": false,
       "live": false,
       "winner": "elizabeth4",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 434,
       "death": {
         "Cause": "head-collision",
@@ -1115,7 +1231,7 @@
       "draw": false,
       "live": false,
       "winner": "emosnake_2_trial",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 29,
       "death": {
         "Cause": "self-collision",
@@ -1141,7 +1257,7 @@
       "draw": false,
       "live": false,
       "winner": "SmartyRat",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 233,
       "death": {
         "Cause": "head-collision",
@@ -1167,7 +1283,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 366,
       "death": null,
       "length": 34,
@@ -1187,7 +1303,7 @@
       "draw": false,
       "live": false,
       "winner": "Taiga Fang",
-      "afterRelease": true,
+      "afterRelease": false,
       "turns": 265,
       "death": {
         "Cause": "head-collision",
@@ -1213,16 +1329,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
-      "turns": 34,
-      "death": null,
-      "length": 36,
-      "health": 100,
-      "opponents": [
-        "ActionHero",
-        "Sea Coil",
-        "Hill Serpent"
-      ]
+      "afterRelease": false
     },
     {
       "id": "e4a928d7-009f-498f-a4c5-36cbb5062d11",
@@ -1235,20 +1342,7 @@
       "draw": false,
       "live": false,
       "winner": "Hill Serpent",
-      "afterRelease": true,
-      "turns": 178,
-      "death": {
-        "Cause": "head-collision",
-        "EliminatedBy": "cdfcd6b2-0cad-45b9-b075-0f16cd5ea72b",
-        "Turn": 116
-      },
-      "length": 5,
-      "health": 3,
-      "opponents": [
-        "go-st",
-        "Skara",
-        "Hill Serpent"
-      ]
+      "afterRelease": false
     },
     {
       "id": "26b509ae-4bcf-4b99-98f9-26f5416f710d",
@@ -1261,14 +1355,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true,
-      "turns": 364,
-      "death": null,
-      "length": 19,
-      "health": 100,
-      "opponents": [
-        "FusionSnake"
-      ]
+      "afterRelease": false
     },
     {
       "id": "04848687-0afe-4aed-a702-d172641b0e8b",
@@ -1281,20 +1368,7 @@
       "draw": false,
       "live": false,
       "winner": "Forkfang",
-      "afterRelease": true,
-      "turns": 493,
-      "death": {
-        "Cause": "head-collision",
-        "EliminatedBy": "b8c792fe-8f39-4026-8ce5-f0a176a7819b",
-        "Turn": 147
-      },
-      "length": 7,
-      "health": 97,
-      "opponents": [
-        "Baikal Coil",
-        "Forkfang",
-        "Hill Serpent"
-      ]
+      "afterRelease": false
     },
     {
       "id": "5506215b-f0fa-444b-94e7-7fed7dc2fdea",
@@ -1307,7 +1381,7 @@
       "draw": false,
       "live": false,
       "winner": "Baikal Coil",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "c69e58da-5a35-4ea7-8713-e362280db050",
@@ -1320,7 +1394,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "58ec3f38-70fd-4f65-ba17-96e8a5df7989",
@@ -1333,7 +1407,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "46c8ffda-a239-415c-8851-bf03be5ef3db",
@@ -1346,7 +1420,7 @@
       "draw": false,
       "live": false,
       "winner": "Taiga Fang",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "2a4c5418-85f1-4e35-afb6-01772913ddc0",
@@ -1359,7 +1433,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "55c58856-1b07-43d2-8fd0-d324aeb43922",
@@ -1372,7 +1446,7 @@
       "draw": false,
       "live": false,
       "winner": "Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "f30db430-7f5f-431a-a7b0-af6411bed0e1",
@@ -1385,7 +1459,7 @@
       "draw": false,
       "live": false,
       "winner": "Vector Asp",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "ed5365d0-0ee9-4216-8e90-bb6e1c45b437",
@@ -1398,7 +1472,7 @@
       "draw": false,
       "live": false,
       "winner": "UwuTek",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "bbc5f719-84d8-4310-b231-861a9969d645",
@@ -1411,7 +1485,7 @@
       "draw": false,
       "live": false,
       "winner": "Rino",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "dd629ad2-4e02-47c1-b0d1-0797f0380a65",
@@ -1424,7 +1498,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "d1d8972d-4b36-437d-8945-e16a7df84156",
@@ -1437,7 +1511,7 @@
       "draw": false,
       "live": false,
       "winner": "Kirill",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "b2c3ace3-4d0a-445c-9b54-7889aca4eab1",
@@ -1450,7 +1524,7 @@
       "draw": false,
       "live": false,
       "winner": "SmartyRat",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "b0daf0bc-8bec-45e6-9366-02241ac30e06",
@@ -1463,7 +1537,7 @@
       "draw": false,
       "live": false,
       "winner": "Typhon",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "37434312-9226-4e0f-94e4-527ce9bab9e8",
@@ -1476,7 +1550,7 @@
       "draw": false,
       "live": false,
       "winner": "Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "9ca7a9b6-68fb-466e-97cf-9546583afc89",
@@ -1489,7 +1563,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "39b0dafa-ecf0-42cb-a038-8a5c530c57b0",
@@ -1502,7 +1576,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "fb6d977c-a65b-4511-aa92-d4a10f7795d4",
@@ -1515,7 +1589,7 @@
       "draw": false,
       "live": false,
       "winner": "Python Python",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "58ee08d6-39e6-4aca-af5a-061bc569c94e",
@@ -1528,7 +1602,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "58727abd-cd00-47d8-a489-e3cd2ce76c5d",
@@ -1541,7 +1615,7 @@
       "draw": false,
       "live": false,
       "winner": "SmartyRat",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "a99f346c-1e42-4484-af59-926209145ad4",
@@ -1554,7 +1628,7 @@
       "draw": false,
       "live": false,
       "winner": "No winner",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "e3e877e4-5fea-4b5c-b11e-ea065ffd6408",
@@ -1567,7 +1641,7 @@
       "draw": false,
       "live": false,
       "winner": "Taiga Fang",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "60d162e7-f607-4b63-8e87-fa74f0a2a4df",
@@ -1580,7 +1654,7 @@
       "draw": false,
       "live": false,
       "winner": "elizabeth1",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "0ded5d09-8c82-416c-beeb-505fe8d53088",
@@ -1593,7 +1667,7 @@
       "draw": false,
       "live": false,
       "winner": "elizabeth1",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "d4d6bdc3-624d-44e7-b7fe-0e2d9e25677d",
@@ -1606,7 +1680,7 @@
       "draw": false,
       "live": false,
       "winner": "Vorago",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "82497699-4bf1-4e24-adad-34bd31c26800",
@@ -1619,7 +1693,7 @@
       "draw": false,
       "live": false,
       "winner": "Baikal Coil",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "b4a26615-bdf6-4a8b-88ba-3030cfa598bb",
@@ -1632,7 +1706,7 @@
       "draw": false,
       "live": false,
       "winner": "elizabeth2",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "bc7db8dd-32a7-4eac-aeb5-b924194a0cda",
@@ -1645,7 +1719,7 @@
       "draw": false,
       "live": false,
       "winner": "Rino",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "a140ff35-c04f-457d-8a81-553d1a1ab771",
@@ -1658,7 +1732,7 @@
       "draw": false,
       "live": false,
       "winner": "Vorago",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "e00d4e36-adec-4f48-b6a6-a8285a233893",
@@ -1671,7 +1745,7 @@
       "draw": false,
       "live": false,
       "winner": "Baikal Coil",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "66ad641e-44bf-4428-947e-beb699c7bb69",
@@ -1684,7 +1758,7 @@
       "draw": false,
       "live": false,
       "winner": "FusionSnake",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "401634be-b09e-4b9f-995a-c4644ba6a635",
@@ -1697,7 +1771,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "3783b2f8-1c02-44a1-95f4-3bb37bd08b99",
@@ -1710,7 +1784,7 @@
       "draw": false,
       "live": false,
       "winner": "Vorago",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "183aa74f-e970-495c-920e-ff0e446c8d6c",
@@ -1723,7 +1797,7 @@
       "draw": false,
       "live": false,
       "winner": "Baikal Coil",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "6b719f4f-41a4-4c6c-a709-ba4e78b0fd2c",
@@ -1736,7 +1810,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "a4cc3eec-8c90-4996-8689-9e85efd7b249",
@@ -1749,7 +1823,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "3fd2bcc2-3076-4295-8269-cbc5883c7950",
@@ -1762,7 +1836,7 @@
       "draw": false,
       "live": false,
       "winner": "Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "f88d6814-119d-4e39-a2fd-2f14b442033d",
@@ -1775,7 +1849,7 @@
       "draw": false,
       "live": false,
       "winner": "Freaky Francis",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "bfe427d9-35f7-4023-bec3-9f33131b5e14",
@@ -1788,7 +1862,7 @@
       "draw": false,
       "live": false,
       "winner": "RootCode",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "339c2da0-c496-47e9-8a27-7498f10443b5",
@@ -1801,7 +1875,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "09cfa53d-33a9-4b34-a12e-1232d102d1cb",
@@ -1814,7 +1888,7 @@
       "draw": false,
       "live": false,
       "winner": "No winner",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "23dc5b6c-fb0d-4a30-b3c2-7bc475b13ab1",
@@ -1827,7 +1901,7 @@
       "draw": false,
       "live": false,
       "winner": "Taiga Fang",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "280500f2-cfbc-46f2-9d91-9d8ebcc5be9a",
@@ -1840,7 +1914,7 @@
       "draw": false,
       "live": false,
       "winner": "MIPT Hill Serpent",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "c459b56b-7c63-4da4-aa3a-508d89669ab8",
@@ -1853,7 +1927,7 @@
       "draw": false,
       "live": false,
       "winner": "Baikal Coil",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "1d0a1ca5-803c-469d-8e61-3716d3b15cb9",
@@ -1866,7 +1940,7 @@
       "draw": false,
       "live": false,
       "winner": "Vorago",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "acbe91cf-d388-4bcc-b869-b239884d2610",
@@ -1879,7 +1953,7 @@
       "draw": false,
       "live": false,
       "winner": "Olej1 Constrictor",
-      "afterRelease": true
+      "afterRelease": false
     },
     {
       "id": "ce33c48e-70fd-4ecd-9b58-acd53e591953",
@@ -1892,122 +1966,10 @@
       "draw": false,
       "live": false,
       "winner": "SmartyRat",
-      "afterRelease": true
-    },
-    {
-      "id": "7398e7a7-7298-45e5-bc9d-ef8ae2bf0daf",
-      "url": "https://arena.battlesnake.com/games/7398e7a7-7298-45e5-bc9d-ef8ae2bf0daf",
-      "createdAt": "2026-11-26T13:04:00+00:00",
-      "timeMoscow": "26.11 · 16:04",
-      "mode": "Duels",
-      "players": 2,
-      "place": 2,
-      "draw": false,
-      "live": false,
-      "winner": "Olej1 Duels",
-      "afterRelease": true
-    },
-    {
-      "id": "aa9c9df4-ab15-4eb1-bdd8-9d27622f7f04",
-      "url": "https://arena.battlesnake.com/games/aa9c9df4-ab15-4eb1-bdd8-9d27622f7f04",
-      "createdAt": "2026-11-26T13:03:00+00:00",
-      "timeMoscow": "26.11 · 16:03",
-      "mode": "Standard",
-      "players": 4,
-      "place": 2,
-      "draw": false,
-      "live": false,
-      "winner": "Freaky Francis",
-      "afterRelease": true
-    },
-    {
-      "id": "42e215f6-48fd-435b-a805-db8fc0837f23",
-      "url": "https://arena.battlesnake.com/games/42e215f6-48fd-435b-a805-db8fc0837f23",
-      "createdAt": "2026-11-26T12:51:00+00:00",
-      "timeMoscow": "26.11 · 15:51",
-      "mode": "Constrictor",
-      "players": 4,
-      "place": 3,
-      "draw": false,
-      "live": false,
-      "winner": "Baikal Coil",
-      "afterRelease": true
-    },
-    {
-      "id": "13d66bf0-c152-4c74-aafa-93c88104e133",
-      "url": "https://arena.battlesnake.com/games/13d66bf0-c152-4c74-aafa-93c88104e133",
-      "createdAt": "2026-11-26T12:50:00+00:00",
-      "timeMoscow": "26.11 · 15:50",
-      "mode": "Royale",
-      "players": 4,
-      "place": 4,
-      "draw": false,
-      "live": false,
-      "winner": "SmartyRat",
-      "afterRelease": true
+      "afterRelease": false
     }
   ],
   "latency": [
-    {
-      "id": "46c8ffda-a239-415c-8851-bf03be5ef3db",
-      "url": "https://arena.battlesnake.com/games/46c8ffda-a239-415c-8851-bf03be5ef3db",
-      "createdAt": "2026-11-26T15:42:00+00:00",
-      "timeMoscow": "26.11 · 18:42",
-      "p50": 93,
-      "p95": 152,
-      "timeouts": 0,
-      "moves": 157
-    },
-    {
-      "id": "58ec3f38-70fd-4f65-ba17-96e8a5df7989",
-      "url": "https://arena.battlesnake.com/games/58ec3f38-70fd-4f65-ba17-96e8a5df7989",
-      "createdAt": "2026-11-26T15:43:00+00:00",
-      "timeMoscow": "26.11 · 18:43",
-      "p50": 99,
-      "p95": 138,
-      "timeouts": 0,
-      "moves": 83
-    },
-    {
-      "id": "c69e58da-5a35-4ea7-8713-e362280db050",
-      "url": "https://arena.battlesnake.com/games/c69e58da-5a35-4ea7-8713-e362280db050",
-      "createdAt": "2026-11-26T15:44:00+00:00",
-      "timeMoscow": "26.11 · 18:44",
-      "p50": 68,
-      "p95": 112,
-      "timeouts": 2,
-      "moves": 192
-    },
-    {
-      "id": "5506215b-f0fa-444b-94e7-7fed7dc2fdea",
-      "url": "https://arena.battlesnake.com/games/5506215b-f0fa-444b-94e7-7fed7dc2fdea",
-      "createdAt": "2026-11-26T15:44:00+00:00",
-      "timeMoscow": "26.11 · 18:44",
-      "p50": 50,
-      "p95": 110,
-      "timeouts": 0,
-      "moves": 20
-    },
-    {
-      "id": "04848687-0afe-4aed-a702-d172641b0e8b",
-      "url": "https://arena.battlesnake.com/games/04848687-0afe-4aed-a702-d172641b0e8b",
-      "createdAt": "2026-11-26T15:56:00+00:00",
-      "timeMoscow": "26.11 · 18:56",
-      "p50": 82,
-      "p95": 116,
-      "timeouts": 1,
-      "moves": 147
-    },
-    {
-      "id": "26b509ae-4bcf-4b99-98f9-26f5416f710d",
-      "url": "https://arena.battlesnake.com/games/26b509ae-4bcf-4b99-98f9-26f5416f710d",
-      "createdAt": "2026-11-26T15:57:00+00:00",
-      "timeMoscow": "26.11 · 18:57",
-      "p50": 96,
-      "p95": 126,
-      "timeouts": 0,
-      "moves": 364
-    },
     {
       "id": "e4a928d7-009f-498f-a4c5-36cbb5062d11",
       "url": "https://arena.battlesnake.com/games/e4a928d7-009f-498f-a4c5-36cbb5062d11",
@@ -2447,39 +2409,99 @@
       "p95": 114,
       "timeouts": 0,
       "moves": 458
+    },
+    {
+      "id": "09e6ee20-4c2e-4c1b-8db2-1d803ae3aa5f",
+      "url": "https://arena.battlesnake.com/games/09e6ee20-4c2e-4c1b-8db2-1d803ae3aa5f",
+      "createdAt": "2026-11-26T18:36:00+00:00",
+      "timeMoscow": "26.11 · 21:36",
+      "p50": 100,
+      "p95": 131,
+      "timeouts": 0,
+      "moves": 315
+    },
+    {
+      "id": "9b07474f-77b6-4b12-a82e-4ad128953296",
+      "url": "https://arena.battlesnake.com/games/9b07474f-77b6-4b12-a82e-4ad128953296",
+      "createdAt": "2026-11-26T18:36:00+00:00",
+      "timeMoscow": "26.11 · 21:36",
+      "p50": 111,
+      "p95": 217,
+      "timeouts": 1,
+      "moves": 139
+    },
+    {
+      "id": "1316d877-296a-4e7f-8629-e656ad084c07",
+      "url": "https://arena.battlesnake.com/games/1316d877-296a-4e7f-8629-e656ad084c07",
+      "createdAt": "2026-11-26T18:37:00+00:00",
+      "timeMoscow": "26.11 · 21:37",
+      "p50": 96,
+      "p95": 190,
+      "timeouts": 0,
+      "moves": 57
+    },
+    {
+      "id": "a7d398cf-3d67-4e14-8402-1e90f36f0a92",
+      "url": "https://arena.battlesnake.com/games/a7d398cf-3d67-4e14-8402-1e90f36f0a92",
+      "createdAt": "2026-11-26T18:37:00+00:00",
+      "timeMoscow": "26.11 · 21:37",
+      "p50": 67,
+      "p95": 126,
+      "timeouts": 0,
+      "moves": 35
+    },
+    {
+      "id": "1716d58d-2a03-4e9c-8f4b-e83c9a422fe0",
+      "url": "https://arena.battlesnake.com/games/1716d58d-2a03-4e9c-8f4b-e83c9a422fe0",
+      "createdAt": "2026-11-26T18:50:00+00:00",
+      "timeMoscow": "26.11 · 21:50",
+      "p50": 110,
+      "p95": 147,
+      "timeouts": 0,
+      "moves": 304
+    },
+    {
+      "id": "55c3b602-5190-41a3-90ad-f720b0ad7281",
+      "url": "https://arena.battlesnake.com/games/55c3b602-5190-41a3-90ad-f720b0ad7281",
+      "createdAt": "2026-11-26T18:51:00+00:00",
+      "timeMoscow": "26.11 · 21:51",
+      "p50": 135,
+      "p95": 166,
+      "timeouts": 0,
+      "moves": 233
     }
   ],
-  "detailSampleSize": 46,
+  "detailSampleSize": 48,
   "cpuBenchmark": {
-    "version": "1.3.1",
-    "date": "2026-11-21T18:27:02.857Z",
+    "version": "1.4.0",
+    "date": "2026-11-26T18:50:13.254Z",
     "runtime": "v22.23.5",
-    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "cpu": "AMD EPYC 9V45 96-Core Processor",
     "architecture": "x64",
     "logicalCoresUsedBySearch": 1,
     "cpuAffinity": "0",
     "note": "Search is synchronous on one JS thread. OS scheduling and runtime helper threads are not CPU affinity.",
-    "samples": 284,
-    "fixtures": 284,
+    "samples": 377,
+    "fixtures": 377,
     "latencyMs": {
-      "p50": 53.08438400000068,
-      "p95": 95.59569099999999,
-      "p99": 96.65123099999983,
-      "max": 99.79602399999999
+      "p50": 37.13053200000013,
+      "p95": 95.35859099999925,
+      "p99": 95.88147600000048,
+      "max": 97.6290169999993
     },
     "processCpuMs": {
-      "p95": 95.603,
-      "max": 99.795
+      "p95": 95.337,
+      "max": 97.636
     },
     "depth": {
       "min": 1,
-      "max": 10
+      "max": 11
     },
     "under500ms": true
   },
   "liveCheck": {
     "url": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site",
-    "date": "2026-11-21T18:26:47.657Z",
+    "date": "2026-11-26T18:53:16.654Z",
     "endpoints": [
       {
         "path": "/",
@@ -2490,7 +2512,7 @@
           "color": "#35d0a2",
           "head": "default",
           "tail": "default",
-          "version": "1.3.1"
+          "version": "1.4.0"
         }
       },
       {
@@ -2498,7 +2520,7 @@
         "status": 200,
         "body": {
           "status": "ok",
-          "version": "1.3.1"
+          "version": "1.4.0"
         }
       },
       {
@@ -2517,7 +2539,7 @@
         "mode": "duels",
         "repeat": 0,
         "status": 200,
-        "rttMs": 173.89641399999994,
+        "rttMs": 292.4115099999999,
         "serverTiming": "search;dur=0.00",
         "depth": "5",
         "nodes": "3001",
@@ -2529,7 +2551,7 @@
         "mode": "duels",
         "repeat": 1,
         "status": 200,
-        "rttMs": 267.6418020000001,
+        "rttMs": 194.02614400000016,
         "serverTiming": "search;dur=0.00",
         "depth": "5",
         "nodes": "3001",
@@ -2541,7 +2563,7 @@
         "mode": "duels",
         "repeat": 2,
         "status": 200,
-        "rttMs": 92.53176099999996,
+        "rttMs": 173.52771900000016,
         "serverTiming": "search;dur=0.00",
         "depth": "5",
         "nodes": "3001",
@@ -2553,7 +2575,7 @@
         "mode": "standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 136.69807300000002,
+        "rttMs": 125.5969090000001,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "1001",
@@ -2565,7 +2587,7 @@
         "mode": "standard",
         "repeat": 1,
         "status": 200,
-        "rttMs": 120.75476400000002,
+        "rttMs": 198.92090699999994,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "1001",
@@ -2577,7 +2599,7 @@
         "mode": "standard",
         "repeat": 2,
         "status": 200,
-        "rttMs": 167.626262,
+        "rttMs": 132.1288360000001,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "1001",
@@ -2589,7 +2611,7 @@
         "mode": "royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 98.36517300000014,
+        "rttMs": 155.09203000000002,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "1001",
@@ -2601,7 +2623,7 @@
         "mode": "royale",
         "repeat": 1,
         "status": 200,
-        "rttMs": 208.248472,
+        "rttMs": 105.21963000000005,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "1001",
@@ -2613,7 +2635,7 @@
         "mode": "royale",
         "repeat": 2,
         "status": 200,
-        "rttMs": 69.50520499999993,
+        "rttMs": 148.55624799999987,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "1001",
@@ -2625,7 +2647,7 @@
         "mode": "constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 166.61795399999983,
+        "rttMs": 116.009861,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "301",
@@ -2637,7 +2659,7 @@
         "mode": "constrictor",
         "repeat": 1,
         "status": 200,
-        "rttMs": 180.56495199999972,
+        "rttMs": 181.24344500000007,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "301",
@@ -2649,7 +2671,7 @@
         "mode": "constrictor",
         "repeat": 2,
         "status": 200,
-        "rttMs": 159.8655429999999,
+        "rttMs": 63.309181999999964,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "301",
@@ -2661,7 +2683,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 35.951940999999806,
+        "rttMs": 56.65673000000015,
         "serverTiming": "search;dur=0.00",
         "depth": "4",
         "nodes": "108",
@@ -2673,10 +2695,10 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 82.1313869999999,
+        "rttMs": 69.67739500000016,
         "serverTiming": "search;dur=0.00",
         "depth": "4",
-        "nodes": "317",
+        "nodes": "335",
         "answer": {
           "move": "up"
         }
@@ -2685,7 +2707,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 94.50050199999987,
+        "rttMs": 147.07261900000003,
         "serverTiming": "search;dur=0.00",
         "depth": "3",
         "nodes": "1001",
@@ -2697,7 +2719,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 54.689550000000054,
+        "rttMs": 48.19128499999988,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "301",
@@ -2709,7 +2731,7 @@
         "mode": "replay-royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 81.224154,
+        "rttMs": 58.729027000000315,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "325",
@@ -2721,7 +2743,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 40.35912499999995,
+        "rttMs": 73.48778399999992,
         "serverTiming": "search;dur=0.00",
         "depth": "3",
         "nodes": "146",
@@ -2733,7 +2755,7 @@
         "mode": "replay-royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 51.649279999999635,
+        "rttMs": 44.460553999999775,
         "serverTiming": "search;dur=0.00",
         "depth": "4",
         "nodes": "786",
@@ -2745,7 +2767,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 56.15192999999999,
+        "rttMs": 32.47289799999999,
         "serverTiming": "search;dur=0.00",
         "depth": "4",
         "nodes": "68",
@@ -2757,7 +2779,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 31.933398000000125,
+        "rttMs": 33.98315599999978,
         "serverTiming": "search;dur=0.00",
         "depth": "4",
         "nodes": "99",
@@ -2769,7 +2791,7 @@
         "mode": "replay-royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 62.2786900000001,
+        "rttMs": 35.84328699999969,
         "serverTiming": "search;dur=0.00",
         "depth": "4",
         "nodes": "25",
@@ -2781,10 +2803,10 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 82.68130299999984,
+        "rttMs": 176.95467199999985,
         "serverTiming": "search;dur=0.00",
         "depth": "4",
-        "nodes": "544",
+        "nodes": "571",
         "answer": {
           "move": "left"
         }
@@ -2793,7 +2815,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 161.99836000000005,
+        "rttMs": 99.171515,
         "serverTiming": "search;dur=0.00",
         "depth": "3",
         "nodes": "765",
@@ -2805,7 +2827,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 87.06537500000013,
+        "rttMs": 59.01315599999998,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "301",
@@ -2817,7 +2839,7 @@
         "mode": "replay-royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 77.2750259999998,
+        "rttMs": 36.51354700000002,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "9",
@@ -2829,7 +2851,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 37.00598499999978,
+        "rttMs": 94.0009970000001,
         "serverTiming": "search;dur=0.00",
         "depth": "4",
         "nodes": "87",
@@ -2841,7 +2863,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 105.9628660000003,
+        "rttMs": 64.42542599999979,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "301",
@@ -2853,7 +2875,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 95.86117700000023,
+        "rttMs": 162.4969669999996,
         "serverTiming": "search;dur=0.00",
         "depth": "5",
         "nodes": "3001",
@@ -2865,7 +2887,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 124.8858439999999,
+        "rttMs": 81.10057700000016,
         "serverTiming": "search;dur=0.00",
         "depth": "3",
         "nodes": "1001",
@@ -2877,7 +2899,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 91.56164399999943,
+        "rttMs": 181.5135380000006,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "301",
@@ -2889,7 +2911,7 @@
         "mode": "replay-royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 210.48374199999944,
+        "rttMs": 130.86902499999997,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "1001",
@@ -2901,7 +2923,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 82.62132500000007,
+        "rttMs": 77.76821199999995,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "301",
@@ -2913,7 +2935,7 @@
         "mode": "replay-royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 114.87687599999936,
+        "rttMs": 258.0912980000003,
         "serverTiming": "search;dur=0.00",
         "depth": "3",
         "nodes": "1001",
@@ -2925,7 +2947,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 171.65322399999968,
+        "rttMs": 147.8307330000007,
         "serverTiming": "search;dur=0.00",
         "depth": "5",
         "nodes": "3001",
@@ -2937,7 +2959,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 113.09783200000038,
+        "rttMs": 55.228604999999334,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "301",
@@ -2949,7 +2971,7 @@
         "mode": "replay-royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 63.779005999999754,
+        "rttMs": 258.0395819999994,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "1001",
@@ -2961,7 +2983,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 115.23590599999989,
+        "rttMs": 105.01581799999985,
         "serverTiming": "search;dur=0.00",
         "depth": "7",
         "nodes": "3001",
@@ -2973,7 +2995,7 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 80.03061900000012,
+        "rttMs": 133.4822119999999,
         "serverTiming": "search;dur=0.00",
         "depth": "2",
         "nodes": "1001",
@@ -2985,7 +3007,7 @@
         "mode": "replay-constrictor",
         "repeat": 0,
         "status": 200,
-        "rttMs": 108.19879700000001,
+        "rttMs": 62.8411700000006,
         "serverTiming": "search;dur=0.00",
         "depth": "1",
         "nodes": "301",
@@ -2997,7 +3019,7 @@
         "mode": "replay-royale",
         "repeat": 0,
         "status": 200,
-        "rttMs": 80.86121600000024,
+        "rttMs": 103.22210199999972,
         "serverTiming": "search;dur=0.00",
         "depth": "3",
         "nodes": "1001",
@@ -3009,343 +3031,725 @@
         "mode": "replay-standard",
         "repeat": 0,
         "status": 200,
-        "rttMs": 168.68371099999968,
+        "rttMs": 99.71508100000028,
         "serverTiming": "search;dur=0.00",
         "depth": "6",
-        "nodes": "2755",
+        "nodes": "2759",
         "answer": {
           "move": "left"
         }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 144.01747799999976,
+        "serverTiming": "search;dur=0.00",
+        "depth": "7",
+        "nodes": "3001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 416.5956959999994,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 92.54470000000038,
+        "serverTiming": "search;dur=0.00",
+        "depth": "5",
+        "nodes": "1001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 89.9025160000001,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-new-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 94.77384400000028,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 70.90683900000022,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "1001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 94.09667600000012,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 74.52711200000067,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 134.70083499999964,
+        "serverTiming": "search;dur=0.00",
+        "depth": "7",
+        "nodes": "3001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 79.27660600000036,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 176.90544099999988,
+        "serverTiming": "search;dur=0.00",
+        "depth": "5",
+        "nodes": "3001",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 101.45332099999996,
+        "serverTiming": "search;dur=0.00",
+        "depth": "10",
+        "nodes": "3001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 106.86520299999938,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-new-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 98.79056300000047,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 124.69940600000064,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "1001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 108.95318399999996,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 321.55316500000026,
+        "serverTiming": "search;dur=0.00",
+        "depth": "3",
+        "nodes": "1001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-new-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 96.78298900000027,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-new-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 147.58208899999954,
+        "serverTiming": "search;dur=0.00",
+        "depth": "7",
+        "nodes": "3001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 134.54156500000136,
+        "serverTiming": "search;dur=0.00",
+        "depth": "8",
+        "nodes": "3001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 114.95851000000039,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 216.85862000000088,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 172.466147000001,
+        "serverTiming": "search;dur=0.00",
+        "depth": "5",
+        "nodes": "3001",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 112.80037300000004,
+        "serverTiming": "search;dur=0.00",
+        "depth": "6",
+        "nodes": "3001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 131.92365400000017,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "1001",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 333.13783499999954,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "up"
+        }
+      },
+      {
+        "mode": "replay-new-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 167.4274860000005,
+        "serverTiming": "search;dur=0.00",
+        "depth": "6",
+        "nodes": "3001",
+        "answer": {
+          "move": "right"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 91.24121799999921,
+        "serverTiming": "search;dur=0.00",
+        "depth": "7",
+        "nodes": "3001",
+        "answer": {
+          "move": "left"
+        }
+      },
+      {
+        "mode": "replay-new-standard",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 93.43629500000134,
+        "serverTiming": "search;dur=0.00",
+        "depth": "4",
+        "nodes": "1001",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-empty",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 76.33504600000015,
+        "serverTiming": "search;dur=0.00",
+        "depth": "1",
+        "nodes": "301",
+        "answer": {
+          "move": "down"
+        }
+      },
+      {
+        "mode": "replay-new-royale",
+        "repeat": 0,
+        "status": 200,
+        "rttMs": 141.45174000000043,
+        "serverTiming": "search;dur=0.00",
+        "depth": "2",
+        "nodes": "1001",
+        "answer": {
+          "move": "right"
+        }
       }
     ],
-    "maxRttMs": 267.6418020000001,
+    "maxRttMs": 416.5956959999994,
     "allMovesUnder500ms": true
   },
   "ruleConformance": {
     "engine": "BattlesnakeOfficial/rules v1.2.3",
-    "games": 189,
-    "checkedTransitions": 33456,
+    "games": 277,
+    "checkedTransitions": 59760,
     "result": "all compared bodies and health match",
     "limitation": "Transitions with eliminations are covered by unit scenarios, not this reconstruction, because the CLI omits eliminated snakes."
   },
   "holdoutDuels": {
-    "baselineCommit": "9f31b23a9f94d7409a08907c137f81e9bc6b0565",
-    "candidateVersion": "1.3.1",
+    "baselineCommit": "6c0a84c7a089601071aaf49d6e83d671ee4ae649",
+    "baselineVersion": "1.3.1",
+    "candidateVersion": "1.4.0",
     "engine": "BattlesnakeOfficial/rules v1.2.3",
     "profile": "cloud",
-    "metric": "candidate survives longer than v1.2.0, including in four-player games",
+    "metric": "candidate survives longer than baseline, including in four-player games",
     "suites": [
       {
         "mode": "standard",
         "players": 2,
         "games": [
           {
-            "seed": 15001,
+            "seed": 27001,
             "outcome": "win",
             "lastAliveTurn": {
-              "candidate": 479,
-              "baseline": 478
+              "candidate": 249,
+              "baseline": 248
             },
             "winnerNames": [
               "candidate"
             ],
-            "seconds": 10.009,
+            "seconds": 4.313,
             "warnings": []
           },
           {
-            "seed": 15002,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 333,
-              "baseline": 332
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 8.344,
-            "warnings": []
-          },
-          {
-            "seed": 15003,
+            "seed": 27002,
             "outcome": "loss",
             "lastAliveTurn": {
-              "candidate": 356,
-              "baseline": 357
+              "candidate": 282,
+              "baseline": 283
             },
             "winnerNames": [
               "baseline"
             ],
-            "seconds": 8.645,
+            "seconds": 4.992,
             "warnings": []
           },
           {
-            "seed": 15004,
+            "seed": 27003,
             "outcome": "win",
             "lastAliveTurn": {
-              "candidate": 357,
-              "baseline": 356
+              "candidate": 363,
+              "baseline": 362
             },
             "winnerNames": [
               "candidate"
             ],
-            "seconds": 9.076,
+            "seconds": 5.769,
             "warnings": []
           },
           {
-            "seed": 15005,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 343,
-              "baseline": 342
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 7.958,
-            "warnings": []
-          },
-          {
-            "seed": 15006,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 359,
-              "baseline": 358
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 8.6,
-            "warnings": []
-          },
-          {
-            "seed": 15007,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 285,
-              "baseline": 284
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 7.682,
-            "warnings": []
-          },
-          {
-            "seed": 15008,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 595,
-              "baseline": 594
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 15.01,
-            "warnings": []
-          },
-          {
-            "seed": 15009,
+            "seed": 27004,
             "outcome": "loss",
             "lastAliveTurn": {
-              "candidate": 321,
-              "baseline": 322
+              "candidate": 305,
+              "baseline": 306
             },
             "winnerNames": [
               "baseline"
             ],
-            "seconds": 7.996,
+            "seconds": 4.996,
             "warnings": []
           },
           {
-            "seed": 15010,
+            "seed": 27005,
             "outcome": "win",
             "lastAliveTurn": {
-              "candidate": 241,
-              "baseline": 240
+              "candidate": 365,
+              "baseline": 364
             },
             "winnerNames": [
               "candidate"
             ],
-            "seconds": 5.888,
+            "seconds": 5.773,
             "warnings": []
           },
           {
-            "seed": 15011,
+            "seed": 27006,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 395,
+              "baseline": 394
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 6.174,
+            "warnings": []
+          },
+          {
+            "seed": 27007,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 233,
+              "baseline": 232
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 4.059,
+            "warnings": []
+          },
+          {
+            "seed": 27008,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 463,
+              "baseline": 462
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 7.747,
+            "warnings": []
+          },
+          {
+            "seed": 27009,
             "outcome": "loss",
             "lastAliveTurn": {
-              "candidate": 386,
-              "baseline": 387
+              "candidate": 271,
+              "baseline": 272
             },
             "winnerNames": [
               "baseline"
             ],
-            "seconds": 8.928,
+            "seconds": 4.497,
+            "warnings": []
+          },
+          {
+            "seed": 27010,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 307,
+              "baseline": 308
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 5.199,
+            "warnings": []
+          },
+          {
+            "seed": 27011,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 318,
+              "baseline": 319
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 5.343,
             "warnings": []
           }
         ],
-        "wins": 8,
-        "losses": 3,
+        "wins": 6,
+        "losses": 5,
         "draws": 0
       }
     ]
   },
   "holdoutFour": {
-    "baselineCommit": "9f31b23a9f94d7409a08907c137f81e9bc6b0565",
-    "candidateVersion": "1.3.1",
+    "baselineCommit": "6c0a84c7a089601071aaf49d6e83d671ee4ae649",
+    "baselineVersion": "1.3.1",
+    "candidateVersion": "1.4.0",
+    "testOpponents": {
+      "apiversion": "1",
+      "color": "#d07835",
+      "head": "default",
+      "tail": "default",
+      "evaluatorVersion": "1.3.1",
+      "tieBreak": "deterministic request hash"
+    },
     "engine": "BattlesnakeOfficial/rules v1.2.3",
     "profile": "cloud",
-    "metric": "candidate survives longer than v1.2.0, including in four-player games",
+    "metric": "candidate survives longer than baseline, including in four-player games",
     "suites": [
       {
         "mode": "standard",
         "players": 4,
         "games": [
           {
-            "seed": 15001,
+            "seed": 29001,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 131,
+              "baseline": 169
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 2.026,
+            "warnings": []
+          },
+          {
+            "seed": 29002,
             "outcome": "win",
             "lastAliveTurn": {
-              "candidate": 410,
-              "baseline": 409
+              "candidate": 391,
+              "baseline": 172
             },
             "winnerNames": [
               "candidate"
             ],
-            "seconds": 8.85,
+            "seconds": 4.898,
             "warnings": []
           },
           {
-            "seed": 15002,
+            "seed": 29003,
             "outcome": "win",
             "lastAliveTurn": {
-              "candidate": 294,
-              "baseline": 175
+              "candidate": 367,
+              "baseline": 219
             },
             "winnerNames": [
               "candidate"
             ],
-            "seconds": 7.486,
+            "seconds": 4.429,
             "warnings": []
           },
           {
-            "seed": 15003,
-            "outcome": "loss",
-            "lastAliveTurn": {
-              "candidate": 186,
-              "baseline": 316
-            },
-            "winnerNames": [
-              "baseline"
-            ],
-            "seconds": 7.645,
-            "warnings": []
-          },
-          {
-            "seed": 15004,
-            "outcome": "loss",
-            "lastAliveTurn": {
-              "candidate": 330,
-              "baseline": 331
-            },
-            "winnerNames": [
-              "baseline"
-            ],
-            "seconds": 8.348,
-            "warnings": []
-          },
-          {
-            "seed": 15005,
-            "outcome": "loss",
-            "lastAliveTurn": {
-              "candidate": 179,
-              "baseline": 220
-            },
-            "winnerNames": [
-              "baseline"
-            ],
-            "seconds": 4.911,
-            "warnings": []
-          },
-          {
-            "seed": 15006,
-            "outcome": "loss",
-            "lastAliveTurn": {
-              "candidate": 164,
-              "baseline": 307
-            },
-            "winnerNames": [
-              "baseline"
-            ],
-            "seconds": 7.038,
-            "warnings": []
-          },
-          {
-            "seed": 15007,
+            "seed": 29004,
             "outcome": "win",
             "lastAliveTurn": {
-              "candidate": 275,
-              "baseline": 238
+              "candidate": 340,
+              "baseline": 339
             },
             "winnerNames": [
               "candidate"
             ],
-            "seconds": 6.56,
+            "seconds": 3.852,
             "warnings": []
           },
           {
-            "seed": 15008,
+            "seed": 29005,
             "outcome": "win",
             "lastAliveTurn": {
               "candidate": 329,
-              "baseline": 328
+              "baseline": 267
             },
             "winnerNames": [
               "candidate"
             ],
-            "seconds": 8.431,
+            "seconds": 3.483,
             "warnings": []
           },
           {
-            "seed": 15009,
-            "outcome": "loss",
-            "lastAliveTurn": {
-              "candidate": 470,
-              "baseline": 471
-            },
-            "winnerNames": [
-              "baseline"
-            ],
-            "seconds": 12.294,
-            "warnings": []
-          },
-          {
-            "seed": 15010,
+            "seed": 29006,
             "outcome": "win",
             "lastAliveTurn": {
-              "candidate": 362,
-              "baseline": 175
+              "candidate": 341,
+              "baseline": 218
             },
             "winnerNames": [
               "candidate"
             ],
-            "seconds": 9.086,
+            "seconds": 4.015,
             "warnings": []
           },
           {
-            "seed": 15011,
+            "seed": 29007,
             "outcome": "win",
             "lastAliveTurn": {
-              "candidate": 276,
-              "baseline": 237
+              "candidate": 451,
+              "baseline": 450
             },
             "winnerNames": [
-              "oneply"
+              "candidate"
             ],
-            "seconds": 6.375,
+            "seconds": 4.832,
+            "warnings": []
+          },
+          {
+            "seed": 29008,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 316,
+              "baseline": 315
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 3.359,
+            "warnings": []
+          },
+          {
+            "seed": 29009,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 305,
+              "baseline": 253
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 3.284,
+            "warnings": []
+          },
+          {
+            "seed": 29010,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 417,
+              "baseline": 416
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 5.756,
+            "warnings": []
+          },
+          {
+            "seed": 29011,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 355,
+              "baseline": 354
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 4.909,
             "warnings": []
           }
         ],
-        "wins": 6,
-        "losses": 5,
+        "wins": 10,
+        "losses": 1,
         "draws": 0
       },
       {
@@ -3353,146 +3757,146 @@
         "players": 4,
         "games": [
           {
-            "seed": 15001,
+            "seed": 29001,
             "outcome": "loss",
             "lastAliveTurn": {
-              "candidate": 165,
-              "baseline": 166
+              "candidate": 270,
+              "baseline": 271
             },
             "winnerNames": [
               "baseline"
             ],
-            "seconds": 4.109,
+            "seconds": 3.249,
             "warnings": []
           },
           {
-            "seed": 15002,
+            "seed": 29002,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 272,
+              "baseline": 271
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 3.429,
+            "warnings": []
+          },
+          {
+            "seed": 29003,
             "outcome": "loss",
             "lastAliveTurn": {
-              "candidate": 218,
-              "baseline": 219
+              "candidate": 128,
+              "baseline": 221
             },
             "winnerNames": [
               "baseline"
             ],
-            "seconds": 4.664,
+            "seconds": 2.615,
             "warnings": []
           },
           {
-            "seed": 15003,
+            "seed": 29004,
             "outcome": "loss",
             "lastAliveTurn": {
-              "candidate": 185,
-              "baseline": 204
+              "candidate": 227,
+              "baseline": 228
             },
             "winnerNames": [
               "baseline"
             ],
-            "seconds": 2.473,
+            "seconds": 2.294,
             "warnings": []
           },
           {
-            "seed": 15004,
+            "seed": 29005,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 235,
+              "baseline": 10
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 3.015,
+            "warnings": []
+          },
+          {
+            "seed": 29006,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 175,
+              "baseline": 165
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 1.891,
+            "warnings": []
+          },
+          {
+            "seed": 29007,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 195,
+              "baseline": 130
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.372,
+            "warnings": []
+          },
+          {
+            "seed": 29008,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 202,
+              "baseline": 193
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.161,
+            "warnings": []
+          },
+          {
+            "seed": 29009,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 148,
+              "baseline": 139
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 1.669,
+            "warnings": []
+          },
+          {
+            "seed": 29010,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 203,
+              "baseline": 199
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.017,
+            "warnings": []
+          },
+          {
+            "seed": 29011,
             "outcome": "loss",
             "lastAliveTurn": {
-              "candidate": 134,
-              "baseline": 216
+              "candidate": 117,
+              "baseline": 213
             },
             "winnerNames": [
               "baseline"
             ],
-            "seconds": 2.278,
-            "warnings": []
-          },
-          {
-            "seed": 15005,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 187,
-              "baseline": 186
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 1.682,
-            "warnings": []
-          },
-          {
-            "seed": 15006,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 160,
-              "baseline": 159
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 1.471,
-            "warnings": []
-          },
-          {
-            "seed": 15007,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 249,
-              "baseline": 198
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 2.358,
-            "warnings": []
-          },
-          {
-            "seed": 15008,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 161,
-              "baseline": 12
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 1.556,
-            "warnings": []
-          },
-          {
-            "seed": 15009,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 228,
-              "baseline": 182
-            },
-            "winnerNames": [
-              "oneply"
-            ],
-            "seconds": 2.037,
-            "warnings": []
-          },
-          {
-            "seed": 15010,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 230,
-              "baseline": 87
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 2.142,
-            "warnings": []
-          },
-          {
-            "seed": 15011,
-            "outcome": "win",
-            "lastAliveTurn": {
-              "candidate": 145,
-              "baseline": 24
-            },
-            "winnerNames": [
-              "candidate"
-            ],
-            "seconds": 1.485,
+            "seconds": 2.743,
             "warnings": []
           }
         ],
@@ -3547,8 +3951,1450 @@
     }
   },
   "checks": {
-    "tests": 18,
-    "cpuCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/44935563812",
-    "apiCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/44935565764"
+    "tests": 20,
+    "cpuCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/45879007383",
+    "apiCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/45879427547",
+    "initialApiCiUrl": "https://github.com/evseevgrv/mipt-hill-serpent/actions/runs/45879231952"
+  },
+  "rejectedMultiplayer": {
+    "baselineCommit": "6c0a84c7a089601071aaf49d6e83d671ee4ae649",
+    "baselineVersion": "1.3.1",
+    "candidateVersion": "1.4.0",
+    "engine": "BattlesnakeOfficial/rules v1.2.3",
+    "profile": "cloud",
+    "metric": "candidate survives longer than baseline, including in four-player games",
+    "suites": [
+      {
+        "mode": "standard",
+        "players": 4,
+        "games": [
+          {
+            "seed": 27001,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 387,
+              "baseline": 386
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 5.348,
+            "warnings": []
+          },
+          {
+            "seed": 27002,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 263,
+              "baseline": 264
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 3.717,
+            "warnings": []
+          },
+          {
+            "seed": 27003,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 256,
+              "baseline": 264
+            },
+            "winnerNames": [
+              "oneply"
+            ],
+            "seconds": 2.345,
+            "warnings": []
+          },
+          {
+            "seed": 27004,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 355,
+              "baseline": 356
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 5.15,
+            "warnings": []
+          },
+          {
+            "seed": 27005,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 386,
+              "baseline": 387
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 4.39,
+            "warnings": []
+          },
+          {
+            "seed": 27006,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 564,
+              "baseline": 565
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 7.168,
+            "warnings": []
+          },
+          {
+            "seed": 27007,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 358,
+              "baseline": 359
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 3.737,
+            "warnings": []
+          },
+          {
+            "seed": 27008,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 171,
+              "baseline": 303
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 3.313,
+            "warnings": []
+          },
+          {
+            "seed": 27009,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 253,
+              "baseline": 220
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.581,
+            "warnings": []
+          },
+          {
+            "seed": 27010,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 265,
+              "baseline": 266
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 2.496,
+            "warnings": []
+          },
+          {
+            "seed": 27011,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 170,
+              "baseline": 352
+            },
+            "winnerNames": [
+              "oneply"
+            ],
+            "seconds": 3.919,
+            "warnings": []
+          }
+        ],
+        "wins": 2,
+        "losses": 9,
+        "draws": 0
+      },
+      {
+        "mode": "royale",
+        "players": 4,
+        "games": [
+          {
+            "seed": 27001,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 154,
+              "baseline": 227
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 2.441,
+            "warnings": []
+          },
+          {
+            "seed": 27002,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 37,
+              "baseline": 278
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 3.019,
+            "warnings": []
+          },
+          {
+            "seed": 27003,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 230,
+              "baseline": 229
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 3.221,
+            "warnings": []
+          },
+          {
+            "seed": 27004,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 241,
+              "baseline": 242
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 3.127,
+            "warnings": []
+          },
+          {
+            "seed": 27005,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 222,
+              "baseline": 42
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.859,
+            "warnings": []
+          },
+          {
+            "seed": 27006,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 281,
+              "baseline": 280
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.99,
+            "warnings": []
+          },
+          {
+            "seed": 27007,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 103,
+              "baseline": 125
+            },
+            "winnerNames": [
+              "oneply"
+            ],
+            "seconds": 1.473,
+            "warnings": []
+          },
+          {
+            "seed": 27008,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 98,
+              "baseline": 57
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 1.339,
+            "warnings": []
+          },
+          {
+            "seed": 27009,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 256,
+              "baseline": 255
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 3.555,
+            "warnings": []
+          },
+          {
+            "seed": 27010,
+            "outcome": "win",
+            "lastAliveTurn": {
+              "candidate": 245,
+              "baseline": 244
+            },
+            "winnerNames": [
+              "candidate"
+            ],
+            "seconds": 2.852,
+            "warnings": []
+          },
+          {
+            "seed": 27011,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 255,
+              "baseline": 256
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 3.049,
+            "warnings": []
+          }
+        ],
+        "wins": 6,
+        "losses": 5,
+        "draws": 0
+      }
+    ],
+    "candidateConfiguration": "Rejected draft: enemy trap bonus applied with multiple opponents"
+  },
+  "cloudBenchmark": {
+    "version": "1.4.0",
+    "date": "2026-11-26T18:50:19.926Z",
+    "runtime": "v22.23.5",
+    "cpu": "AMD EPYC 9V45 96-Core Processor",
+    "architecture": "x64",
+    "cpuAffinity": "0",
+    "samples": 377,
+    "profile": "production node caps with frozen search clock",
+    "latencyMs": {
+      "p50": 18.939652000000024,
+      "p95": 26.68150199999991,
+      "max": 73.34472000000005
+    },
+    "groups": {
+      "duels": {
+        "samples": 240,
+        "maxMs": 73.34472000000005,
+        "maxNodes": 3001
+      },
+      "royale": {
+        "samples": 41,
+        "maxMs": 69.89811099999997,
+        "maxNodes": 3001
+      },
+      "constrictor": {
+        "samples": 66,
+        "maxMs": 50.72496799999999,
+        "maxNodes": 1001
+      },
+      "standard": {
+        "samples": 30,
+        "maxMs": 41.340956000000006,
+        "maxNodes": 3001
+      }
+    },
+    "under500ms": true
+  },
+  "releaseNotes": [
+    "В Standard и Royale оценивается риск ловушки последнего соперника. Бонус при нескольких противниках отклонен после результата 2:9 в Standard.",
+    "Из двух кратчайших маршрутов одинаковой длины сохраняется вариант с большим запасом здоровья для дальнейшего прохода опасных клеток.",
+    "Добавлены 93 позиции реальных матчей и проверка полного облачного бюджета с замороженными часами. На одном CPU Linux проверены 377 позиций.",
+    "Для контрольных игр закреплена оценка v1.3.1, а случайное разрешение равных ходов заменено воспроизводимым выбором по состоянию поля."
+  ],
+  "networkDiagnostics": {
+    "initialCheck": {
+      "url": "https://mipt-hill-serpent.miniaturegoose4.chatgpt.site",
+      "date": "2026-11-26T18:51:46.831Z",
+      "endpoints": [
+        {
+          "path": "/",
+          "status": 200,
+          "body": {
+            "apiversion": "1",
+            "author": "evseevgrv",
+            "color": "#35d0a2",
+            "head": "default",
+            "tail": "default",
+            "version": "1.4.0"
+          }
+        },
+        {
+          "path": "/health",
+          "status": 200,
+          "body": {
+            "status": "ok",
+            "version": "1.4.0"
+          }
+        },
+        {
+          "path": "/start",
+          "status": 200,
+          "body": {}
+        },
+        {
+          "path": "/end",
+          "status": 200,
+          "body": {}
+        }
+      ],
+      "moves": [
+        {
+          "mode": "duels",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 215.570511,
+          "serverTiming": "search;dur=0.00",
+          "depth": "5",
+          "nodes": "3001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "duels",
+          "repeat": 1,
+          "status": 200,
+          "rttMs": 216.20287700000017,
+          "serverTiming": "search;dur=0.00",
+          "depth": "5",
+          "nodes": "3001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "duels",
+          "repeat": 2,
+          "status": 200,
+          "rttMs": 150.42181099999993,
+          "serverTiming": "search;dur=0.00",
+          "depth": "5",
+          "nodes": "3001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 177.12154699999996,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "standard",
+          "repeat": 1,
+          "status": 200,
+          "rttMs": 133.14434699999993,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "standard",
+          "repeat": 2,
+          "status": 200,
+          "rttMs": 148.25632900000005,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 130.07946799999968,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "royale",
+          "repeat": 1,
+          "status": 200,
+          "rttMs": 119.29379000000017,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "royale",
+          "repeat": 2,
+          "status": 200,
+          "rttMs": 136.29820100000006,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 119.83286799999996,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "constrictor",
+          "repeat": 1,
+          "status": 200,
+          "rttMs": 167.70427300000028,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "constrictor",
+          "repeat": 2,
+          "status": 200,
+          "rttMs": 88.65855800000008,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 66.11950399999978,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "108",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 64.80976800000008,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "335",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 132.9596160000001,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "1001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 54.41594099999975,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "301",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 54.4235819999999,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "325",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 54.52863900000011,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "146",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 45.2721819999997,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "786",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 41.366779999999835,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "68",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 48.33958799999982,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "99",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 37.60232300000007,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "25",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 129.54706000000033,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "571",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 90.09908700000005,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "765",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 57.89192000000003,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 49.503028000000086,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "9",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 69.04018199999973,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "87",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 155.07363899999973,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 176.256077,
+          "serverTiming": "search;dur=0.00",
+          "depth": "5",
+          "nodes": "3001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 116.57172599999967,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "1001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 127.96417900000051,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 102.79595900000004,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "1001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 94.90938899999946,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 71.53223700000035,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "1001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 127.20347399999991,
+          "serverTiming": "search;dur=0.00",
+          "depth": "5",
+          "nodes": "3001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 85.1150689999995,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 70.60111099999995,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 84.67260499999975,
+          "serverTiming": "search;dur=0.00",
+          "depth": "7",
+          "nodes": "3001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 76.99176799999987,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-constrictor",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 89.14710900000046,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 59.71845200000007,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 601.9198100000003,
+          "serverTiming": "search;dur=0.00",
+          "depth": "6",
+          "nodes": "2759",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 91.71676800000023,
+          "serverTiming": "search;dur=0.00",
+          "depth": "7",
+          "nodes": "3001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 198.92123700000047,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 89.23630199999934,
+          "serverTiming": "search;dur=0.00",
+          "depth": "5",
+          "nodes": "1001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 117.49120599999969,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-new-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 63.89242100000047,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 308.6215030000003,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "1001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 102.25810399999955,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 84.73129100000006,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 85.65834100000029,
+          "serverTiming": "search;dur=0.00",
+          "depth": "7",
+          "nodes": "3001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 78.54270200000065,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 107.81680200000028,
+          "serverTiming": "search;dur=0.00",
+          "depth": "5",
+          "nodes": "3001",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 159.30691699999988,
+          "serverTiming": "search;dur=0.00",
+          "depth": "10",
+          "nodes": "3001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 81.02294900000015,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-new-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 96.68551500000012,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 56.57033700000011,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "1001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 130.7627650000004,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 65.13084500000059,
+          "serverTiming": "search;dur=0.00",
+          "depth": "3",
+          "nodes": "1001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-new-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 83.35030900000038,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-new-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 96.50371599999926,
+          "serverTiming": "search;dur=0.00",
+          "depth": "7",
+          "nodes": "3001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 112.51627100000042,
+          "serverTiming": "search;dur=0.00",
+          "depth": "8",
+          "nodes": "3001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 64.21044299999994,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 109.05217799999991,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 111.3483839999999,
+          "serverTiming": "search;dur=0.00",
+          "depth": "5",
+          "nodes": "3001",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 118.37895699999899,
+          "serverTiming": "search;dur=0.00",
+          "depth": "6",
+          "nodes": "3001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 71.55305699999917,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "1001",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 217.39304699999957,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "up"
+          }
+        },
+        {
+          "mode": "replay-new-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 113.89903299999969,
+          "serverTiming": "search;dur=0.00",
+          "depth": "6",
+          "nodes": "3001",
+          "answer": {
+            "move": "right"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 93.93186400000013,
+          "serverTiming": "search;dur=0.00",
+          "depth": "7",
+          "nodes": "3001",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "mode": "replay-new-standard",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 98.89491099999941,
+          "serverTiming": "search;dur=0.00",
+          "depth": "4",
+          "nodes": "1001",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-empty",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 331.49348800000007,
+          "serverTiming": "search;dur=0.00",
+          "depth": "1",
+          "nodes": "301",
+          "answer": {
+            "move": "down"
+          }
+        },
+        {
+          "mode": "replay-new-royale",
+          "repeat": 0,
+          "status": 200,
+          "rttMs": 65.6959939999997,
+          "serverTiming": "search;dur=0.00",
+          "depth": "2",
+          "nodes": "1001",
+          "answer": {
+            "move": "right"
+          }
+        }
+      ],
+      "maxRttMs": 601.9198100000003,
+      "allMovesUnder500ms": false
+    },
+    "workerTiming": {
+      "source": "Sites get_site_worker_logs, 100 recent successful production invocations",
+      "capturedAt": "2026-11-26T18:54:14.558Z",
+      "samples": 100,
+      "firstTimestamp": 1795719119072,
+      "lastTimestamp": 1795719161692,
+      "cpuTimeMs": {
+        "p50": 75,
+        "p95": 105,
+        "max": 114
+      },
+      "wallTimeMs": {
+        "p50": 77,
+        "p95": 107,
+        "max": 117
+      },
+      "outcomes": [
+        "ok"
+      ],
+      "limitation": "This sample is not correlated to the initial slow Linux request and does not measure network round-trip time."
+    },
+    "localRecheck": {
+      "note": "Recheck of the request at index 41 in the initial 73-request Linux API check; network path differs on this Mac.",
+      "samples": [
+        {
+          "rttMs": 1214.6176659999999,
+          "status": 200,
+          "nodes": "2759",
+          "depth": "6",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "rttMs": 376.69054200000005,
+          "status": 200,
+          "nodes": "2759",
+          "depth": "6",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "rttMs": 331.75525000000016,
+          "status": 200,
+          "nodes": "2759",
+          "depth": "6",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "rttMs": 339.26729199999977,
+          "status": 200,
+          "nodes": "2759",
+          "depth": "6",
+          "answer": {
+            "move": "left"
+          }
+        },
+        {
+          "rttMs": 322.82845799999996,
+          "status": 200,
+          "nodes": "2759",
+          "depth": "6",
+          "answer": {
+            "move": "left"
+          }
+        }
+      ]
+    }
+  },
+  "reproducibilityCheck": {
+    "baselineCommit": "6c0a84c7a089601071aaf49d6e83d671ee4ae649",
+    "baselineVersion": "1.3.1",
+    "candidateVersion": "1.4.0",
+    "testOpponents": {
+      "apiversion": "1",
+      "color": "#d07835",
+      "head": "default",
+      "tail": "default",
+      "evaluatorVersion": "1.3.1",
+      "tieBreak": "deterministic request hash"
+    },
+    "engine": "BattlesnakeOfficial/rules v1.2.3",
+    "profile": "cloud",
+    "metric": "candidate survives longer than baseline, including in four-player games",
+    "suites": [
+      {
+        "mode": "standard",
+        "players": 4,
+        "games": [
+          {
+            "seed": 29001,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 432,
+              "baseline": 433
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 4.525,
+            "warnings": []
+          }
+        ],
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      {
+        "mode": "royale",
+        "players": 4,
+        "games": [
+          {
+            "seed": 29001,
+            "outcome": "loss",
+            "lastAliveTurn": {
+              "candidate": 270,
+              "baseline": 271
+            },
+            "winnerNames": [
+              "baseline"
+            ],
+            "seconds": 3.317,
+            "warnings": []
+          }
+        ],
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    ],
+    "repeatComparison": [
+      {
+        "mode": "standard",
+        "seed": 29001,
+        "sameOutcome": true,
+        "sameLastAliveTurns": false,
+        "originalLastAliveTurn": {
+          "candidate": 131,
+          "baseline": 169
+        },
+        "repeatLastAliveTurn": {
+          "candidate": 432,
+          "baseline": 433
+        }
+      },
+      {
+        "mode": "royale",
+        "seed": 29001,
+        "sameOutcome": true,
+        "sameLastAliveTurns": true,
+        "originalLastAliveTurn": {
+          "candidate": 270,
+          "baseline": 271
+        },
+        "repeatLastAliveTurn": {
+          "candidate": 270,
+          "baseline": 271
+        }
+      }
+    ],
+    "limitation": "Test policies are deterministic functions of the supplied state. Two repeated engine starts retained outcomes, but Standard turn counts differed, so complete game trajectories are not claimed to be bitwise reproducible."
   }
 }

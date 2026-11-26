@@ -1,7 +1,14 @@
 import http from 'node:http';
-import { parseRequest, legalMoves, advance, evaluate, DIRECTIONS } from '../worker/index.js';
+const { parseRequest, legalMoves, advance, evaluate, DIRECTIONS, VERSION } = await import(process.env.OPPONENT_WORKER_MODULE ?? '../worker/index.js');
 
-export function baselineMove(body, level = 'greedy', random = Math.random) {
+function stateRandom(body) {
+  let seed = 2166136261;
+  const text = JSON.stringify([body.turn, body.you.body, body.board.food, body.board.snakes.map(s => [s.body, s.health])]);
+  for (let i = 0; i < text.length; i++) seed = Math.imul(seed ^ text.charCodeAt(i), 16777619);
+  return () => { seed ^= seed << 13; seed ^= seed >>> 17; seed ^= seed << 5; return (seed >>> 0) / 4294967296; };
+}
+
+export function baselineMove(body, level = 'greedy', random = stateRandom(body)) {
   const state = parseRequest(body);
   const moves = legalMoves(state, 0);
   if (!moves.length) return 'up';
@@ -34,7 +41,7 @@ if (process.argv[1]?.endsWith('opponents.mjs')) {
   http.createServer(async (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     const level = req.url.split('/').filter(Boolean)[0] ?? 'greedy';
-    if (req.method === 'GET') { res.end(JSON.stringify({ apiversion: '1', color: '#d07835', head: 'default', tail: 'default' })); return; }
+    if (req.method === 'GET') { res.end(JSON.stringify({ apiversion: '1', color: '#d07835', head: 'default', tail: 'default', evaluatorVersion: VERSION, tieBreak: 'deterministic request hash' })); return; }
     const chunks = []; for await (const chunk of req) chunks.push(chunk);
     const result = req.url.endsWith('/move') ? { move: baselineMove(JSON.parse(Buffer.concat(chunks)), level) } : {};
     res.end(JSON.stringify(result));

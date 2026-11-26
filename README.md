@@ -102,9 +102,9 @@ python scripts/compare.py --baseline-commit 9f31b23a9f94d7409a08907c137f81e9bc6b
 
 ## Обновление 26 ноября: v1.4.0
 
-Учет ловушки последнего противника и сохранение более здорового из равных кратчайших маршрутов. В первой серии против v1.3.1 получено 9:2 в Duels, на независимых стартах 27001–27011 — 6:5. Вариант с бонусом за ловушку любого из нескольких противников отклонен после результата 2:9 в Standard. Полные данные: `results/improvement-2026-11-26`.
+Учет ловушки последнего противника и сохранение более здорового из равных кратчайших маршрутов. В первой серии против v1.3.1 получено 9:2 в Duels, на независимых стартах 27001–27011 — 6:5. Вариант с бонусом за ловушку любого из нескольких противников отклонен после результата 2:9 в Standard. В финальной серии с воспроизводимыми тестовыми политиками новая версия пережила старую в 10 из 11 игр Standard и в 7 из 11 игр Royale. Эти числа не обязательно означают первое место. Полные данные: `results/improvement-2026-11-26`.
 
-Для сравнения с v1.3.1 используйте `git show 6c0a84c:worker/index.js > tools/baseline-v1.3.1.mjs`, запускайте этот файл на порту 8082 через `WORKER_MODULE`, а кандидата на 8080 с `SEARCH_PROFILE=cloud`. Сравнения: `python scripts/compare.py --modes standard --seed-start 27001 --output results/improvement-2026-11-26/holdout-duels.json` и `python scripts/compare.py --players 4 --modes standard royale --seed-start 28001 --output results/improvement-2026-11-26/holdout-four.json`.
+Для сравнения с v1.3.1 используйте `git show 6c0a84c:worker/index.js > tools/baseline-v1.3.1.mjs`, запускайте этот файл на порту 8082 через `WORKER_MODULE`, а кандидата на 8080 с `SEARCH_PROFILE=cloud`. Две дополнительные политики запускаются командой `OPPONENT_WORKER_MODULE=../tools/baseline-v1.3.1.mjs node scripts/opponents.mjs`. Сравнения: `python scripts/compare.py --modes standard --seed-start 27001 --output results/improvement-2026-11-26/holdout-duels.json` и `python scripts/compare.py --players 4 --modes standard royale --seed-start 29001 --output results/improvement-2026-11-26/holdout-four.json`.
 
 `node scripts/benchmark-cloud.mjs` измеряет полный производственный бюджет узлов с замороженными часами поиска. Внешний счетчик времени остается настоящим. CI закрепляет весь процесс за одним CPU и проверяет этот режим отдельно от обычного лимита 95 мс.
 

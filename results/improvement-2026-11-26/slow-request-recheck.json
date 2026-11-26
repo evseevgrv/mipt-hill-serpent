@@ -1,0 +1,50 @@
+{
+  "note": "Recheck of the request at index 41 in the initial 73-request Linux API check; network path differs on this Mac.",
+  "samples": [
+    {
+      "rttMs": 1214.6176659999999,
+      "status": 200,
+      "nodes": "2759",
+      "depth": "6",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "rttMs": 376.69054200000005,
+      "status": 200,
+      "nodes": "2759",
+      "depth": "6",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "rttMs": 331.75525000000016,
+      "status": 200,
+      "nodes": "2759",
+      "depth": "6",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "rttMs": 339.26729199999977,
+      "status": 200,
+      "nodes": "2759",
+      "depth": "6",
+      "answer": {
+        "move": "left"
+      }
+    },
+    {
+      "rttMs": 322.82845799999996,
+      "status": 200,
+      "nodes": "2759",
+      "depth": "6",
+      "answer": {
+        "move": "left"
+      }
+    }
+  ]
+}

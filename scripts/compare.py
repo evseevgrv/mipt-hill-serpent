@@ -13,12 +13,16 @@ parser.add_argument('--games', type=int, default=11)
 parser.add_argument('--seed-start', type=int, default=13001)
 parser.add_argument('--modes', nargs='+', default=['standard', 'royale', 'constrictor'])
 parser.add_argument('--players', type=int, choices=[2, 4], default=2)
-parser.add_argument('--output', default='results/improvement-2026-11-21/comparison.json')
+parser.add_argument('--output', default='results/improvement-2026-11-26/comparison.json')
 args = parser.parse_args()
 with urllib.request.urlopen(args.candidate) as response:
     candidate_version = json.load(response)['version']
 with urllib.request.urlopen(args.baseline) as response:
     baseline_version = json.load(response)['version']
+test_opponents = None
+if args.players == 4:
+    with urllib.request.urlopen('http://127.0.0.1:8081/oneply') as response:
+        test_opponents = json.load(response)
 root = pathlib.Path('results/games'); root.mkdir(exist_ok=True)
 suites = []
 for mode in args.modes:
@@ -47,4 +51,4 @@ for mode in args.modes:
         print(mode, args.players, seed, outcome, last_alive, flush=True)
     suite = {'mode': mode, 'players': args.players, 'games': games, **{name: sum(g['outcome'] == value for g in games) for name, value in [('wins', 'win'), ('losses', 'loss'), ('draws', 'draw')]}}
     suites.append(suite)
-    pathlib.Path(args.output).write_text(json.dumps({'baselineCommit': args.baseline_commit, 'baselineVersion': baseline_version, 'candidateVersion': candidate_version, 'engine': 'BattlesnakeOfficial/rules v1.2.3', 'profile': 'cloud', 'metric': 'candidate survives longer than baseline, including in four-player games', 'suites': suites}, indent=2) + '\n')
+    pathlib.Path(args.output).write_text(json.dumps({'baselineCommit': args.baseline_commit, 'baselineVersion': baseline_version, 'candidateVersion': candidate_version, 'testOpponents': test_opponents, 'engine': 'BattlesnakeOfficial/rules v1.2.3', 'profile': 'cloud', 'metric': 'candidate survives longer than baseline, including in four-player games', 'suites': suites}, indent=2) + '\n')
